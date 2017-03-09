@@ -7,9 +7,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/RomanBagrij/Tercom-Metalsmith.git"
+    "url": "git+https://gitlab.com/jssolutions/Tercom-Metalsmith.git"
   },
-  "homepage": "https://gitlab.com/RomanBagrij/Tercom-Metalsmith.git",
+  "homepage": "https://gitlab.com/jssolutions/Tercom-Metalsmith.git",
   "devDependencies": {
     "handlebars": "^4.0.6",
     "harmonize": "^1.4.4",
@@ -25,6 +25,7 @@
     "metalsmith-clean-css": "^5.0.0",
     "metalsmith-html-minifier": "^2.2.0",
     "metalsmith-mapsite": "^1.0.4",
+    "metalsmith-multi-language": "^0.2.0",
     "metalsmith-register-helpers": "^0.2.0",
     "metalsmith-uglify": "^1.5.1"
   }

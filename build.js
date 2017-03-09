@@ -1,13 +1,14 @@
 
-var Metalsmith   = require('./node_modules/metalsmith'),
-    drafts       = require('./node_modules/metalsmith-drafts'),
-    helpers      = require('metalsmith-register-helpers'),
-    collections  = require('metalsmith-collections'),
-    markdown     = require('./node_modules/metalsmith-markdown'),
-    layouts      = require('./node_modules/metalsmith-layouts'),
-    cleanCSS     = require('metalsmith-clean-css'),
-    uglify       = require('metalsmith-uglify'),
-    htmlMinifier = require("metalsmith-html-minifier");
+var Metalsmith      = require('./node_modules/metalsmith'),
+    drafts          = require('./node_modules/metalsmith-drafts'),
+    multiLanguage   = require('metalsmith-multi-language'),
+    helpers         = require('metalsmith-register-helpers'),
+    collections     = require('metalsmith-collections'),
+    markdown        = require('./node_modules/metalsmith-markdown'),
+    layouts         = require('./node_modules/metalsmith-layouts'),
+    cleanCSS        = require('metalsmith-clean-css'),
+    uglify          = require('metalsmith-uglify'),
+    htmlMinifier    = require("metalsmith-html-minifier");
 
 
 //  less         = require('./node_modules/metalsmith-less'),
@@ -19,16 +20,15 @@ Metalsmith(__dirname)
   .source('./src')
   .destination('./build')
   .clean(true)
-  // .metadata({})
   .use(drafts())
+  .use(multiLanguage({ default: 'uk', locales: ['uk', 'en'] }))
   .use(helpers({
-    directory: 'template-helpers',
+    directory: 'template-helpers'
   }))
   .use(collections({
 
   }))
   .use(markdown())
-
   .use(layouts({
     engine: 'handlebars',
     partials: 'partials'
