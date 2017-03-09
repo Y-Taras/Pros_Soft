@@ -1,0 +1,15 @@
+header.page-header {
+  display: flex;
+  width: 100%;
+  background-color: #292c2f;
+}
+
+ul.nav-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li.nav-item {
+  color: white;
+}
