@@ -1,15 +1,146 @@
 header.page-header {
   display: flex;
   width: 100%;
+  height: 65px;
   background-color: #292c2f;
+}
+
+.menu {
+  margin-left: auto;
+  padding: 0 20px;
+  display: flex;
 }
 
 ul.nav-items {
   list-style: none;
   display: flex;
   flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+li.nav-item .nav-item-label {
+  cursor: pointer;
+  color: white;
+  padding: 0 12px;
+  font-size: 1.15rem;
 }
 
 li.nav-item {
-  color: white;
+  display: flex;
+  align-items: center;
 }
+
+li.nav-item:hover .nav-item-label  {
+  color: dodgerblue;
+  transition: all .2s ease-in-out;
+  border-bottom: 1px solid dodgerblue;
+}
+
+.company-logo {
+  color: white;
+  display: flex;
+}
+
+.company-logo p {
+  margin: 5px 3px 3px 5px;
+  font-size: .8rem;
+}
+
+.company-logo h1 {
+  margin: 0 5px 0 10px;
+}
+
+img.logo-img {
+  height: 34px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.nav-item-block {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  display: none;
+  opacity: 0;
+  z-index: -100;
+  border-bottom-left-radius: 10px;
+  top: 65px;
+  background: rgb(41, 44, 47);
+}
+
+li.nav-item:hover .nav-item-block {
+  display: block;
+  opacity: 1;
+  z-index: 1;
+}
+
+.sub-item-container {
+  padding: 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-item-container:hover {
+  background: rgb(0, 32, 64);
+  border-radius: 10px;
+}
+
+.nav-item-block a {
+  text-decoration: none;
+}
+
+.sub-item-container a.read-more {
+  color: dodgerblue;
+}
+
+.sub-item-desc {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.sub-item-desc h4 {
+  color: white;
+  margin: 3px 0 5px 0;
+}
+
+.sub-item-desc p {
+  color: white;
+  margin: 0;
+}
+
+img.sub-item-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.language-selector p {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.language-selector hr {
+  margin: 6px 0;
+}
+
+.language-selector {
+  height: 100%;
+  margin-left: 10px;
+  padding: 14px 0;
+}
+
+.language-selector .selected {
+  color: dodgerblue;
+  text-shadow: 0 0 10px rgb(30, 144, 242);
+}
+
+
+
+
+
+
+

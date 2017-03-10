@@ -1,3 +1,26 @@
+@font-face {
+  font-family: projDefault;
+  src: url(/imports/fonts/Caprum/Cuprum-Regular.ttf);
+}
+
+@font-face {
+  font-family: projItalic;
+  src: url(/imports/fonts/Caprum/Cuprum-Italic.ttf);
+}
+
+@font-face {
+  font-family: projBold;
+  src: url(/imports/fonts/Caprum/Cuprum-Bold.ttf);
+}
+
+@font-face {
+  font-family: projBoldItalic;
+  src: url(/imports/fonts/Caprum/Cuprum-BoldItalic.ttf);
+}
+
+
 body {
   margin: 0;
+  font-family: projDefault;
 }
+
