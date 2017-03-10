@@ -1,0 +1,31 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container div {
+  width: 100%;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  color: white;
+  background: #292c2f;
+}
+
+.footer-nav-container {
+  display: flex;
+}
+
+.nav-group a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.footer-bottom p {
+  text-align: center;
+  margin: 10px;
+}
