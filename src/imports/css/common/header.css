@@ -69,6 +69,8 @@ img.logo-img {
   background: rgb(41, 44, 47);
 }
 
+.shadow-body:hover
+
 li.nav-item:hover .nav-item-block {
   display: block;
   opacity: 1;
