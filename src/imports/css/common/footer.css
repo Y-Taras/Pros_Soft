@@ -3,20 +3,22 @@
   flex-direction: column;
 }
 
-.footer-container div {
-  width: 100%;
-}
 
 .footer-top {
   display: flex;
   flex-direction: row;
-  height: 300px;
+  height: 250px;
   color: white;
   background: #292c2f;
 }
 
 .footer-nav-container {
   display: flex;
+  margin-left: auto;
+}
+
+.nav-group {
+  padding: 20px 15px;
 }
 
 .nav-group a {
@@ -29,3 +31,88 @@
   text-align: center;
   margin: 10px;
 }
+
+.nav-group ul {
+  padding: 0;
+  list-style: none;
+}
+
+.nav-group a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-head { transition: all .2s ease-in-out; }
+
+p.nav-head {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  cursor: default;
+}
+
+div.footer-top {
+  width: 100%;
+}
+
+li.nav-group-item {
+  font-size: 1.1rem;
+  padding: 4px 4px;
+}
+
+li.nav-group-item:hover a  {
+  color: dodgerblue;
+}
+
+.nav-group:hover .nav-head {
+  color: dodgerblue;
+  border-bottom: 1px solid dodgerblue;
+}
+
+.footer-top-container {
+  display: flex;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.footer-logo-container {
+  margin: 10px auto;
+}
+
+.footer-logo .logo-img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-logo-container {
+  margin: auto;
+}
+
+.footer-logo-container a {
+  text-decoration: none;
+  color: white;
+}
+
+li.contact-group-item {
+  font-size: 1.1rem;
+  padding: 4px 4px;
+}
+
+li.contact-group-item-delimiter {
+  margin: 4px 4px;
+  border-top: 1px solid;
+}
+
+.footer-contact-container {
+  display: flex;
+}
+
+.footer-contact-container .nav-group-items {
+  margin: 8px 0;
+}
+
+.footer-contact-container .nav-group-items {
+  margin-right: 20px;
+}
+

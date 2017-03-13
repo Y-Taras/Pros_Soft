@@ -51,7 +51,7 @@ li.nav-item:hover .nav-item-label  {
   margin: 0 5px 0 10px;
 }
 
-img.logo-img {
+.logo-img-container .logo-img {
   height: 34px;
   margin-top: 12px;
   margin-left: 10px;
@@ -68,8 +68,6 @@ img.logo-img {
   top: 65px;
   background: rgb(41, 44, 47);
 }
-
-.shadow-body:hover
 
 li.nav-item:hover .nav-item-block {
   display: block;
