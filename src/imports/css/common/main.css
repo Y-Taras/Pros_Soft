@@ -57,6 +57,26 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+h3 {
+  font-size: 1.7rem;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.block-container {
+  padding: 4% 0;
+}
+
+.container-black {
+  border-bottom: 1px solid #DDD;
+  border-top: 1px solid #EDEDED;
+  background-color: #F7F7F7;
+}
+
 
 /*====page styles====*/
 .page-block {
@@ -64,9 +84,18 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.page-block p {
+  font-size: 1.25rem;
+}
+
 .page-block-small {
   max-width: 800px;
 }
+
+.page-block-middle {
+  max-width: 1200px;
+}
+
 /*====page styles====*/
 
 
