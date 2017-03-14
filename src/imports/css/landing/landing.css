@@ -1,0 +1,10 @@
+.about-header h3 {
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin: 0;
+  text-align: center;
+}
+
+.about-header p {
+  font-size: 1.25rem;
+}

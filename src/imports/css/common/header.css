@@ -121,6 +121,7 @@ img.sub-item-img {
   color: white;
   font-weight: bold;
   font-size: 0.8rem;
+  font-family: projDefault;
 }
 
 .language-selector hr {

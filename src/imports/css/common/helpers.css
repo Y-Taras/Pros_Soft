@@ -5,3 +5,19 @@
 .no-margin {
   margin: 0;
 }
+
+/*======text helpers=======*/
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*======text helpers=======*/

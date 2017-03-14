@@ -18,9 +18,55 @@
   src: url(/imports/fonts/Caprum/Cuprum-BoldItalic.ttf);
 }
 
+/*==============================*/
+@font-face {
+  font-family: textjDefault;
+  src: url(/imports/fonts/Philosopher/Philosopher-Regular.ttf);
+}
+
+@font-face {
+  font-family: textItalic;
+  src: url(/imports/fonts/Philosopher/Philosopher-Italic.ttf);
+}
+
+@font-face {
+  font-family: textBold;
+  src: url(/imports/fonts/Philosopher/Philosopher-Bold.ttf);
+}
+
+@font-face {
+  font-family: textBoldItalic;
+  src: url(/imports/fonts/Philosopher/Philosopher-BoldItalic.ttf);
+}
+/*==============================*/
 
 body {
   margin: 0;
   font-family: projDefault;
 }
+
+.text-default {
+  font-family: textDefault;
+}
+
+p.text-default {
+  text-indent: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+
+/*====page styles====*/
+.page-block {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page-block-small {
+  max-width: 800px;
+}
+/*====page styles====*/
+
 
