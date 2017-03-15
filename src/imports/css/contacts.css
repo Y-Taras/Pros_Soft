@@ -1,0 +1,11 @@
+.row.contacts-text {
+  display: flex;
+}
+
+.contact-column p {
+  margin: 10px 15px;
+}
+
+.contact-column {
+  margin: 5px 2%;
+}
