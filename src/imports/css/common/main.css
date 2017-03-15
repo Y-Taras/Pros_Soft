@@ -62,13 +62,18 @@ h3 {
   margin: 10px 0;
 }
 
+h4 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
 a {
   text-decoration: none;
   color: black;
 }
 
 .block-container {
-  padding: 4% 0;
+  padding: 25px 0;
 }
 
 .container-black {
@@ -86,6 +91,13 @@ a {
 
 .page-block p {
   font-size: 1.25rem;
+  font-family: textDefault;
+}
+
+.page-block li {
+  font-size: 1.25rem;
+  font-family: textDefault;
+  padding-bottom: 10px;
 }
 
 .page-block-small {
@@ -96,6 +108,41 @@ a {
   max-width: 1200px;
 }
 
+hr.head-text-delimiter {
+  margin: 10px auto;
+  width: 80%;
+  border-top: 1px solid #292c2f;
+}
+
+.row.galary-row {
+  margin-bottom: 2%;
+}
+
 /*====page styles====*/
 
+/*======price label========*/
+.price-row {
+  display: flex;
+}
+
+.price-row h5 {
+  margin: 2px 10px;
+  font-size: 1.4rem;
+  color: black;
+}
+
+.price-row span {
+  font-size: 1.9rem;
+  color: black;
+}
+
+.price-container {
+  display: flex;
+}
+
+.price-container a {
+  margin: 10px auto;
+}
+
+/*======price label========*/
 
