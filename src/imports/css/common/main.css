@@ -118,6 +118,21 @@ hr.head-text-delimiter {
   margin-bottom: 2%;
 }
 
+.link-decarated {
+  color: #008ACE;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.link-decarated::after {
+  font-family: FontAwesome;
+  content: "\f08e";
+  font-size: .4em;
+  margin-left: 3px;
+  vertical-align: super;
+}
+
 /*====page styles====*/
 
 /*======price label========*/
