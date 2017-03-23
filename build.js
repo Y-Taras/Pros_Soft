@@ -5,17 +5,16 @@ var Metalsmith      = require('./node_modules/metalsmith'),
     helpers         = require('metalsmith-register-helpers'),
     collections     = require('metalsmith-collections'),
     markdown        = require('./node_modules/metalsmith-markdown'),
+    templates       = require('metalsmith-templates'),
+    Handlebars      = require('handlebars'),
     permalinks      = require('metalsmith-permalinks'),
     layouts         = require('./node_modules/metalsmith-layouts'),
     cleanCSS        = require('metalsmith-clean-css'),
     uglify          = require('metalsmith-uglify'),
     htmlMinifier    = require("metalsmith-html-minifier");
 
-
 //  less         = require('./node_modules/metalsmith-less'),
 //  sitemap      = require('metalsmith-mapsite'),
-
-
 
 Metalsmith(__dirname)
   .source('src')
@@ -25,11 +24,13 @@ Metalsmith(__dirname)
   .use(helpers({
     directory: 'template-helpers'
   }))
-  .use(collections({
-
-  }))
   .use(markdown())
-
+  // .use(collections({ //   doesn't work
+  //   housesPrewGalleryImgs: {
+  //     metadata: 'src/imports/img/landing/services/houses/gallery.json'
+  //   }
+  // }))
+  // .use(templates('handlebars'))
   .use(layouts({
     engine: 'handlebars',
     partials: 'partials'

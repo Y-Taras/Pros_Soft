@@ -161,3 +161,17 @@ hr.head-text-delimiter {
 
 /*======price label========*/
 
+.btn-details {
+  padding: 5px 24px;
+  text-decoration: none;
+  border: 2px solid #EE180E;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #EE180E;
+  text-transform: uppercase;
+}
+.btn-details:hover, .btn-details:active {
+  color: #EE180E;
+  background-color: #fff;
+  cursor: pointer;
+}
