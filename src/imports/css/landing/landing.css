@@ -30,11 +30,16 @@
   border-radius: 15px;
 }
 
-.service-houses-img {
+.service-img-right {
   width: 336px;
   float: right;
   margin: 15px 0 15px 25px;
-  border-radius: 15px;
+}
+
+.service-img-left {
+  width: 336px;
+  float: left;
+  margin: 15px 25px 15px 0
 }
 
 a.read-more {

@@ -5,7 +5,7 @@ const gallery = (...srcs) => {
   const wrap = '<div class="img-wrapper">';
   const end = '</div></div>';
   const content = srcs.reduce((prev, curr) => (
-    `${prev}${col}${wrap}<a class="fancybox" href="${curr}" rel="gallery"><img class="app-gallery-item" src="${curr}"></a>${end}`
+    `${prev}${col}${wrap}<a class="fancybox" href="${curr}" rel="${srcs[0]}"><img class="app-gallery-item" src="${curr}"></a>${end}`
   ), start);
   return `${content}${end}`;
 };
