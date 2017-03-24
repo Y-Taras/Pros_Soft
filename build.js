@@ -25,12 +25,6 @@ Metalsmith(__dirname)
     directory: 'template-helpers'
   }))
   .use(markdown())
-  // .use(collections({ //   doesn't work
-  //   housesPrewGalleryImgs: {
-  //     metadata: 'src/imports/img/landing/services/houses/gallery.json'
-  //   }
-  // }))
-  // .use(templates('handlebars'))
   .use(layouts({
     engine: 'handlebars',
     partials: 'partials'

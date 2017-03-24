@@ -1,0 +1,13 @@
+.app-gallery {
+    margin: 10px;
+}
+.app-gallery .img-wrapper {
+    height: 132px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.app-gallery img {
+    height: 100%;
+    border-radius: 5px;
+}
