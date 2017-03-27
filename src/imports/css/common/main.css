@@ -76,10 +76,10 @@ a {
   padding: 25px 0;
 }
 
-.container-black {
-  border-bottom: 1px solid #DDD;
-  border-top: 1px solid #EDEDED;
-  background-color: #F7F7F7;
+.container-dark {
+  border-bottom: 1px solid #d5c9c4;
+  border-top: 1px solid #d5c9c4;
+  background-color: #eee9e7;
 }
 
 
