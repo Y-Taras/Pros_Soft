@@ -1,5 +1,9 @@
 .app-gallery {
     margin: 10px;
+    text-align: center;
+}
+.app-gallery .no-col {
+    display: inline-block;
 }
 .app-gallery .img-wrapper {
     height: 132px;
