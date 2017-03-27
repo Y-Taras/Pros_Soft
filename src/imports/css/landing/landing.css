@@ -42,6 +42,10 @@
   margin: 15px 25px 15px 0
 }
 
+.service-garden-houses-img {
+  margin: -10px 0 0 25px;
+}
+
 a.read-more {
   text-decoration: underline;
   color: darkblue;

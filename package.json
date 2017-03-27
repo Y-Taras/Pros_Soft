@@ -22,6 +22,7 @@
     "metalsmith-templates": "^0.7.0"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "metalsmith-clean-css": "^5.0.0",
     "metalsmith-html-minifier": "^2.2.0",
     "metalsmith-mapsite": "^1.0.4",
