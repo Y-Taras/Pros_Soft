@@ -6,7 +6,7 @@ header.page-header {
 }
 
 .menu {
-  margin-left: auto;
+  margin-right: 15px;
   padding: 0 20px;
   display: flex;
 }
@@ -14,6 +14,9 @@ header.page-header {
 @media screen and (max-width: 800px) {
   header .menu {
     display: none;
+  }
+  header .burger-btn {
+    display: inline;
   }
 }
 
@@ -25,7 +28,11 @@ ul.nav-items {
   margin: 0;
 }
 
-li.nav-item .nav-item-label {
+ul.sidenav-items {
+  list-style: none;
+}
+
+li .nav-item-label {
   cursor: pointer;
   color: white;
   padding: 0 12px;
@@ -69,7 +76,7 @@ li.nav-item:hover .nav-item-label  {
   margin: 0;
   display: none;
   opacity: 0;
-  z-index: -100;
+  z-index: 10001;
   border-bottom-left-radius: 10px;
   top: 65px;
   background: rgb(41, 44, 47);
@@ -126,6 +133,38 @@ img.sub-item-img {
   border-radius: 5px;
 }
 
+.burger-btn {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  color: #fff;
+  right: 50px;
+  top: 15px;
+  display: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #fff;
+}
+
 .language-selector p {
   margin: 0;
   color: white;
@@ -139,9 +178,9 @@ img.sub-item-img {
 }
 
 .language-selector {
-  height: 100%;
-  margin-left: 10px;
-  padding: 14px 0;
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
 
 .language-selector .selected {
