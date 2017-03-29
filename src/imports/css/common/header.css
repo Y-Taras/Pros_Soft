@@ -11,6 +11,12 @@ header.page-header {
   display: flex;
 }
 
+@media screen and (max-width: 800px) {
+  header .menu {
+    display: none;
+  }
+}
+
 ul.nav-items {
   list-style: none;
   display: flex;
@@ -142,10 +148,3 @@ img.sub-item-img {
   color: dodgerblue;
   text-shadow: 0 0 10px rgb(30, 144, 242);
 }
-
-
-
-
-
-
-
