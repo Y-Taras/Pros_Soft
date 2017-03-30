@@ -8,6 +8,7 @@ header.page-header {
   .company-logo {
     color: white;
     display: flex;
+    margin-left: 10px;
   }
     .company-logo p {
       margin: 5px 3px 3px 5px;
@@ -59,6 +60,10 @@ header.page-header {
       header li.sidenav-item {
         padding: 0 0 30px 30px;
       }
+        .separate-word {
+          display: inline-block;
+          margin-left: 11px;
+        }
         .nav-item-block {
           position: absolute;
           right: 0;
@@ -68,11 +73,12 @@ header.page-header {
           z-index: 10001;
           border-bottom-left-radius: 10px;
           top: 65px;
-          background: rgb(41, 44, 47);
+          background: rgba(17, 17, 17, .88);
         }
-        .side {
-          right: 250px;
-        }
+          .side {
+            right: 100%;
+            /*position: fixed;*/
+          }
           .nav-item-block h4 {
             font-size: 1.1rem;
           }
@@ -94,26 +100,26 @@ header.page-header {
             background: rgb(0, 32, 64);
             border-radius: 10px;
           }
-          .sub-item-container a.read-more {
-            color: dodgerblue;
-          }
-          .sub-item-desc {
-            width: 100%;
-            margin-left: 10px;
-          }
-          .sub-item-desc h4 {
-            color: white;
-            margin: 3px 0 5px 0;
-          }
-          .sub-item-desc p {
-            color: white;
-            margin: 0;
-          }
-          img.sub-item-img {
-            max-height: 80px;
-            width: 80px;
-            border-radius: 5px;
-          }
+            .sub-item-container a.read-more {
+              color: dodgerblue;
+            }
+            .sub-item-desc {
+              width: 100%;
+              margin-left: 10px;
+            }
+            .sub-item-desc h4 {
+              color: white;
+              margin: 3px 0 5px 0;
+            }
+            .sub-item-desc p {
+              color: white;
+              margin: 0;
+            }
+            img.sub-item-img {
+              max-height: 80px;
+              width: 80px;
+              border-radius: 5px;
+            }
 
   /*burger*/
   .burger-btn {
@@ -133,7 +139,7 @@ header.page-header {
     position: fixed;
     z-index: 10000;
     right: 0;
-    background-color: #111;
+    background-color: rgba(17, 17, 17, .88);
     text-align: right;
     transition: 0.5s;
     display: none;
@@ -166,7 +172,7 @@ header.page-header {
       margin: 6px 0;
     }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   header .menu {
     display: none;
   }
@@ -175,5 +181,19 @@ header.page-header {
   }
   header .sidenav {
     display: block;
+  }
+}
+
+@media screen and (max-width: 633px) {
+  .sub-item-container {
+    width: 271px;
+  }
+}
+@media screen and (max-width: 515px) {
+  .sub-item-container {
+    width: 164px;
+  }
+  img.sub-item-img {
+    display: none;
   }
 }
