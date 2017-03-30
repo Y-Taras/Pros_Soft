@@ -10,16 +10,14 @@
   </div>
   <div class="menu">
     {{> common/localizations/header/header_uk/menu
-      ulClass="nav-items"
-      liClass="nav-item"
+      isSideMenu=""
     }}
   </div>
   <span class="burger-btn" onclick="openNav()">&#9776;</span>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     {{> common/localizations/header/header_uk/menu
-      ulClass="sidenav-items"
-      liClass="sidenav-item"
+      isSideMenu="side"
     }}
   </div>
   <div class="language-selector">

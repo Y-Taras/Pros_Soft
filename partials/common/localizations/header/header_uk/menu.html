@@ -1,23 +1,29 @@
-<ul class="{{ulClass}}">
-	<li class="nav-item">
+<ul class="{{isSideMenu}}nav-items">
+	<li class="{{isSideMenu}}nav-item">
 		<a href="/" class="nav-item-label">Головна</a>
 	</li>
-	<li class="{{liClass}}">
+	<li class="{{isSideMenu}}nav-item">
 		<a class="nav-item-label">Дерев'яні будинки</a>
-		{{> common/localizations/header/header_uk/nav_item_houses_uk }}
+		<div class="nav-item-block {{isSideMenu}}">
+			{{> common/localizations/header/header_uk/nav_item_houses_uk }}
+		</div>
 	</li>
-	<li class="{{liClass}}">
+	<li class="{{isSideMenu}}nav-item">
 		<a class="nav-item-label">Продукція</a>
-		{{> common/localizations/header/header_uk/nav_item_products_uk }}
+		<div class="nav-item-block {{isSideMenu}}">
+			{{> common/localizations/header/header_uk/nav_item_products_uk }}
+		</div>
 	</li>
-	<li class="{{liClass}}">
+	<li class="{{isSideMenu}}nav-item">
 		<a class="nav-item-label">Проекти</a>
-		{{> common/localizations/header/header_uk/nav_item_projects_uk }}
+		<div class="nav-item-block {{isSideMenu}}">
+			{{> common/localizations/header/header_uk/nav_item_projects_uk }}
+		</div>
 	</li>
-	<li class="{{liClass}}">
+	<li class="{{isSideMenu}}nav-item">
 		<a href="/awards/" class="nav-item-label">Винагороди</a>
 	</li>
-	<li class="{{liClass}}">
+	<li class="{{isSideMenu}}nav-item">
 		<a href="/contacts/" class="nav-item-label">Контакти</a>
 	</li>
 </ul>
