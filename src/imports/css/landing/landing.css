@@ -19,29 +19,6 @@
   margin: 10px 0;
 }
 
-.service-image {
-  text-align: center;
-}
-
-.service-image img {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 100%;
-  border-radius: 15px;
-}
-
-.service-img-right {
-  width: 336px;
-  float: right;
-  margin: 15px 0 15px 25px;
-}
-
-.service-img-left {
-  width: 336px;
-  float: left;
-  margin: 15px 25px 15px 0
-}
-
 .service-garden-houses-img {
   margin: -10px 0 0 25px;
 }

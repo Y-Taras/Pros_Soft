@@ -133,6 +133,24 @@ hr.head-text-delimiter {
   vertical-align: super;
 }
 
+.service-img {
+  width: 336px;
+}
+
+.service-big-img {
+  width: 50%;
+}
+
+.service-img-right {
+  float: right;
+  margin: 15px 0 15px 25px;
+}
+
+.service-img-left {
+  float: left;
+  margin: 15px 25px 15px 0
+}
+
 /*====page styles====*/
 
 /*======price label========*/
@@ -174,4 +192,28 @@ hr.head-text-delimiter {
   color: #EE180E;
   background-color: #fff;
   cursor: pointer;
+}
+
+.app-gallery {
+  margin: 10px;
+  text-align: center;
+}
+.app-gallery .no-col {
+  display: inline-block;
+}
+.app-gallery .img-wrapper {
+  height: 132px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.app-gallery img {
+  height: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 669px) {
+  .service-big-img, .service-img {
+    width: 100%
+  }
 }
