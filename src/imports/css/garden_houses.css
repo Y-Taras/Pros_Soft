@@ -1,12 +1,18 @@
+.garden-gallery {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 639px) {
   .garden-gallery .col-xs-4 {
     padding: 0
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 888px) {
   .garden-gallery {
-    margin-left: -7%;
+    margin-left: -22px;
   }
+}
+@media screen and (max-width: 375px) {
   .garden-gallery .img-wrapper {
     padding: 40px;
   }
