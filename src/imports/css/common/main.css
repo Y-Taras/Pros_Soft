@@ -227,20 +227,20 @@ hr.head-text-delimiter {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 669px) {
-  .service-big-img, .service-img {
-    width: 100%
-  }
-}
-@media screen and (max-width: 1111px) {
-  .app-gallery .img-wrapper {
+@media screen and (max-width: 1230px) {
+  .app-gallery .img-wrapper.squeezing {
     padding: 20px;
   }
 }
-@media screen and (max-width: 860px) {
-  .app-gallery .img-wrapper {
+@media screen and (max-width: 1075px) {
+  .app-gallery .img-wrapper.squeezing {
     padding: 30px;
   }
+}
+@media screen and (max-width: 669px) {
+  .service-big-img, .service-img {
+  width: 100%
+}
 }
 
 

@@ -2,18 +2,23 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 639px) {
-  .garden-gallery .col-xs-4 {
-    padding: 0
-  }
-}
 @media screen and (max-width: 888px) {
   .garden-gallery {
     margin-left: -22px;
   }
 }
-@media screen and (max-width: 375px) {
-  .garden-gallery .img-wrapper {
+@media screen and (max-width: 639px) {
+  .garden-gallery .col-xs-4,
+  .arches .col-xs-3 {
+    padding: 0
+  }
+}
+@media screen and (max-width: 500px) {
+  .garden-gallery .img-wrapper.squeezing,
+  .arches .img-wrapper.squeezing {
     padding: 40px;
+  }
+  .arches, .arches .col-xs-3:last-child {
+    margin-left: -28px;
   }
 }
