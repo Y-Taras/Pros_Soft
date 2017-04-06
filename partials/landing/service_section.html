@@ -1,0 +1,15 @@
+<!--<div class="block-container {{ isEven $index 'container-dark' }}">-->
+<div class="block-container">
+	<div class="page-block page-block-middle">
+		<h3 class="text-center no-margin">{{ title }}</h3>
+		<hr class="head-text-delimiter">
+		<a class="fancybox" href="{{ img }}" rel="{{ galleryPath }}">
+			<img class="service-img service-img-right rounded-15" src="{{ img }}"/>
+		</a>
+		{{# each paragraphs }}
+			<p class="text-justify text-default">{{ this }}</p>
+		{{/ each }}
+		{{> common/details_btn ref=ref }}
+		{{{ gallery null "squeezing" galleryPath nImgs }}}
+	</div>
+</div>

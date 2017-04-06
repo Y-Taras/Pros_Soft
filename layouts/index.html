@@ -18,7 +18,13 @@
 
     {{> landing/slider}}
     {{> landing/company_info }}
-    {{> landing/houses_prew}}
+    {{> landing/service_section
+      title=data.title
+      img=data.img
+      galleryPath=data.galleryPath
+      paragraphs=data.paragraphs
+      nImgs=data.nImgs
+    }}
     {{> landing/euro_windows }}
     {{> landing/garden_houses }}
     {{> landing/doors }}

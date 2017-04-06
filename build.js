@@ -9,6 +9,8 @@ var Metalsmith      = require('./node_modules/metalsmith'),
     cleanCSS        = require('metalsmith-clean-css'),
     uglify          = require('metalsmith-uglify'),
     htmlMinifier    = require("metalsmith-html-minifier");
+    watch           = require('metalsmith-watch');
+    dataLoader      = require("metalsmith-data-loader"),
 
 //  less         = require('./node_modules/metalsmith-less'),
 //  sitemap      = require('metalsmith-mapsite'),
@@ -21,6 +23,9 @@ Metalsmith(__dirname)
   .use(helpers({
     directory: 'template-helpers'
   }))
+  .use(dataLoader({
+    dataProperty: "data",
+  }))
   .use(markdown())
   .use(layouts({
     engine: 'handlebars',
@@ -29,6 +34,14 @@ Metalsmith(__dirname)
   // .use(multiLanguage({ default: 'uk', locales: ['uk', 'en'] }))
   .use(permalinks({
     pattern: ':title'
+  }))
+  .use(watch({
+    paths: {
+      "src/**/*": true,
+      "layouts/**/*": "**/*.md",
+      "partials/**/*": "**/*.md",
+    },
+    livereload: true,
   }))
   // .use(cleanCSS({
   //   files: 'imports/css/**'

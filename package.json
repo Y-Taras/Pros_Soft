@@ -24,11 +24,13 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "metalsmith-clean-css": "^5.0.0",
+    "metalsmith-data-loader": "^1.0.3",
     "metalsmith-html-minifier": "^2.2.0",
     "metalsmith-mapsite": "^1.0.4",
     "metalsmith-multi-language": "^0.2.0",
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-register-helpers": "^0.2.0",
-    "metalsmith-uglify": "^1.5.1"
+    "metalsmith-uglify": "^1.5.1",
+    "metalsmith-watch": "^1.0.3"
   }
 }
