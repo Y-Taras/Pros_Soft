@@ -18,16 +18,15 @@
 
     {{> landing/slider}}
     {{> landing/company_info }}
-    {{> landing/service_section
-      title=data.title
-      img=data.img
-      galleryPath=data.galleryPath
-      paragraphs=data.paragraphs
-      nImgs=data.nImgs
-    }}
-    {{> landing/euro_windows }}
-    {{> landing/garden_houses }}
-    {{> landing/doors }}
+    {{#each data.services }}
+      {{> landing/service_section
+        title=this.title
+        img=this.img
+        galleryPath=this.galleryPath
+        paragraphs=this.paragraphs
+        nImgs=this.nImgs
+      }}
+    {{/each}}
     {{> landing/why_us }}
     {{> landing/rewards }}
 
