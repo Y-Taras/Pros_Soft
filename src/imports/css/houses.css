@@ -1,0 +1,8 @@
+ul.houses {
+  padding-left: 55%;
+}
+@media screen and (max-width: 669px) {
+  ul.houses {
+    padding-left: 40px;
+  }
+}

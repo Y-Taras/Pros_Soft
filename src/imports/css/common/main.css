@@ -239,8 +239,8 @@ hr.head-text-delimiter {
 }
 @media screen and (max-width: 669px) {
   .service-big-img, .service-img {
-  width: 100%
-}
+    width: 100%
+  }
 }
 
 

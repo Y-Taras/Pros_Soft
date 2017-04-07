@@ -4,14 +4,14 @@
     {{> common/global_head_imports }}
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <link href="/imports/css/houses.css" rel="stylesheet">
   </head>
   <body>
     {{> common/header lang=lang }}
-
-    {{#each data.lumberItems}}
+    {{#each data.sections}}
       {{> common/page_section }}
     {{/each}}
-
+    {{> houses/contact_price tels=data.tels}}
     {{> common/footer lang=lang }}
     {{> common/global_scripts }}
   </body>

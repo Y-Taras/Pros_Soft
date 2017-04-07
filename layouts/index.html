@@ -19,13 +19,7 @@
     {{> landing/slider}}
     {{> landing/company_info }}
     {{#each data.services }}
-      {{> landing/service_section
-        title=this.title
-        img=this.img
-        galleryPath=this.galleryPath
-        paragraphs=this.paragraphs
-        nImgs=this.nImgs
-      }}
+      {{> landing/service_section }}
     {{/each}}
     {{> landing/why_us }}
     {{> landing/rewards }}

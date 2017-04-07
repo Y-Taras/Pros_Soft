@@ -1,5 +1,5 @@
 ---
 layout: lumber.html
 lang: uk
-data: lumber.json
+data: "/data/lumber.json"
 ---

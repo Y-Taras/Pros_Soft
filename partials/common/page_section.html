@@ -11,6 +11,11 @@
 			{{#each paragraphs}}
 				<p class="text-justify">{{#if @first}}<strong>{{../title}}</strong>{{/if}}{{this}}</p>
 			{{/each}}
+			<ul class="{{ listClass }}">
+				{{#each list}}
+					<li>{{ this }}</li>
+				{{/each}}
+			</ul>
 		</div>
 	</div>
 </div>
