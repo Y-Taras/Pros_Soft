@@ -8,11 +8,13 @@
   <body>
     {{> common/header lang=lang }}
 
-    {{> lumber/shaped }}
-    {{> lumber/beams }}
-    {{> lumber/rounded }}
-    {{> lumber/wild_timber }}
-    {{> lumber/window_beams }}
+    {{#each data.lumberItems}}
+      {{> lumber/page_section
+            headTitle=this.headTitle
+            title=this.title
+            paragraphs=this.paragraphs
+      }}
+    {{/each}}
 
     {{> common/footer lang=lang }}
     {{> common/global_scripts }}
