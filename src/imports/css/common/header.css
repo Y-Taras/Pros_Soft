@@ -182,6 +182,9 @@ header.page-header {
   header .sidenav {
     display: block;
   }
+  header .col-sm-6 {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 633px) {

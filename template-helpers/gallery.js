@@ -12,12 +12,4 @@ const gallery = (colClass, wrapClass, path, nImg) => {
   return `${content}${end}`;
 };
 
-// const phones = (phones) => phones.reduce((prev, curr) => {
-//   `<p><a href="tel: ${curr.replace(/[()\-\s]/g, '')}">${curr}</a></p>`
-// }, '')
-
-const phones = (phones) => {
-  console.log(phones);
-}
-
-module.exports = { gallery, phones };
+module.exports = { gallery };
