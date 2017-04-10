@@ -1,6 +1,28 @@
 ul.houses {
   padding-left: 55%;
 }
+
+p.manager-name {
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+a.phone {
+  display: block;
+  border-bottom: 1px dashed rgba(20,47,57,0.5);
+  width: 135px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+a.phone:hover {
+  border-bottom: 1px dashed rgba(20,47,57,0);
+}
+
+.btn-details.price {
+  margin-top: 5vh;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 669px) {
   ul.houses {
     padding-left: 40px;
