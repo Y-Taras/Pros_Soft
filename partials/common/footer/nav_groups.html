@@ -1,0 +1,10 @@
+{{#each data.footer.navGroups}}
+	<div class="nav-group">
+		<p class="nav-head">{{this.head}}</p>
+		<ul class="nav-group-items">
+			{{#each this.items as |item|}}
+				<li class="nav-group-item"><a href="{{item.ref}}">{{item.name}}</a></li>
+			{{/each}}
+		</ul>
+	</div>
+{{/each}}

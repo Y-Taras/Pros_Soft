@@ -18,13 +18,13 @@
 
     {{> landing/slider}}
     {{> landing/company_info }}
-    {{#each data.services }}
+    {{#each data.landing.services }}
       {{> landing/service_section }}
     {{/each}}
     {{> landing/why_us }}
     {{> landing/rewards }}
 
-    {{> common/footer lang=lang }}
+    {{> common/footer/footer lang=lang }}
 
     {{> common/global_scripts}}
 

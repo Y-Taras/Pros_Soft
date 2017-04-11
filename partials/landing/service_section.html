@@ -1,4 +1,4 @@
-<div class="block-container {{ isOdd @index 'container-dark' null}}">
+<div class="block-container {{#if isEven}}container-dark{{/if}}">
 	<div class="page-block page-block-middle">
 		<h3 class="text-center no-margin">{{ title }}</h3>
 		<hr class="head-text-delimiter">
@@ -9,7 +9,7 @@
 		>
 			<img
 				src="{{ img }}"
-				class="service-img rounded-15 {{ imgClass }} {{ isOdd @index 'service-img-left' 'service-img-right' }}"
+				class="service-img rounded-15 {{ imgClass }} {{#if isEven}}service-img-right{{else}}service-img-left{{/if}}"
 			/>
 		</a>
 		{{# each paragraphs }}

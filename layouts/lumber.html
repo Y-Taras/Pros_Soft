@@ -2,17 +2,13 @@
 <html>
   <head>
     {{> common/global_head_imports }}
-    <meta name="description" content="">
-    <meta name="keywords" content="">
   </head>
   <body>
     {{> common/header lang=lang }}
-
-    {{#each data.lumberItems}}
+    {{#each data.lumber.sections}}
       {{> common/page_section }}
     {{/each}}
-
-    {{> common/footer lang=lang }}
+    {{> common/footer/footer lang=lang }}
     {{> common/global_scripts }}
   </body>
 </html>

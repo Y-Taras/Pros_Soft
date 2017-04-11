@@ -14,6 +14,7 @@
       "ref": "/wooden_houses/about"
     },
     {
+      "isEven": true,
       "title": "Євровікна",
       "img": "/imports/img/landing/services/eurowindows/window.jpg",
       "galleryPath": "/imports/img/landing/services/eurowindows/gallery/",
@@ -39,6 +40,7 @@
       "ref": "/garden_houses/"
     },
     {
+      "isEven": true,
       "title": "Двері",
       "img": "/imports/img/landing/services/doors/doors.jpg",
       "galleryPath": "/imports/img/landing/services/doors/gallery/",

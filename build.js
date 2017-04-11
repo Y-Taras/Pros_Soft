@@ -48,8 +48,7 @@ Metalsmith(__dirname)
   //   removeComments: true,
   //   removeEmptyAttributes: true
   // }))
-  .build(function(err) {
-  if (err)
-    console.log(err);
-    //throw err;
+  .build((err) => {
+    if (err) console.log(err);
+      //throw err;
   });

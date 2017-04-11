@@ -1,0 +1,30 @@
+<div class="nav-group contact">
+	<p class="nav-head">{{data.footer.contacts.head}}</p>
+	<div class="footer-contact-container">
+		<ul class="nav-group-items">
+			{{#each data.footer.contacts.addressLines}}
+				<li class="contact-group-item">{{this}}</li>
+			{{/each}}
+			<li class="contact-group-item-delimiter"></li>
+			<li class="contact-group-item">
+				<span class="fa fa-at"></span>
+				{{data.footer.contacts.email}}
+			</li>
+		</ul>
+		<ul class="nav-group-items">
+			{{#each data.footer.contacts.phones}}
+				<li class="contact-group-item">
+					<span class="{{this.iconClass}}"></span>
+					{{this.phone}}
+				</li>
+			{{/each}}
+			<li class="contact-group-item">
+				<div class="socials">
+					{{#each data.footer.contacts.socials}}
+						<a href="{{this.ref}}" target="_blank"><span class="{{this.iconClass}}"></span></a>
+					{{/each}}
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

@@ -1,4 +1,4 @@
-<div class="block-container {{ isOdd @index 'container-dark' null}}">
+<div class="block-container {{#if isEven }}container-dark{{/if}}">
 	<div class="page-block page-block-middle">
 		{{#if headTitle}}
 			<h3 class="text-center no-margin">{{headTitle}}</h3>
@@ -6,10 +6,10 @@
 		{{/if}}
 		<div class="row">
 			<img src="{{ img }}"
-				class="service-big-img rounded-15 {{ isOdd @index 'service-img-right' 'service-img-left'}}"
+				class="service-big-img rounded-15 {{#if isEven}}service-img-right{{else}}service-img-left{{/if}}"
 			/>
 			{{#each paragraphs}}
-				<p class="text-justify">{{#if @first}}<strong>{{../title}}</strong>{{/if}}{{this}}</p>
+				<p class="text-justify">{{{this}}}</p>
 			{{/each}}
 			<ul class="{{ listClass }}">
 				{{#each list}}

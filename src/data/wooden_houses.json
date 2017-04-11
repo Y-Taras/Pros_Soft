@@ -9,6 +9,7 @@
       ]
     },
     {
+      "isEven": true,
       "img": "/imports/img/landing/services/houses/gallery/07.jpg",
       "paragraphs": [
         "У вартість будинку «під ключ» входить:"
