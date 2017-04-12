@@ -9,15 +9,6 @@
 				<h4>{{title}}</h4>
 			{{/if}}
 
-			{{#if this.gallery}}
-				{{{ gallery
-						this.gallery.colClass
-						this.gallery.imgWrapClass
-						this.gallery.galleryPath
-						this.gallery.nImgs
-				}}}
-			{{/if}}
-
 			{{#if img}}
 				<img src="{{ img }}"
 					class="service-big-img rounded-15 {{#if isEven}}service-img-right{{else}}service-img-left{{/if}}"
@@ -34,6 +25,15 @@
 						<li>{{ this }}</li>
 					{{/each}}
 				</ul>
+			{{/if}}
+
+			{{#if this.gallery}}
+				{{{ gallery
+					this.gallery.colClass
+					this.gallery.imgWrapClass
+					this.gallery.galleryPath
+					this.gallery.nImgs
+				}}}
 			{{/if}}
 		</div>
 	</div>

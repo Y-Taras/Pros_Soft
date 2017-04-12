@@ -2,14 +2,6 @@
   <div class="footer-container">
     <div class="footer-top">
       <div class="footer-top-container">
-        <div class="footer-logo-container">
-          <a href="#">
-            <div class="footer-logo">
-              <img class="logo-img" src="/imports/img/logo-small.jpg" alt="Logo of Tercom company">
-            </div>
-            <h1>Терком</h1>
-          </a>
-        </div>
         <div class="footer-nav-container">
           {{> common/footer/nav_groups}}
           {{> common/footer/contacts}}
@@ -17,12 +9,10 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>
-        © 2015-2017 Терком, всі права захищені
-      </p>
+      <p>© 2015-2017 {{data.footer.companyName}}, {{data.footer.rights}}</p>
       <div class="jss-label">
-        Розроблено в
-        <a class="link-decarated" href="https://jssolutionsdev.com/" target="_blank">
+        {{data.footer.developedBy}}
+        <a class="link-decorated" href="https://jssolutionsdev.com/" target="_blank">
           <img src="/imports/img/jss-logo.ico" alt="Small logo of JSSolutions">
           JSSolutions
         </a>

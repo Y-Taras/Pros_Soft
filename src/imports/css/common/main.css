@@ -118,14 +118,14 @@ hr.head-text-delimiter {
   margin-bottom: 2%;
 }
 
-.link-decarated {
+.link-decorated {
   color: #008ACE;
   text-decoration: none;
   position: relative;
   cursor: pointer;
 }
 
-.link-decarated::after {
+.link-decorated::after {
   font-family: FontAwesome;
   content: "\f08e";
   font-size: .4em;

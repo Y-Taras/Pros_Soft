@@ -6,25 +6,25 @@
 .footer-top {
   display: flex;
   flex-direction: row;
-  height: 250px;
   color: white;
   background: #292c2f;
 }
 
 .footer-nav-container {
   display: flex;
-  margin-left: auto;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
 .nav-group {
   padding: 20px 15px;
+  margin: 0 auto;
 }
 
 .nav-group a {
   text-decoration: none;
   color: white;
 }
-
 
 .footer-bottom p {
   text-align: center;
@@ -67,6 +67,10 @@ li.nav-group-item:hover a  {
   border-bottom: 1px solid rgba(0,0,0,0);
 }
 
+.nav-group.contact .nav-head {
+  text-align: center;
+}
+
 .nav-group:hover .nav-head {
   color: dodgerblue;
   border-bottom: 1px solid dodgerblue;
@@ -77,25 +81,6 @@ li.nav-group-item:hover a  {
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
-}
-
-.footer-logo-container {
-  margin: 10px auto;
-  padding: 20px;
-}
-
-.footer-logo .logo-img {
-  width: 100px;
-  height: auto;
-}
-
-.footer-logo-container {
-  margin: auto;
-}
-
-.footer-logo-container a {
-  text-decoration: none;
-  color: white;
 }
 
 li.contact-group-item {
@@ -110,14 +95,12 @@ li.contact-group-item-delimiter {
 
 .footer-contact-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-contact-container .nav-group-items {
-  margin: 8px 0;
-}
-
-.footer-contact-container .nav-group-items {
-  margin-right: 20px;
+  margin: 8px auto;
+  padding: 0 10px;
 }
 
 .jss-label {
@@ -140,3 +123,9 @@ li.contact-group-item-delimiter {
   color: dodgerblue;
 }
 
+.sm-show { display: none }
+
+@media screen and (max-width: 531px) {
+  .sm-hide { display: none }
+  .sm-show { display: block }
+}

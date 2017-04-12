@@ -8,6 +8,11 @@
           "ref": "/"
         },
         {
+          "showClass": "sm-show",
+          "name": "Дерев'яні будинки",
+          "ref": "/wooden_houses/about"
+        },
+        {
           "name": "Проекти",
           "ref": "/projects/"
         },
@@ -22,6 +27,7 @@
       ]
     },
     {
+      "hideClass": "sm-hide",
       "head": "Дерев'яні будинки",
       "items": [
         {
@@ -104,5 +110,7 @@
         "ref": "https://vk.com/vktercomua"
       }
     ]
-  }
+  },
+  "rights": "всі права захищені",
+  "developedBy": "Розроблено "
 }
