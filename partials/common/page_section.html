@@ -5,17 +5,36 @@
 			<hr class="head-text-delimiter"/>
 		{{/if}}
 		<div class="row">
-			<img src="{{ img }}"
-				class="service-big-img rounded-15 {{#if isEven}}service-img-right{{else}}service-img-left{{/if}}"
-			/>
+			{{#if title}}
+				<h4>{{title}}</h4>
+			{{/if}}
+
+			{{#if this.gallery}}
+				{{{ gallery
+						this.gallery.colClass
+						this.gallery.imgWrapClass
+						this.gallery.galleryPath
+						this.gallery.nImgs
+				}}}
+			{{/if}}
+
+			{{#if img}}
+				<img src="{{ img }}"
+					class="service-big-img rounded-15 {{#if isEven}}service-img-right{{else}}service-img-left{{/if}}"
+				/>
+			{{/if}}
+
 			{{#each paragraphs}}
 				<p class="text-justify">{{{this}}}</p>
 			{{/each}}
-			<ul class="{{ listClass }}">
-				{{#each list}}
-					<li>{{ this }}</li>
-				{{/each}}
-			</ul>
+
+			{{#if list}}
+				<ul class="{{ listClass }}">
+					{{#each list}}
+						<li>{{ this }}</li>
+					{{/each}}
+				</ul>
+			{{/if}}
 		</div>
 	</div>
 </div>

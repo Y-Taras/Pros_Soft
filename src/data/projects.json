@@ -1,0 +1,24 @@
+{
+  "sections": [
+    {
+      "headTitle": "Наші проекти",
+      "title": "Будинок",
+      "gallery" : {
+        "colClass": "no-col",
+        "imgWrapClass": null,
+        "galleryPath": "/imports/img/projects/house/",
+        "nImgs": 10
+      }
+    },
+    {
+      "isEven": true,
+      "title": "Баня",
+      "gallery" : {
+        "colClass": "no-col",
+        "imgWrapClass": null,
+        "galleryPath": "/imports/img/projects/sauna/",
+        "nImgs": 4
+      }
+    }
+  ]
+}
