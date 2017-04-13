@@ -14,17 +14,16 @@
 
   <body>
 
-    {{> common/header lang=lang }}
+    {{> common/header/header }}
 
-    {{> landing/slider}}
+    {{> landing/slider }}
     {{> landing/company_info }}
     {{#each data.landing.services }}
       {{> landing/service_section }}
     {{/each}}
     {{> landing/why_us }}
     {{> landing/rewards }}
-
-    {{> common/footer/footer lang=lang }}
+    {{> common/footer/footer}}
 
     {{> common/global_scripts}}
 

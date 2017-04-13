@@ -1,7 +1,6 @@
 
 var Metalsmith      = require('./node_modules/metalsmith'),
     drafts          = require('./node_modules/metalsmith-drafts'),
-    // multiLanguage   = require('metalsmith-multi-language'),
     helpers         = require('metalsmith-register-helpers'),
     markdown        = require('./node_modules/metalsmith-markdown'),
     permalinks      = require('metalsmith-permalinks'),
@@ -31,7 +30,6 @@ Metalsmith(__dirname)
     engine: 'handlebars',
     partials: 'partials'
   }))
-  // .use(multiLanguage({ default: 'uk', locales: ['uk', 'en'] }))
   .use(watch({
     paths: {
       "src/**/*": true,

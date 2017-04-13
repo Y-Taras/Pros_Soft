@@ -1,30 +1,28 @@
 <header class="page-header">
   <div class="company-logo">
     <div class="logo-text">
-      <p>Група компаній</p>
-      <h1>Терком</h1>
+      <p>{{data.header.logoFirstText}}</p>
+      <h1>{{data.header.logoSecondText}}</h1>
     </div>
     <div class="logo-img-container">
-      <img class="logo-img" src="/imports/img/logo-small.jpg" alt="Logo og Tercom company">
+      <img class="logo-img" src="{{data.header.logo}}" alt="Logo of Company">
     </div>
   </div>
   <div class="menu">
-    {{> common/localizations/header/header_uk/menu_uk isSideMenu="" }}
+    {{> common/header/menu isSideMenu="" }}
   </div>
   <span class="burger-btn" onclick="openNav()">&#9776;</span>
   <div id="sidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    {{> common/localizations/header/header_uk/menu_uk isSideMenu="side" }}
+    {{> common/header/menu isSideMenu="side" }}
   </div>
   <div class="language-selector">
-    <a href="#">
-      <p class="selected">UK</p>
-    </a>
+    <a><p>UK</p></a>
     <hr>
-    <a href="#">
-      <p>EN</p>
-    </a>
+    <a><p>EN</p></a>
   </div>
 </header>
 
 <script src="/imports/js/sidenav.js"></script>
+<script src="/imports/lib/jquery-3.1.1/jquery-3.1.1.min.js"></script>
+<script src="/imports/js/set_lang.js"></script>

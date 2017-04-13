@@ -1,7 +1,7 @@
 ---
 layout: wooden_houses.html
-lang: uk
 data:
+    header: "/data/header.json"
     woodenHouses: "/data/wooden_houses.json"
     footer: "/data/footer.json"
 ---

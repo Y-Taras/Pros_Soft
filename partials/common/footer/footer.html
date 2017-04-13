@@ -1,6 +1,22 @@
-{{#equal lang 'uk' }}
-  {{> common/localizations/footer_uk }}
-{{/equal}}
-{{#equal lang 'en' }}
-  {{> common/localizations/footer_en }}
-{{/equal}}
+<footer>
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-top-container">
+        <div class="footer-nav-container">
+          {{> common/footer/nav_groups}}
+          {{> common/footer/contacts}}
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2015-2017 {{data.footer.companyName}}, {{data.footer.rights}}</p>
+      <div class="jss-label">
+        {{data.footer.developedBy}}
+        <a class="link-decorated" href="https://jssolutionsdev.com/" target="_blank">
+          <img src="/imports/img/jss-logo.ico" alt="Small logo of JSSolutions">
+          JSSolutions
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

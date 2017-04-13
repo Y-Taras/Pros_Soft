@@ -1,0 +1,46 @@
+{
+  "logoFirstText": "Група компаній",
+  "logoSecondText": "Терком",
+  "logo": "/imports/img/logo-small.jpg",
+  "menuItems": [
+    {
+      "name": "Головна",
+      "ref": "/"
+    },
+    {
+      "name": "Дерев'яні будинки",
+      "ref": "/wooden_houses/about",
+      "subItems": [
+        {
+          "ref": "/wooden_houses/profiled_timber",
+          "thumbnail": "/imports/img/menu/houses/house_profil_brus.jpg",
+          "title": "Будинок з профільного бруса",
+          "shortDescription": "Невеличкий опис про даний пункт меню"
+        },
+        {
+          "ref": "/wooden_houses/profiled_timber",
+          "thumbnail": "/imports/img/menu/houses/house_profil_brus.jpg",
+          "title": "Будинок з профільного бруса",
+          "shortDescription": "Невеличкий опис про даний пункт меню"
+        }
+      ]
+    },
+    {
+      "name": "Продукція",
+      "subItems": [
+        {
+          "ref": "/euro_windows",
+          "thumbnail": "/imports/img/landing/services/eurowindows/window.jpg",
+          "title": "Євровікна",
+          "shortDescription": "Невеличкий опис про даний пункт меню"
+        },
+        {
+          "ref": "/euro_windows",
+          "thumbnail": "/imports/img/landing/services/eurowindows/window.jpg",
+          "title": "Євровікна",
+          "shortDescription": "Невеличкий опис про даний пункт меню"
+        }
+      ]
+    }
+  ]
+}

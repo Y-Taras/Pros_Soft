@@ -1,7 +1,7 @@
 ---
 layout: index.html
-lang: uk
 data:
+    header: "/data/header.json"
     landing: "/data/landing.json"
     footer: "/data/footer.json"
 ---
