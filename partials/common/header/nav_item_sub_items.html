@@ -1,0 +1,14 @@
+<div class="nav-item-block {{isSideMenu}}">
+	{{#each subItems as |subItem|}}
+		<div class="row no-padding no-margin">
+			{{#each subItem }}
+				{{> common/header/nav_sub_item
+					href=this.ref
+					thumbnail=this.thumbnail
+					title=this.title
+					shortDescription=this.shortDescription
+				}}
+			{{/each}}
+		</div>
+	{{/each}}
+</div>

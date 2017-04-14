@@ -1,116 +1,21 @@
 <div class="page-block-container">
   <div class="slider-container">
     <ul id="landing-slider">
-      <li>
-        <div class="slider-item-wrapper">
-          <div class="slider-item-container">
-            <div class="col-sm-7 left-panel">
-              <img
-                class="slider-img"
-                src="/imports/img/landing/slider/01-house.jpg"
-                alt="Amazing wooden house created by Terkom company"
-              >
-            </div>
-            <div class="col-sm-5 right-panel">
-              <h2 class="slider-header">
-                Ми збудуємо вашу мрію
-              </h2>
-                <p class="slider-text">
-                  «Терком» виробляє дерев'яні будинки, використовуючи найсучасніші технологічні рішення та враховуючи найвишуканіші побажання клієнта. Ви отримаєте найкращу якість, при цьому ціна залишатиметься цілком адикватною.
-                </p>
+      {{#each data.landing.slides}}
+        <li>
+          <div class="slider-item-wrapper">
+            <div class="slider-item-container">
+              <div class="col-sm-7 left-panel">
+                <img class="slider-img" src="{{this.src}}">
+              </div>
+              <div class="col-sm-5 right-panel">
+                <h2 class="slider-header">{{this.title}}</h2>
+                <p class="slider-text">{{this.text}}</p>
+              </div>
             </div>
           </div>
-        </div>
-      </li>
-
-      <li>
-        <div class="slider-item-wrapper">
-          <div class="slider-item-container">
-            <div class="col-sm-7 left-panel">
-              <img
-                      class="slider-img"
-                      src="/imports/img/landing/slider/02-window.jpg"
-                      alt="Amazing wooden windows created by Terkom company"
-              >
-            </div>
-            <div class="col-sm-5 right-panel">
-              <h2 class="slider-header">
-                Заголовок 2
-              </h2>
-              <p class="slider-text">
-                Morbi vulputate augue metus, a imperdiet lacus interdum eu. Sed eleifend orci nibh, varius scelerisque turpis euismod sed. Proin a nulla eget turpis euismod dignissim vitae at risus. Praesent malesuada augue purus. Sed id nisl tellus. Vivamus a mauris velit. Maecenas eget sem faucibus, pulvinar velit vitae, gravida quam.
-              </p>
-            </div>
-          </div>
-        </div>
-      </li>
-
-      <li>
-        <div class="slider-item-wrapper">
-          <div class="slider-item-container">
-            <div class="col-sm-7 left-panel">
-              <img
-                      class="slider-img"
-                      src="/imports/img/landing/slider/03-inside.jpg"
-                      alt="Amazing wooden houses created by Terkom company"
-              >
-            </div>
-            <div class="col-sm-5 right-panel">
-              <h2 class="slider-header">
-                Внутрішнє оздоблення інтерєру
-              </h2>
-              <p class="slider-text">
-                Morbi vulputate augue metus, a imperdiet lacus interdum eu. Sed eleifend orci nibh, varius scelerisque turpis euismod sed. Proin a nulla eget turpis euismod dignissim vitae at risus. Praesent malesuada augue purus. Sed id nisl tellus. Vivamus a mauris velit. Maecenas eget sem faucibus, pulvinar velit vitae, gravida quam.
-              </p>
-            </div>
-          </div>
-        </div>
-      </li>
-
-      <li>
-        <div class="slider-item-wrapper">
-          <div class="slider-item-container">
-            <div class="col-sm-7 left-panel">
-              <img
-                      class="slider-img"
-                      src="/imports/img/landing/slider/03-altanka.jpg"
-                      alt="Amazing wooden windows created by Terkom company"
-              >
-            </div>
-            <div class="col-sm-5 right-panel">
-              <h2 class="slider-header">
-                Оздоблення території Альтанками
-              </h2>
-              <p class="slider-text">
-                Morbi vulputate augue metus, a imperdiet lacus interdum eu. Sed eleifend orci nibh, varius scelerisque turpis euismod sed. Proin a nulla eget turpis euismod dignissim vitae at risus. Praesent malesuada augue purus. Sed id nisl tellus. Vivamus a mauris velit. Maecenas eget sem faucibus, pulvinar velit vitae, gravida quam.
-              </p>
-            </div>
-          </div>
-        </div>
-      </li>
-
-      <li>
-        <div class="slider-item-wrapper">
-          <div class="slider-item-container">
-            <div class="col-sm-7 left-panel">
-              <img
-                      class="slider-img"
-                      src="/imports/img/landing/slider/04-doors.jpg"
-                      alt="Amazing wooden doors created by Terkom company"
-              >
-            </div>
-            <div class="col-sm-5 right-panel">
-              <h2 class="slider-header">
-                Заголовок про двері
-              </h2>
-              <p class="slider-text">
-                Morbi vulputate augue metus, a imperdiet lacus interdum eu. Sed eleifend orci nibh, varius scelerisque turpis euismod sed. Proin a nulla eget turpis euismod dignissim vitae at risus. Praesent malesuada augue purus. Sed id nisl tellus. Vivamus a mauris velit. Maecenas eget sem faucibus, pulvinar velit vitae, gravida quam.
-              </p>
-            </div>
-          </div>
-        </div>
-      </li>
-
+        </li>
+      {{/each}}
     </ul>
   </div>
 </div>

@@ -1,26 +1,15 @@
 <ul class="{{isSideMenu}}nav-items">
-	<li class="{{isSideMenu}}nav-item">
-		<a href="/" class="nav-item-label">Головна</a>
-	</li>
-	<li class="{{isSideMenu}}nav-item">
-		<a href="/wooden_houses/about" class="nav-item-label">Дерев'яні будинки</a>
-		<div class="nav-item-block {{isSideMenu}}">
-			{{> common/header/nav_item_houses }}
-		</div>
-	</li>
-	<li class="{{isSideMenu}}nav-item">
-		<a class="nav-item-label">Продукція</a>
-		<div class="nav-item-block {{isSideMenu}}">
-			{{> common/header/nav_item_products }}
-		</div>
-	</li>
-	<li class="{{isSideMenu}}nav-item">
-		<a href="/projects" class="nav-item-label">Проекти</a>
-	</li>
-	<li class="{{isSideMenu}}nav-item">
-		<a href="/awards" class="nav-item-label">Винагороди</a>
-	</li>
-	<li class="{{isSideMenu}}nav-item">
-		<a href="/contacts" class="nav-item-label">Контакти</a>
-	</li>
+	{{#each data.header.menuItems as |menuItem|}}
+		<li class="{{../isSideMenu}}nav-item">
+			<a	class="nav-item-label"
+				{{#if menuItem.ref}} href="{{menuItem.ref}}" {{/if}}
+			>
+				{{menuItem.name}}
+			</a>
+			{{> common/header/nav_item_sub_items
+				subItems=menuItem.subItems
+				isSideMenu=../isSideMenu
+			}}
+		</li>
+	{{/each}}
 </ul>

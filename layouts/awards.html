@@ -8,8 +8,9 @@
   </head>
   <body>
     {{> common/header/header }}
-    {{> awards/awards }}
-    {{> awards/certificats }}
+    {{#each data.awards.sections}}
+      {{> common/page_section}}
+    {{/each}}
     {{> common/footer/footer }}
     {{> common/global_scripts }}
   </body>

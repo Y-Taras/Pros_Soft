@@ -1,32 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    {{> common/global_head_imports}}
+<head>
+  {{> common/global_head_imports}}
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+</head>
+<body>
+  {{> common/header/header }}
 
-    <!--slider styles-->
-    <link href="/imports/lib/slider/jquery.bxslider.css" rel="stylesheet">
+  {{#each data.wildTimber.sections }}
+    {{> common/page_section }}
+  {{/each}}
 
-    <link href="/imports/css/landing/slider.css" rel="stylesheet">
-
-
-    <title>    </title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-
-
-  </head>
-
-  <body>
-
-    {{>common/header/header }}
-
-    {{> houses/wild_timber/main }}
-
-    {{> houses/wild_timber/galery }}
-
-    {{> common/footer/footer }}
-
-    {{> common/global_scripts}}
-
-  </body>
+  {{> common/footer/footer }}
+  {{> common/global_scripts }}
+</body>
 </html>

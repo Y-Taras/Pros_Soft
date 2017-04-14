@@ -12,16 +12,32 @@
       "ref": "/wooden_houses/about",
       "subItems": [
         {
-          "ref": "/wooden_houses/profiled_timber",
-          "thumbnail": "/imports/img/menu/houses/house_profil_brus.jpg",
-          "title": "Будинок з профільного бруса",
-          "shortDescription": "Невеличкий опис про даний пункт меню"
+          "0": {
+            "ref": "/wooden_houses/profiled_timber",
+            "thumbnail": "/imports/img/menu/houses/house_profil_brus.jpg",
+            "title": "Будинок з профільного бруса",
+            "shortDescription": "Невеличкий опис про даний пункт меню"
+          },
+          "1": {
+            "ref": "/wooden_houses/rounded_timber",
+            "thumbnail": "/imports/img/menu/houses/house_otsulindr_brus.jpg",
+            "title": "Будинок з оциліндрованого бруса",
+            "shortDescription": "Невеличкий опис про даний пункт меню"
+          }
         },
         {
-          "ref": "/wooden_houses/profiled_timber",
-          "thumbnail": "/imports/img/menu/houses/house_profil_brus.jpg",
-          "title": "Будинок з профільного бруса",
-          "shortDescription": "Невеличкий опис про даний пункт меню"
+          "0": {
+            "ref": "/wooden_houses/laminated_timber",
+            "thumbnail": "/imports/img/menu/houses/house_klej_brus.jpg",
+            "title": "Будинок з клеєного бруса",
+            "shortDescription": "Невеличкий опис про даний пункт меню"
+          },
+          "1": {
+            "ref": "/wooden_houses/wild_timber",
+            "thumbnail": "/imports/img/menu/houses/house_wild_brus.jpg",
+            "title": "Будинок з дикого бруса",
+            "shortDescription": "Невеличкий опис про даний пункт меню"
+          }
         }
       ]
     },
@@ -29,18 +45,46 @@
       "name": "Продукція",
       "subItems": [
         {
-          "ref": "/euro_windows",
-          "thumbnail": "/imports/img/landing/services/eurowindows/window.jpg",
-          "title": "Євровікна",
-          "shortDescription": "Невеличкий опис про даний пункт меню"
+          "0": {
+            "ref": "/euro_windows",
+            "thumbnail": "/imports/img/landing/services/eurowindows/window.jpg",
+            "title": "Євровікна",
+            "shortDescription": "Невеличкий опис про даний пункт меню"
+          },
+          "1": {
+            "ref": "/garden_houses",
+            "thumbnail": "/imports/img/landing/services/garden_houses/garden_house.jpg",
+            "title": "Альтанки",
+            "shortDescription": "Невеличкий опис про даний пункт меню"
+          }
         },
         {
-          "ref": "/euro_windows",
-          "thumbnail": "/imports/img/landing/services/eurowindows/window.jpg",
-          "title": "Євровікна",
-          "shortDescription": "Невеличкий опис про даний пункт меню"
+          "0": {
+            "ref": "/doors",
+            "thumbnail": "/imports/img/landing/services/doors/doors.jpg",
+            "title": "Двері",
+            "shortDescription": "Невеличкий опис про даний пункт меню"
+          },
+          "1": {
+            "ref": "/lumber",
+            "thumbnail": "/imports/img/lumber/lumber.jpg",
+            "title": "Пиломатеріали",
+            "shortDescription": "Невеличкий опис про даний пункт меню"
+          }
         }
       ]
+    },
+    {
+      "name": "Проекти",
+      "ref": "/projects"
+    },
+    {
+      "name": "Винагороди",
+      "ref": "/awards"
+    },
+    {
+      "name": "Контакти",
+      "ref": "/contacts"
     }
   ]
 }

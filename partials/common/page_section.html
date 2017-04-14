@@ -16,7 +16,7 @@
 			{{/if}}
 
 			{{#each paragraphs}}
-				<p class="text-justify">{{{this}}}</p>
+				<p class="{{#if ../paragraphClass}}{{../paragraphClass}}{{else}}text-justify{{/if}}">{{{this}}}</p>
 			{{/each}}
 
 			{{#if list}}
@@ -27,14 +27,14 @@
 				</ul>
 			{{/if}}
 
-			{{#if this.gallery}}
+			{{#each galleries}}
 				{{{ gallery
-					this.gallery.colClass
-					this.gallery.imgWrapClass
-					this.gallery.galleryPath
-					this.gallery.nImgs
+					this.colClass
+					this.imgWrapClass
+					this.galleryPath
+					this.nImgs
 				}}}
-			{{/if}}
+			{{/each}}
 		</div>
 	</div>
 </div>

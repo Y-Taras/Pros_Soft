@@ -1,0 +1,23 @@
+{
+  "sections": [
+    {
+      "headTitle": "Нагороди",
+      "gallery" : {
+        "colClass": "no-col",
+        "imgWrapClass": "awards",
+        "galleryPath": "/imports/img/rewards/awards/",
+        "nImgs": 6
+      }
+    },
+    {
+      "isEven": true,
+      "headTitle": "Сертифікати",
+      "gallery" : {
+        "colClass": "no-col",
+        "imgWrapClass": "awards",
+        "galleryPath": "/imports/img/rewards/certificates/",
+        "nImgs": 4
+      }
+    }
+  ]
+}

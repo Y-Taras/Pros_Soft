@@ -7,7 +7,9 @@
   </head>
   <body>
     {{>common/header/header }}
-    {{> euro_windows }}
+    {{#each data.euroWindows.sections}}
+      {{> common/page_section}}
+    {{/each}}
     {{> common/footer/footer }}
     {{> common/global_scripts }}
   </body>

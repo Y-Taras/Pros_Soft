@@ -1,39 +1,17 @@
 <div class="block-container">
   <div class="page-block page-block-middle">
     <div class="landing-why-us">
-      <h3>
-        Чому саме ми?
-      </h3>
-
+      <h3>{{data.landing.whyUs.title}}</h3>
       <div class="row why-us">
-        <div class="col-sm-3">
-          <div class="why-us-item">
-            <span class="fa fa-clock-o"></span>
-            <hr class="benefit-delimiter">
-            <h4 class="text-center">Більше 15 років на ринку</h4>
+        {{#each data.landing.whyUs.benefits}}
+          <div class="col-sm-3">
+            <div class="why-us-item">
+              <span class="{{this.iconClass}}"></span>
+              <hr class="benefit-delimiter">
+              <h4 class="text-center">{{this.benefit}}</h4>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="why-us-item">
-            <span class="fa fa-cogs"></span>
-            <hr class="benefit-delimiter">
-            <h4 class="text-center">Використання сучасних технологій</h4>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="why-us-item">
-            <span class="fa fa-address-card-o"></span>
-            <hr class="benefit-delimiter">
-            <h4 class="text-center">Орієнтація на клієнта</h4>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="why-us-item">
-            <span class="fa fa-usd"></span>
-            <hr class="benefit-delimiter">
-            <h4 class="text-center">Висока якість за помірну ціну</h4>
-          </div>
-        </div>
+        {{/each}}
       </div>
     </div>
   </div>

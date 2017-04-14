@@ -1,0 +1,21 @@
+<!-- todo reusable templates for sections -->
+<div class="block-container">
+	<div class="page-block page-block-middle">
+		<h3 class="text-center no-margin">{{headTitle}}</h3>
+		<hr class="head-text-delimiter">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<a class="fancybox" href="{{src}}" rel="{{galleryPath}}">
+					<img class="width-100-per rounded-15" src="{{src}}"/>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="{{galleryClass}}">
+					{{{ gallery "col-sm-6 col-xs-3" "squeezing" galleryPath 4 }}}
+				</div>
+			</div>
+			{{> garden_houses/pdf_and_contact_us pdf}}
+		</div>
+		<p class="text-justify"><strong>{{headTitle}}</strong>{{text}}</p>
+	</div>
+</div>
