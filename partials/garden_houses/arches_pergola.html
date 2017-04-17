@@ -1,21 +1,24 @@
 <!-- todo reusable templates for sections -->
 <div class="block-container">
 	<div class="page-block page-block-middle">
-		<h3 class="text-center no-margin">{{headTitle}}</h3>
+		<h3 class="text-center no-margin">{{section.headTitle}}</h3>
 		<hr class="head-text-delimiter">
 		<div class="row">
 			<div class="col-md-6 col-sm-6">
-				<a class="fancybox" href="{{src}}" rel="{{galleryPath}}">
-					<img class="width-100-per rounded-15" src="{{src}}"/>
+				<a class="fancybox" href="{{section.img}}" rel="{{section.galleryPath}}">
+					<img class="width-100-per rounded-15" src="{{section.img}}"/>
 				</a>
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-12">
-				<div class="{{galleryClass}}">
-					{{{ gallery "col-sm-6 col-xs-3" "squeezing" galleryPath 4 }}}
+				<div class="arches">
+					{{{ gallery "col-sm-6 col-xs-3" "squeezing" section.galleryPath section.nImgs }}}
 				</div>
 			</div>
-			{{> garden_houses/pdf_and_contact_us pdf}}
+			<div class="col-md-2 col-sm-6 col-xs-12">
+				{{> common/load_pdf_btn pdf=section.pdf}}
+				{{> common/contact_us_btn label=contactUsBtn.label}}
+			</div>
 		</div>
-		<p class="text-justify"><strong>{{headTitle}}</strong>{{text}}</p>
+		<p class="text-justify"><strong>{{section.title}}</strong>{{section.text}}</p>
 	</div>
 </div>

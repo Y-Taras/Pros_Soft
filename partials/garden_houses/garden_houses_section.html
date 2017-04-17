@@ -3,9 +3,12 @@
 	<div class="page-block page-block-middle">
 		<h3 class="text-center no-margin">{{section.headTitle}}</h3>
 		<hr class="head-text-delimiter">
+		{{#if section.headDescription}}
+			<p class="text-center">{{section.headDescription}}</p>
+		{{/if}}
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<a class="fancybox"	href="{{section.img}}" rel="{{section.galleryPath}}">
+				<a class="fancybox" href="{{section.img}}" rel="{{section.galleryPath}}">
 					<img class="width-100-per rounded-15" src="{{section.img}}"/>
 				</a>
 			</div>
@@ -14,19 +17,20 @@
 					{{{ gallery "col-xs-4" "squeezing" section.galleryPath section.nImgs }}}
 				</div>
 				<div class="row">
-					{{#each section.imgs}}
-						<div class="col-xs-4">
-							<a class="fancybox"	href="{{this}}"	rel="{{../section.galleryPath}}">
-								<img class="width-100-per" src="{{this}}">
-							</a>
-						</div>
-					{{/each}}
-					<div class="col-xs-4">
+					<div class="col-sm-8">
+						<a class="fancybox" href="{{section.draft}}" rel="{{section.galleryPath}}">
+							<img class="width-100-per" src="{{section.draft}}">
+						</a>
+					</div>
+					<div class="col-sm-4">
 						{{> common/load_pdf_btn pdf=section.pdf}}
 						{{> common/contact_us_btn label=contactUsBtn.label}}
 					</div>
 				</div>
 			</div>
 		</div>
+		{{#if section.title}}
+			<p class="text-justify"><strong>{{section.title}}</strong>{{section.text}}</p>
+		{{/if}}
 	</div>
 </div>

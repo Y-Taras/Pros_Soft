@@ -7,14 +7,32 @@
     <meta name="keywords" content="">
   </head>
   <body>
-    {{>common/header/header }}
-    {{> garden_houses/main }}
-    {{> garden_houses/arches }}
-    {{> garden_houses/pergola }}
-    {{> garden_houses/octagonal }}
-    {{> garden_houses/with_fireplace }}
-    {{> garden_houses/park }}
-    {{> garden_houses/examples }}
+    {{> common/header/header }}
+    {{> garden_houses/garden_houses_section
+      section=data.gardenHouses.sections.main
+      contactUsBtn=data.contactUsBtn
+    }}
+    {{> garden_houses/arches_pergola
+      section=data.gardenHouses.sections.arches
+      contactUsBtn=data.contactUsBtn
+    }}
+    {{> garden_houses/arches_pergola
+      section=data.gardenHouses.sections.pergola
+      contactUsBtn=data.contactUsBtn
+    }}
+    {{> garden_houses/garden_houses_section
+      section=data.gardenHouses.sections.octagonal
+      contactUsBtn=data.contactUsBtn
+    }}
+    {{> garden_houses/garden_houses_section
+      section=data.gardenHouses.sections.withFireplace
+      contactUsBtn=data.contactUsBtn
+    }}
+    {{> garden_houses/park
+      section=data.gardenHouses.sections.park
+      contactUsBtn=data.contactUsBtn
+    }}
+    {{> common/page_section data.gardenHouses.sections.examples}}
     {{> common/footer/footer }}
     {{> common/global_scripts }}
   </body>
