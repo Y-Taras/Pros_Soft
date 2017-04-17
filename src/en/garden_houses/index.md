@@ -1,6 +1,8 @@
 ---
 layout: garden_houses.html
-lang: uk
 data:
-    footer: "/data/footer.json"
+    header: "/data/en/header.json"
+    gardenHouses: "/data/en/garden_houses.json"
+    contactUsBtn: "/data/en/contact_us_btn.json"
+    footer: "/data/en/footer.json"
 ---

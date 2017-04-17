@@ -1,7 +1,7 @@
 ---
 layout: doors.html
-lang: uk
 data:
     header: "/data/header.json"
+    doors: "/data/doors.json"
     footer: "/data/footer.json"
 ---

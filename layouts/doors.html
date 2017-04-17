@@ -7,9 +7,9 @@
   </head>
   <body>
     {{>common/header/header }}
-
-    {{> doors }}
-
+    {{#each data.doors.sections}}
+      {{> common/page_section}}
+    {{/each}}
     {{> common/footer/footer }}
     {{> common/global_scripts }}
   </body>

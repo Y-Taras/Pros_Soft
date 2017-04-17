@@ -5,78 +5,78 @@
       "head": "Company",
       "items": [
         {
-          "name": "Головна",
-          "ref": "/"
+          "name": "Home",
+          "ref": "/en/"
         },
         {
           "showClass": "sm-show",
-          "name": "Дерев'яні будинки",
-          "ref": "/wooden_houses/about"
+          "name": "Wooden houses",
+          "ref": "/en/wooden_houses/about"
         },
         {
-          "name": "Проекти",
-          "ref": "/projects/"
+          "name": "Projects",
+          "ref": "/en/projects/"
         },
         {
-          "name": "Нагороди",
-          "ref": "/awards/"
+          "name": "Awards",
+          "ref": "/en/awards/"
         },
         {
-          "name": "Контакти",
-          "ref": "/contacts/"
+          "name": "Contacts",
+          "ref": "/en/contacts/"
         }
       ]
     },
     {
       "hideClass": "sm-hide",
-      "head": "Дерев'яні будинки",
+      "head": "Wooden houses",
       "items": [
         {
-          "name": "З профільного бруса",
-          "ref": "/wooden_houses/profiled_timber/"
+          "name": "Of shaped timber",
+          "ref": "/en/wooden_houses/profiled_timber/"
         },
         {
-          "name": "З оциліндрованого бруса",
-          "ref": "/wooden_houses/rounded_timber/"
+          "name": "Of machine rounded timber",
+          "ref": "/en/wooden_houses/rounded_timber/"
         },
         {
-          "name": "З клеєного бруса",
-          "ref": "/wooden_houses/laminated_timber/"
+          "name": "Of laminated veneer lumber",
+          "ref": "/en/wooden_houses/laminated_timber/"
         },
         {
-          "name": "З дикого бруса",
-          "ref": "/wooden_houses/wild_timber/"
+          "name": "Of wild-timber",
+          "ref": "/en/wooden_houses/wild_timber/"
         }
       ]
     },
     {
-      "head": "Продукція",
+      "head": "Products",
       "items": [
         {
-          "name": "Альтанки",
-          "ref": "/garden_houses"
+          "name": "Garden houses",
+          "ref": "/en/garden_houses"
         },
         {
-          "name": "Двері",
-          "ref": "/doors"
+          "name": "Doors",
+          "ref": "/en/doors"
         },
         {
-          "name": "Євровікна",
-          "ref": "/euro_windows"
+          "name": "Euro windows",
+          "ref": "/en/euro_windows"
         },
         {
-          "name": "Пиломатеріали",
-          "ref": "/lumber"
+          "name": "Lumber",
+          "ref": "/en/lumber"
         }
       ]
     }
   ],
   "contacts": {
-    "head": "Контакти",
+    "head": "Contacts",
     "addressLines": [
-      "Україна, 46016",
-      "м. Тернопіль",
-      "вул. Поліська, 11"
+      "Ukraine, 46016",
+      "Ternopil",
+      "Poliska Street, 11"
     ],
     "email": "tercom-7@mail.ru",
     "phones": [
@@ -112,6 +112,6 @@
       }
     ]
   },
-  "rights": "всі права захищені",
+  "rights": "All rights reserved",
   "developedBy": "Developed by "
 }

@@ -1,6 +1,7 @@
 ---
 layout: awards.html
-lang: uk
 data:
-    footer: "/data/footer.json"
+    header: "/data/en/header.json"
+    awards: "/data/en/awards.json"
+    footer: "/data/en/footer.json"
 ---

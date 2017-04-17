@@ -1,6 +1,6 @@
 ---
 layout: contacts.html
-lang: uk
 data:
-    footer: "/data/footer.json"
+    header: "/data/en/header.json"
+    footer: "/data/en/footer.json"
 ---

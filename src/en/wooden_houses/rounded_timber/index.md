@@ -1,6 +1,7 @@
 ---
 layout: house_rounded_timber.html
-lang: uk
 data:
-    footer: "/data/footer.json"
+    header: "/data/en/header.json"
+    roundedTimber: "/data/en/rounded_timber.json"
+    footer: "/data/en/footer.json"
 ---
