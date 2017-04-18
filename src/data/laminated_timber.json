@@ -11,7 +11,7 @@
     {
       "isEven": true,
       "paragraphs": [
-        "<a href='/imports/files/price_laminated_timber.pdf' class='btn-details price' target='_blank'>Прайс-лист</a>"
+        "<a href='/imports/files/price_laminated_timber.pdf' class='btn-details' target='_blank'>Прайс-лист</a>"
       ],
       "paragraphClass": "text-center no-margin"
     },

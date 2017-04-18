@@ -5,14 +5,13 @@
 				<img src="/imports/img/houses/manager.jpg" class="rounded-15">
 			</div>
 			<div class="col-lg-4 col-md-5 col-sm-5 no-padding">
-				<p class="manager-name">Саловский Володимир Євгенович</p>
-				<a class="phone" href="tel: +380681053872">+38 (068) 105-38-72</a>
-				<a class="phone" href="tel: +380503382245">+38 (050) 338-22-45</a>
-				<a class="phone" href="tel: +380352431086">+38 (0352) 43-10-86</a>
-				<a class="phone" href="tel: +380352433947">+38 (0352) 43-39-47</a>
+				<p class="manager-name">{{managerName}}</p>
+				{{#each phones}}
+					<a class="phone" href="tel: {{this}}">{{this}}</a>
+				{{/each}}
 			</div>
 			<div class="col-lg-5 col-md-4 col-sm-3 text-center">
-				<a href="/imports/files/price_woodenhouses.pdf" class="btn-details price" target="_blank">Прайс-лист</a>
+				<a href="/imports/files/price_woodenhouses.pdf" class="btn-details price" target="_blank">{{priceList}}</a>
 			</div>
 		</div>
 	</div>

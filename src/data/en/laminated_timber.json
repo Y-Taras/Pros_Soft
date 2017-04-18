@@ -1,45 +1,45 @@
 {
   "sections": [
     {
-      "headTitle": "Будинок з клеєного бруса",
+      "headTitle": "House of Laminated Veneer Lumber",
       "img": "/imports/img/houses/laminated/01.jpg",
       "paragraphs": [
-        " Бажання будь-якої людини мати свій дерев'яний будинок на самому початку практичної реалізації своєї мрії стикається з необхідністю прийняття рішення про те, з якого ж виду дерев'яних елементів його найкраще побудувати. Цільна колода, дерев'яний брус, оциліндрованний або клеєний брус - багато ночей ці чотири найменування будуть відганяти сон від майбутнього власника дерев'яного будинку...",
-        "Ось вам маленька підказка - будуйте з клеєного бруса! Без варіантів! І можете після цього спати спокійно, тому що переваги клеєного бруса незаперечні."
+        "The desire of any person to have his wooden house faces the necessity of making a decision about which type of wooden elements is the best in building it. Whole log, wooden timber, machine rounded timber or laminated veneer lumber - many nights these four names will banish the sleep of the future owner of the wooden house…",
+        "Here's a little tip – build your house of laminated veneer lumber! The benefits of laminated veneer lumber undeniable."
       ]
     },
     {
       "isEven": true,
       "paragraphs": [
-        "<a href='/imports/files/price_laminated_timber.pdf' class='btn-details price' target='_blank'>Прайс-лист</a>"
+        "<a href='/imports/files/price_laminated_timber.pdf' class='btn-details' target='_blank'>Price-list</a>"
       ],
       "paragraphClass": "text-center no-margin"
     },
     {
-      "title": "Основні переваги клеєного бруса:",
-      "list":[
-        "Клеєний брус, виконаний з деревини з вологістю всього 12%, не дає усадки. У будинках, виконаних з інших видів дерев'яних елементів, процес усадки триває до п'яти років;",
-        "Клеєний брус зберігає статичність своїх геометричних розмірів, як довжини, так і перетину на всьому протязі своєї експлуатації;",
-        "В процесі виготовлення бруса з ламелей з різним напрямком шарів знімається внутрішнє напруження в елементі в цілому, що забезпечує відсутність скручування бруса після його укладання в стіну;",
-        "Завдяки технології виробництва, клеєний брус володіє підвищеною механічною міцністю в порівнянні з брусом з цілісного стовбура більш ніж в 2,5 рази;",
-        "В процесі виготовлення клеєний брус обробляється вогнестійкими складами, що робить такий брус негорючим (2 група вогнестійкості);",
-        "Технічна обробка та сушка консервує ламелі, з яких виготовляється брус, тому він не схильний до гниття; ",
-        "Просочення бруса біозахисними екологічними складами забезпечує відсутність небезпеки від його пошкодження комахами; ",
-        "Клеєний брус ніколи не розтріскується і не розсихається, тому що всі заготовки - ламелі проходять обов'язкову технологічну сушку;",
-        "Тільки будинок з клеєного бруса будується всього за півроку, починаючи з фундаменту і закінчуючи внутрішньою обробкою. Інші види дерев'яних будинків будуються мінімум два сезони через усадку стін;",
-        "Ретельно продумана геометрія клеєного бруса робить непотрібною укладку ущільнюючих матеріалів між вінцями зрубу. З'єднання паз-гребінь забезпечує щільне прилягання елементів стіни один до одного; ",
-        "Завдяки сучасній деревообробній техніці, на якій виконується обробка клеєного бруса, є можливість отримувати практично ідеальну поверхню виробу, що дозволяє звести процес внутрішньої обробки стін до їх простий фарбуванні лакофарбними складами;",
-        "Новітні технологічні прийоми виготовлення бруса дозволяють отримувати елементи до 18 метрів в довжину, що практично неможливо для виробів з цілісного стовбура; ",
-        "У зв'язку з тим, що всі необхідні для збірки зарізи і чашки на брусі виконуються в заводських умовах, якість і швидкість самої збірки, а також вертикальність кутів готового будинку з клеєного бруса істотно перевищують такі ж параметри в будинках з інших дерев'яних елементів; ",
-        "Минулий складний процес технологічної сушки, клеєний брус набагато легше своїх дерев'яних конкурентів. Це дозволяє в процесі будівництва значно знизити витрати на вантажопідіймальні механізми; ",
-        "Будинок з клеєного бруса більш теплий, тому що в брусі відсутні тріщини і розколи, через які збільшується проникнення холодного повітря в масив стіни з цільного бруса чи колоди. "
+      "title": "The main benefits of laminated veneer lumber:",
+      "list": [
+        "Made of wood with a moisture content of 12% laminated veneer lumber does not shrink. Shrinkage process lasts up to five years in the houses made from other types of wooden elements;",
+        "Laminated veneer lumber retains its static geometric dimensions, length and cross section throughout its exploitation;",
+        "The internal tension in the element as a whole is removing in the process of manufacturing the timber slats with layers of different directions, providing non-availability in twisting timber after its installation into the wall;",
+        "Laminated veneer lumber has high mechanical strength, thanks to production technology, compared with a timber of single trunk more than 2.5 times;",
+        "Laminated veneer lumber is processed by fireproof warehouses in the manufacturing process making such timber a non-combustible (2 group of fire resistance);",
+        "Technical processing and drying preserve the slats from which timber is made, so it is not susceptible to decay;",
+        "Timber impregnating by bioprotective environmental components provides no danger of damage by insects;",
+        "Laminated veneer lumber does not crack and not crumble because all the blanks - slats pass mandatory drying technology;",
+        "Starting from the foundation and finishing in the interior decoration - only the house of laminated veneer lumber constructs in just six months. Other wooden houses are building at least two seasons due to shrinkage of the walls;",
+        "Carefully thought out geometry of laminated veneer lumber makes styling sealing materials unnecessary between the crowns of the framework;",
+        "Thanks to modern woodworking machinery, which is process a laminated veneer lumber, it is able to receive almost perfect surface of the product;",
+        "New technological methods in manufacturing of timber allow to receive elements of 18 meters in length, that is practically impossible for products from a single trunk;",
+        "Due to the fact that all the necessary assemblies and cups for the laminated veneer lumber perform at the factory. Quality and speed of the assembly and verticality of the corners of the finished house from laminated veneer lumber higher than the same parameters in the homes from another wooden elements;",
+        "Laminated veneer lumber is much easier their competitors, a complicated process of drying technology has passed. It allows the construction process to significantly reduce the cost of lifting mechanisms;",
+        "The house of laminated veneer lumber is warmer because there are no cracks through which increases the penetration of cold air into the walls from a timber or logs;"
       ]
     },
     {
       "isEven": true,
       "paragraphs": [
-        "На сьогоднішній день клеєний брус - оптимальний вибір матеріалу для зведення дерев'яного будинку. Адже навіть після завершення будівництва будинку з оцилиндрованного або прямокутного бруса, не кажучи вже про цільну колоду, ще кілька років за ним потрібно слідкувати, ущільнюючи додатковими матеріалами, стики між вінцями, які збільшуються через усадку.",
-        "Постійно з'являються щілини в стінах і протяги в будинку ще нікому не додавали радості й оптимізму. Тому клеєний брус - дійсно найкращий!"
+        "Today laminated veneer lumber is the best choice for the construction of wooden houses.",
+        "Constantly appearing cracks in the walls and drafts in the house has no added joy and optimism. So laminated veneer lumber is really the best!"
       ]
     },
     {

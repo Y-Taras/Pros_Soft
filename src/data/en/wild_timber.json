@@ -1,17 +1,17 @@
 {
   "sections": [
     {
-      "headTitle": "Будинок з дикого бруса",
+      "headTitle": "House of the Wild-Timber",
       "img": "/imports/img/houses/wild/01.jpg",
       "paragraphs": [
-        "«Дикий» зруб є самим давнім способом будівництва дерев’яного дому. Але він наскільки самодостатній і бездоганний, що є актуальним по сьогоднішній день. Не дивлячись на те, що науково - технічний прогрес дав людству можливість створювати матеріали з особливими, інколи унікальними властивостями, люди все таки віддають перевагу будинкам із натуральних матеріалів. Якраз «дикий» зруб (зруб під ключ) є найяскравішим представником в цьому виді будівництва. Він гармонійно вписується в природне середовище, і не тільки завдяки своєму зовнішньому вигляду, а й з точки зору екологічності і чистоти.",
-        "Бо ж волокна деревини діють на проникаюче повітря подібно фільтру, очищають, зволожують і ароматизують його. Навіть сама назва «дикий» зруб малює в уяві замовника дещо монолітне, надійне, що береже в собі часточку історії і таємницю природи, що століттями передавали із вуст в уста наші предки."
+        "'Wild' timber is the oldest method in construction of the wooden houses. But it is so self-sufficient and impeccable that is relevant today. Despite humanity’s ability to create materials with special and sometimes unique properties, that technological progress has given, people still prefer homes made from natural materials. 'Wild' framework (framework turnkey) is the most prominent representative in this type of construction. It harmoniously fits into the natural environment not only because of its appearance but also in terms of environmental friendliness and cleanliness.",
+        "Wood fibers affect the penetrating air like filter, clean it, moisten and flavor the air. Even the name 'wild' framework draws in the customer’s mind something monolithic and reliable that keeps a piece of history and secrets of nature that centuries passed from mouth to mouth by our ancestors."
       ]
     },
     {
       "isEven": true,
       "paragraphs": [
-        "<a href='/imports/files/price_rounded_timber.pdf' class='btn-details price' target='_blank'>Прайс-лист</a>"
+        "<a href='/imports/files/price_rounded_timber.pdf' class='btn-details price' target='_blank'>Price-list</a>"
       ],
       "paragraphClass": "text-center no-margin"
     },

@@ -1,35 +1,35 @@
 {
   "sections": [
     {
-      "headTitle": "Будинок з профільного бруса",
+      "headTitle": "House of Shaped Timber",
       "img": "/imports/img/houses/profiled/01.jpg",
       "paragraphs": [
-        "Профільований брус - це один із найпопулярніших матеріалів, які використовуються у будівництві дерев'яних будинків. По суті, профільований брус - це вдосконалений матеріал і покращена технологія будівництва з брусу.",
-        "Будинок із профільованого брусу - це сучасний стиль, практичне використання і красивий зовнішній вигляд.",
-        "Будинок з бруса або зруб з дерева володіє незвичайно потужною енергетикою - він повертає нас до витоків. На Русі і в тому числі в Москві зруби дерев'яних будинків були єдиним способом побудови житла. Наші прадіди вирубували свої зруби та будинки вручну, вкладаючи в будівництво «всю душу» - максимум турботи і любові. Зі століття в століття, від покоління до покоління майстрами передавалися і вдосконалювалися методи будівництва дерев'яних зрубів будинків і бань, дійшли вони і до нас."
+        "Shaped timber is one of the most popular materials which are used in building of wooden houses. Shaped timber – is an improved material and enhanced technology in building of timber.",
+        "House of shaped timber – it’s a modern style, practical using and beautiful appearance.",
+        "The house of timber or frame of logs has unusually powerful energy - he takes us back to the beginnings. The only way to build the dwelling in Rus’ and also in Moscow were the log wooden houses. Our ancestors cut down manually their frame of logs investing in construction “their souls” - maximum care and love. Masters presented and improved methods of construction of wooden log houses and bath-houses from century to century, from generation to generation and they came to our times."
       ]
     },
     {
       "isEven": true,
       "paragraphs": [
-        "<a href='/imports/files/price_profiled_timber.pdf' class='btn-details price' target='_blank'>Прайс-лист</a>"
+        "<a href='/imports/files/price_profiled_timber.pdf' class='btn-details' target='_blank'>Price-list</a>"
       ],
       "paragraphClass": "text-center no-margin"
     },
     {
-      "title": "Основні переваги профільного бруса:",
+      "title": "The advantages of shaped timber",
       "list":[
-        "Стіни із профільованого брусу мають рівну поверхню і добре виглядають, тому не вимагають обшивки.",
-        "Профіль брусу вирізано таким чином, що погодні опади не потрапляють в шов між брусами і це допомагає уникнути утворення осередків гниття.",
+        "The walls of shaped timber have straight surface and look good, so it do not require casing.",
+        "The rain doesn’t reach into the seam between timbers and it helps to avoid formation of decay.",
         "Після усадки дерев'яного будинку з профільованого брусу йому не потрібна конопатка.",
         "Завдяки щільному «замковому з'єднанню» у вінцях забезпечується дуже хороша теплоізоляція.",
-        "Якщо порівняти профільований і клеєний брус, то профільований брус - це все-таки 100% масив деревини, який володіє відповідно усіма перевагами цільного дерева: екологічністю, натуральністю, здатністю правильно фільтрувати повітря."
+        "Shaped timber – its 100% massif wood which owns all the advantages of solid wood: environmental friendliness, naturalness, ability to properly filter the air."
       ]
     },
     {
       "isEven": true,
       "paragraphs": [
-        "Профільований брус - це колода, якій надано певну форму (профіль) за системою «шип-паз». Завдяки цій системі будівництво дерев'яних будинків із профільованого брусу має багато переваг перед будівництвом дерев'яних будинків зі звичайного або оциліндрованого брусу. Точна форма профільованого брусу виготовленого на заводі дозволяє будувати дерев'яні будинки оперативно і якісно. Також однакова форма брусів підтримує чудовий зовнішній вигляд і має хороші теплотехнічні характеристики стіни. Будівництво дерев'яних будинків із профільованого брусу - технологічний і практичний процес, результат якого оцінюється як розкішний і престижний будинок з економним опаленням і екологічністю, властивими винятково для дерев'яних будинків. Профільований брус - це будматеріал, який можна рекомендувати для будівництва дачних будинків, котеджів для постійного проживання та інших дерев'яних будівель."
+        "Shaped timber – it is a log which has some form by the thorn-groove system. Thanks to this system the construction of wooden houses from shaped timber has many advantages over building wooden houses from usual or machine rounded timber. The same form of timbers supports the magnificent appearance and has good thermotechnical wall characteristics. Building wooden houses from shaped timber – is a technological and practical process, the result of which is evaluated as luxurious and prestigious building with economical heating and environmental friendliness, and they are peculiar only for wooden houses."
       ]
     },
     {

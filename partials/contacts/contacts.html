@@ -1,39 +1,23 @@
 <div class="block-container">
   <div class="page-block page-block-middle">
     <div class="row contacts">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5174.427685073667!2d25.6021304441438!3d49.57485508825407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730316acaa9e1f9%3A0xf0464e63883084dc!2z0J_QvtC70ZbRgdGM0LrQsCDQstGD0LsuLCAxMSwg0KLQtdGA0L3QvtC_0ZbQu9GMLCDQotC10YDQvdC-0L_RltC70YzRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDRl9C90LA!5e0!3m2!1suk!2sru!4v1464950638442" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="{{map}}" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-    <h3>Наші контакти</h3>
+    <h3>{{title}}</h3>
     <div class="row contacts-text">
-
       <div class="contact-column">
-        <p>Україна, 46016</p>
-        <p>м. Тернопіль</p>
-        <p>вул. Поліська, 11</p>
+        {{#each addressLines}}
+          <p>{{this}}</p>
+        {{/each}}
         <p>
           <span class="fa fa-at"></span>
-          tercom-7@mail.ru
+          {{email}}
         </p>
-
-
       </div>
       <div class="contact-column">
-        <p>
-          <span class="fa fa-volume-control-phone"></span>
-          +38 (0352) 43-39-47
-        </p>
-        <p>
-          <span class="fa fa-fax"></span>
-          +38 (0352) 43-39-46
-        </p>
-        <p>
-          <span class="fa fa-mobile"></span>
-          +38 067 354 27 02
-        </p>
-        <p>
-          <span class="fa fa-mobile"></span>
-          +38 097 909 73 88
-        </p>
+        {{#each phones}}
+          <p><span class="{{this.iconClass}}"></span>{{this.phone}}</p>
+        {{/each}}
       </div>
     </div>
   </div>

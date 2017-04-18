@@ -189,6 +189,7 @@ hr.head-text-delimiter {
   color: #fff;
   background-color: #EE180E;
   text-transform: uppercase;
+  font-family: projDefault;
 }
 .btn-details:hover, .btn-details:active {
   color: #EE180E;
@@ -225,6 +226,28 @@ hr.head-text-delimiter {
 .app-gallery .app-gallery-item {
   height: 100%;
   border-radius: 5px;
+}
+
+#call-container {
+  width: 320px;
+}
+
+#call-container .phones a {
+  display: block;
+  font-size: 18px;
+}
+
+#call-container form input[type="text"], #call-container form textarea, #call-container form input[type="email"] {
+  width: 100%;
+  border: 1px solid rgba(85,39,16,0.3);
+  box-shadow: none;
+  outline: none;
+  font-size: 16px;
+  color: #142f39;
+  background-color: rgba(85,39,16,0.1);
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1230px) {

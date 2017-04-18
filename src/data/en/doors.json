@@ -1,24 +1,24 @@
 {
   "sections": [
     {
-      "headTitle": "Двері",
-      "paragraphs": ["Двері - це візитка Вашого житла. ТзОВ ”Терком” пропонує двері власного виробництва, виготовлені у відповідності з останніми європейськими тенденціями."],
+      "headTitle": "Doors",
+      "paragraphs": ["Doors - a business card of your home. Ltd. 'TERCOM' offers produced door, manufactured according to the latest European trends."],
       "paragraphClass": "text-center no-margin"
     },
     {
       "isEven": true,
       "img": "/imports/img/doors/doors.jpg",
       "paragraphs": [
-        "Всі проекти нашої столярки адаптовані до українських умов. Комплексний підхід при проектуванні та виготовленні сучасних дерев'яних дверей забезпечує оптимальне поєднання основних параметрів і вимог. Це надійність, вартість, теплоізоляція і зовнішній вигляд дверей. По справжньому якісні дерев'яні двері з масиву, після установки дуже довго не втратять свого первоначальнго виду.",
-        "Широкий асортимент дверей представлений варіантами практично для всіх типів приміщень: житлових, службових, виробничих.",
-        "Серед хвойних порід дерева найпоширенішою є сосна. Її використання у виготовленні дверей робить їх більш доступними для широкого споживача. За рахунок смолистої основи вона значно менше реагує на зміни температури та вологості, в результаті чого вважається цілком практичною та надійною деревиною. Для виробництва дверей також широко використовуємо дуб.",
-        "Наші двері з дерева характеризуються оптимальним співвідношенням між ціною і якістю. Виготовлення дверей з масиву відбувається із застосуванням найсучасніших технологій. Використовуємо дерев'яні дошки без сучків. Дбайливо зберігаються кращі якості натурального дерева, матеріал проходить спеціальну обробку, завдяки якій продовжується термін експлуатації виробів. Ми використовуємо покриття на основі поліуретанового лаку, яке володіє унікальними властивостями - високою міцністю на стиск і розтяг, хімічною стійкістю, витримує великі механічні навантаження. Дерево служить довго, а при правильній обробці та необхідному покритті - дуже довго. Лакове покриття захистить її від вологості і пересихання, збільшивши час служби. Двері комплектуються фурнітурою відомих виробників.",
-        "Ще одна наша перевага, що всі двері виготовляються за індивідуальними розмірами замовника під конкретні дверні прорізи. Також, за бажанням замовника, ми виготовляємо дверні коробки різної ширини і форми. Завдяки власній виробничій базі та кваліфікованому персоналу, ми виготовимо міжкімнатні та вхідні двері будь-якого розміру і моделей з урахуванням Ваших побажань.",
-        "Завдяки своїм природним властивостям, саме дерев'яні двері можуть надати затишок і закінченість інтер'єру, ідеально сполучаючись з будь-яким покриттям підлоги. Величезним достоїнством дерев'яних дверей є їх високий показник екологічності. Незважаючи на невеликий обсяг, займаний в приміщенні, вони відрізняються високою міцністю, що важливо при установці міжкімнатних дверей з масиву деревини. До вагомих переваг дерев'яних дверей відносяться також і їх звуко-і теплоізолюючі властивості - це відмінна перешкода для холодного повітря і сторонніх шумів з вулиці. Міжкімнатні двері є таким же важливим компонентом оздоблення інтер'єрів, як і меблі, і потребують простого і періодичного обслуговування, щоб зовнішній дерев'яних дверей вид зберігався довгі роки, радуючи Ваші очі. Поставивши дерев'яні двері, Ви забезпечите собі спокій і захист на довгі роки."
+        "All our woodwork projects adapted to Ukrainian conditions. An integrated approach in the design and manufacturing of modern wooden door provides an optimal combination of basic parameters and requirements. It is a reliability, cost, insulation and exterior doors. After installing wooden doors of solid for a long time, for truly high-quality, they will not lose their originally species",
+        "A wide range of door options presented for almost all types of buildings: residential, office, industrial.",
+        "Among coniferous trees pine is the most common. Its use in manufacturing of doors makes them more accessible to the consumer. By resinous bases it is much less responsive to changes in temperature and humidity, causing considered it is quite practical and reliable timber. Oak is also widely used for the production of doors.",
+        "Our doors are made of wood characterized by an optimal ratio between price and quality. Manufacturing doors from the array uses the most modern technologies. We use wooden boards without knots. The material undergoes the special treatment, carefully preserved the best qualities of wood, which continues the life of products. We use a coating based on polyurethane varnish which has unique properties - high compressive strength and tensile, chemical resistance, can withstand high mechanical loads. The wood has long use term, and with proper treatment and necessary coverage it serves for a long time. Varnish will protect it from moisture and shrinkage. The doors are equipped with furniture of well-known manufacturers.",
+        "All doors are made according to individual sizes for specific customer doorways - it is one more advantage of our work. We produce door boxes of different widths and shapes for customer request. We produce interior and entrance doors of all sizes and models based on your requirements thanks to the own production facilities and qualified staff.",
+        "Wooden doors can give comfort and completeness in home interior, ideally can be combined with any floor covering due to its natural properties. The great advantage of wooden doors is their high environmental. It is important in installing interior doors of solid wood that they are highly durable despite the small volume occupied indoors. Also the significant advantages of wooden doors are their soundproofing and insulating properties – that’s a great barrier for cold air and extraneous noise from the street. Interior doors are also an important component in interior decoration like furniture, and they need a simple and periodic care to serve you for many years. You will ensure your peace and protection for many years if you install our wooden doors."
       ]
     },
     {
-      "headTitle": "Приклади робіт",
+      "headTitle": "Examples of work",
       "galleries" : [{
         "colClass": "no-col",
         "imgWrapClass": null,

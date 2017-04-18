@@ -19,7 +19,7 @@
     {{> landing/slider }}
     {{> landing/company_info }}
     {{#each data.landing.services }}
-      {{> landing/service_section }}
+      {{> landing/service_section detailsBtnLabel=../data.landing.detailsBtnLabel}}
     {{/each}}
     {{> landing/why_us }}
     {{> common/page_section data.landing.rewards}}

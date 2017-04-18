@@ -18,7 +18,7 @@
           "ref": "/en/projects/"
         },
         {
-          "name": "Awards",
+          "name": "Remunerations",
           "ref": "/en/awards/"
         },
         {
@@ -29,22 +29,22 @@
     },
     {
       "hideClass": "sm-hide",
-      "head": "Wooden houses",
+      "head": "Wooden Houses",
       "items": [
         {
-          "name": "Of shaped timber",
+          "name": "Of Shaped Timber",
           "ref": "/en/wooden_houses/profiled_timber/"
         },
         {
-          "name": "Of machine rounded timber",
+          "name": "Of Machine Rounded Timber",
           "ref": "/en/wooden_houses/rounded_timber/"
         },
         {
-          "name": "Of laminated veneer lumber",
+          "name": "Of Laminated Veneer Lumber",
           "ref": "/en/wooden_houses/laminated_timber/"
         },
         {
-          "name": "Of wild-timber",
+          "name": "Of Wild-Timber",
           "ref": "/en/wooden_houses/wild_timber/"
         }
       ]
@@ -53,7 +53,7 @@
       "head": "Products",
       "items": [
         {
-          "name": "Garden houses",
+          "name": "Gazebos",
           "ref": "/en/garden_houses"
         },
         {
@@ -61,17 +61,19 @@
           "ref": "/en/doors"
         },
         {
-          "name": "Euro windows",
+          "name": "Euro Windows",
           "ref": "/en/euro_windows"
         },
         {
-          "name": "Lumber",
+          "name": "Wooden Materials",
           "ref": "/en/lumber"
         }
       ]
     }
   ],
   "contacts": {
+    "title": "Our contacts",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5174.427685073667!2d25.6021304441438!3d49.57485508825407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730316acaa9e1f9%3A0xf0464e63883084dc!2z0J_QvtC70ZbRgdGM0LrQsCDQstGD0LsuLCAxMSwg0KLQtdGA0L3QvtC_0ZbQu9GMLCDQotC10YDQvdC-0L_RltC70YzRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDRl9C90LA!5e0!3m2!1suk!2sru!4v1464950638442",
     "head": "Contacts",
     "addressLines": [
       "Ukraine, 46016",

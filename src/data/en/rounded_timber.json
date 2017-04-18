@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "headTitle": "Будинок з оциліндрованого бруса",
+      "headTitle": "House of Shaped Timber",
       "img": "/imports/img/houses/rounded/01.jpg",
       "paragraphs": [
         "Кожного разу, коли говорять про дерев'яні будинки, в пам'яті насамперед виникають картинки будинків з оциліндрованої колоди. Калібровані по діаметру колоди, рівні ряди випусків, потужні конструкції з колод, що підтримують дах відкритих терас і балконів - все це складає свій, характерний лише для цього типу будинків стиль архітектури. Стиль, який однаково хороший і для невеликих дачних будинків, і для солідних котеджів.",
@@ -11,7 +11,7 @@
     {
       "isEven": true,
       "paragraphs": [
-        "<a href='/imports/files/price_rounded_timber.pdf' class='btn-details price' target='_blank'>Прайс-лист</a>"
+        "<a href='/imports/files/price_rounded_timber.pdf' class='btn-details price' target='_blank'>Price-list</a>"
       ],
       "paragraphClass": "text-center no-margin"
     },

@@ -72,6 +72,8 @@
     }
   ],
   "contacts": {
+    "title": "Наші контакти",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5174.427685073667!2d25.6021304441438!3d49.57485508825407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730316acaa9e1f9%3A0xf0464e63883084dc!2z0J_QvtC70ZbRgdGM0LrQsCDQstGD0LsuLCAxMSwg0KLQtdGA0L3QvtC_0ZbQu9GMLCDQotC10YDQvdC-0L_RltC70YzRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDRl9C90LA!5e0!3m2!1suk!2sru!4v1464950638442",
     "head": "Контакти",
     "addressLines": [
       "Україна, 46016",

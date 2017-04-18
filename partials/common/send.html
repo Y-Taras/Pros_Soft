@@ -1,0 +1,33 @@
+<div class="text-center" id="call-container">
+	<h4>{{callUs}}</h4>
+	<div class="phones">
+		{{#each phones}}
+		<a href="tel:{{this}}">{{this}}</a>
+		{{/each}}
+	</div>
+	<div id="changes">
+		<p>{{or}}</p>
+		<h4>{{writeUs}}</h4>
+		<form>
+			<input type="text" name="name" placeholder="{{yourName}}" required>
+			<input type="email" name="email" placeholder="{{yourEmail}}" required>
+			<textarea name="text" placeholder="{{yourMsg}}" rows="4" required></textarea>
+			<input type="submit" value="{{send}}" class="btn-details">
+		</form>
+	</div>
+</div>
+
+<script type="text/javascript">
+  $('#call-container form').submit(function(e){
+    e.preventDefault();
+    var serializedData = $(this).serialize();
+    request = $.ajax({
+      url: "/send.php",
+      type: "post",
+      data: serializedData,
+      success: function(result) {
+        $('#changes').html('<h3 class="success">{{tnxForMsg}}</h3>');
+      }
+    });
+  });
+</script>

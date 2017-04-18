@@ -1,49 +1,59 @@
 {
   "sections": [
     {
-      "headTitle": "Дерев'яні будинки",
+      "headTitle": "Wooden Houses",
       "img": "/imports/img/landing/services/houses/houses.jpg",
       "paragraphs": [
-        "«Терком» виробляє з клеєного, профільованого і оциліндрованного бруса, а також дикого колоди будинку, лазні, альтанки ресторани, літні кухні, човнові ангари, господарські будівлі та інші малі архітектурні форми. Виробництво ведеться як за проектами поданими на сайті, так і за індивідуальними проектами, враховуючи найвишуканіші побажання клієнта. Не секрет, що правильна, грамотна зборка комплекту будинку - застава успішного будівництва й Вашого комфортного проживання. Збірка «під ключ» нашою компанією оптимальна для тих клієнтів, хто цінує свій час і воліє не шукати нових підрядників. Ми самі виготовляємо й збираємо комплект тим самим, гарантуючи точність і правильність зборки. «Терком» забезпечує Замовнику високу якість виконуваних робіт.",
-        "Собівартість будівництва дерев'яного будинку набагато нижче, ніж цегельного або блочного, які, до того ж, не опалювальні в зимовий період, «відволожуються», - всім відоме відчуття вологості в холодному кам'яному приміщенні. Дерев'яні стіни дихають, не перешкоджаючи випаровуванню надмірної вологи."
+        "'TERCOM' produces from glued, shaped and machine rounded timber, also wild log house, bath-houses, alcove restaurants, summer kitchens, boat hangars, outbuildings and other small architectural forms. Production is designed both by the projects online and by individually created projects, considering the most exquisite customer requirements. It is no secret that the pledge of successful construction and Your comfortable living -  correct, competent assembly of house suite. Collection of 'turnkey' by our company is optimal for customers who value their time and prefer not to look for new contractors. We guarantee the precision and correct assembly, because we making and preparing outfit ourselves. 'TERCOM' provides high  quality of work for customers.",
+        "Construction costs of wooden house is much more lower than construction costs of brick or block house, which are unheated in winter time, are “dampen” – everybody knows the feeling of humidity in a cold stone building. Wooden walls breathe without impeding evaporation of excess moisture."
       ]
     },
     {
       "isEven": true,
       "img": "/imports/img/landing/services/houses/gallery/07.jpg",
       "paragraphs": [
-        "У вартість будинку «під ключ» входить:"
+        "The price of the house 'turnkey' includes:"
       ],
       "list": [
-        "Брус стіновий оброблений антисептиком",
-        "Кроквяна система (крокви, лати)",
-        "Підлога чорнова і чистова",
-        "Утеплювач під підлогу та металочерепицю",
-        "Плівка гідробар'єр і паробар'єр під металочерепицю",
-        "Металочерепиця або інше покриття",
-        "Монтаж за місцем розташування",
-        "Столярні вироби (вікна зі склопакетом і двері)",
-        "Шліфування і лакування (зовнішнє і внутрішнє)",
-        "Сходи соснові"
+        "processed by antiseptic timber unit;",
+        "rafter system (rafters, armor);",
+        "rough and finish floor;",
+        "under the floor and metal roofing insulation;",
+        "film gidrobarer and parobarer under the metal roofing;",
+        "metal or other cover;",
+        "installation by location;",
+        "carpentry (fiberglass windows and doors);",
+        "sanding and varnishing (internal and external);",
+        "pine stairs;"
       ]
     },
     {
       "img": "/imports/img/landing/services/houses/gallery/08.jpg",
       "paragraphs": [
-        "У вартість будинку «під ключ» HE входить:"
+        "The price of the house 'turnkey' doesn’t include:"
       ],
       "list": [
-        "Проектна чи передпроектна документація",
-        "Просочування антипіренами",
-        "Фундаменти і роботи",
-        "Доставка по місцю розташування",
-        "Проживання робочих по місцю монтажу",
-        "Каміни",
-        "Комини і витяжки",
-        "Електрична частина",
-        "Сантехніка і оздоблення"
+        "project and pre-project documentation;",
+        "flame retardants impregnation;",
+        "foundation and work;",
+        "delivery by location;",
+        "workers accommodation at the place of installation;",
+        "fireplaces;",
+        "chimneys and exhaust;",
+        "the electrical part;",
+        "plumbing and decoration;"
       ],
       "listClass": "houses"
     }
-  ]
+  ],
+  "contactPrice": {
+    "managerName": "Salovskyy Volodymyr Yevgenovich",
+    "phones": [
+      "+38 (068) 105-38-72",
+      "+38 (050) 338-22-45",
+      "+38 (0352) 43-10-86",
+      "+38 (0352) 43-39-47"
+    ],
+    "priceList": "Price-list"
+  }
 }

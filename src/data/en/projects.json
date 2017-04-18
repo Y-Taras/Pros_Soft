@@ -1,8 +1,8 @@
 {
   "sections": [
     {
-      "headTitle": "Наші проекти",
-      "title": "Будинок",
+      "headTitle": "Our Projects",
+      "title": "House",
       "gallery" : {
         "colClass": "no-col",
         "imgWrapClass": null,
@@ -12,7 +12,7 @@
     },
     {
       "isEven": true,
-      "title": "Баня",
+      "title": "Sauna",
       "gallery" : {
         "colClass": "no-col",
         "imgWrapClass": null,

@@ -1,20 +1,21 @@
 {
   "sections": [
     {
-      "headTitle": "Євровікна",
+      "headTitle": "Euro windows",
       "img": "/imports/img/landing/services/eurowindows/window.jpg",
       "paragraphs": [
-        "ТзОВ„Терком” виготовляє сучасні євровікна з клеєного бруса на новітньому деревообробному обладнанні і пропонує своїм замовникам широкий вибір екологічно чистих виробів з натурального дерева. Продукція нашої компанії відповідає найвищим вимогам.",
-        "Звернувшись до нас, Ви можете замовити вікна нестандартних розмірів і форм, доставку і встановлення, комплектацію подвіконниками, решітками на батареї, а також отримати кваліфіковану консультацію та пораду від нашого дизайнера.",
-        "Усі етапи виробництва перебувають під жорстким контролем, котрий гарантує стабільно високу якість. Дерев'яні євровікна виготовлені з тришарового дерев'яного брусу зі склопакетом і контурної фурнітурою. Дерев'яні частини вікна мають високоякісну поверхневу обробку, котра надає евровікнам необхідні властивості – брус не піддається деформації кручення, створюється непроникний теплоізоляційний бар'єр, відсутність щілин виключає можливість продувки, навіть при найсильнішому дощі вода не проникає в приміщення."
+        "Ltd. 'TERCOM' produces modern Euro windows of laminated veneer lumber on the latest woodworking machinery and offers its customers a wide range of environmental products made of wood. The products of our company meets the highest requirements.",
+        "You can order: windows custom sizes and shapes, their delivery and installation, completed window sills, bars on the battery, also you can get an expert advice from our designer if you choose our company’s service.",
+        "All production phases are under strict control, which ensures consistent high quality. Wooden Euro windows are made of three-layer wooden timber with glass and contour furniture. Wooden parts of window have high-quality surface treatment which gives euro windows required properties - timber is not exposed to torsion; creates impermeable insulation barrier; no cracks eliminates the possibility of blowing, even in the strongest rain water does not penetrate into the room.",
+        "In recent decades new advanced technologies were well developed, that allowed wooden euro windows take advanced positions in popularity rating among consumers."
       ]
     },
     {
       "isEven": true,
-      "headTitle": "Конфігурації вікон",
+      "headTitle": "Window configurations",
       "paragraphs": [
-        "<i>Фото демонструють деякі із можливих варіантів конфігурації вікон</i>",
-        "<i>Можливе виготовлення вікон за індивідуальним проектом клієнта</i>"
+        "<i>Photos show some options of window configurations</i>",
+        "<i> It is possible to manufacture windows for individual subscribers</i>"
       ],
       "paragraphClass": "no-margin",
       "galleries" : [{

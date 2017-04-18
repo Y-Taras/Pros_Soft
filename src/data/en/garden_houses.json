@@ -1,33 +1,33 @@
 {
   "sections": {
     "main": {
-      "headTitle": "Альтанки та малі архетиктурні форми",
-      "headDescription": "Малі архітектурні форми - це чудова прикраса для вашого саду, яка радує око і налаштовує на спокійний відпочинок.",
+      "headTitle": "Gazebos and small architectural forms",
+      "headDescription": "Small architectural forms – it is a great decoration for your garden that pleases the eye and promotes a good rest. What small architectural forms can be created from wood?",
       "img": "/imports/img/landing/services/garden_houses/gallery/02.jpg",
       "galleryPath": "/imports/img/garden_houses/main/",
       "nImgs": 3,
       "draft": "/imports/img/garden_houses/main/draft.jpg",
       "pdf": "/imports/files/garden_houses.pdf",
-      "title": "Альтанки.",
-      "text": " Садові дерев'яні альтанки - ідеальне місце для відпочинку на ділянці. Витончена альтанка ажурно-рейкової конструкції, увита трояндами, стане улюбленим куточком для всіх, хто любить романтичне або філософське усамітнення. Альтанка з оциліндрованної колоди - прекрасний варіант для любителів барбекю і галасливих веселощів в дружній компанії. Дерев'яна альтанка у вигляді пагоди стане перлиною саду, облаштованою у східному стилі. Садова альтанка з дерева може обійтися без фундаменту, якщо поставити її на цементні блоки, а це значить, що її можна встановити де завгодно без остраху пошкодити кореневу систему рослин в саду."
+      "title": "Gazebo.",
+      "text": " Garden wooden gazebo – ideal place for outdoor recreation area. Delicate gazebo with arbor-rail design, twined with roses, will be a favorite place for anyone who loves romantic or philosophical solitude. Gazebo from cylindrical logs is a great version for fans of barbecue and noisy fun in friendly company. A wooden gazebo like a tower will be the jewel of the garden, equipped in oriental style. Garden gazebo from the wood can be made without foundation, if you put it on cement blocks, which means that it can be installed anywhere without fear of damaging the root system of plants in the garden."
     },
     "arches": {
-      "headTitle": "Арки",
+      "headTitle": "Arches",
       "img": "/imports/img/landing/services/garden_houses/gallery/01.jpg",
       "galleryPath": "/imports/img/garden_houses/arches/",
       "nImgs": 4,
       "pdf": "/imports/files/arches.pdf",
-      "title": "Арки.",
-      "text": " Звичайно за допомогою арки з дерева оформляють вхід на ділянку і переходи між різними частинами саду. Арки з дерева, повиті рослинами, виглядають особливо ефектно. Садові арки з дерева також можуть розташовуватися у межі ділянки, наприклад, біля паркану. Тоді під нею можна поставити лавку. Дерев'яна арка складе чарівний ансамбль з терасою будинку. Ця мала архітектурна форма з дерева найбільш проста для самостійного виготовлення."
+      "title": "Arches.",
+      "text": " Of course using wooden arches decorate the entrance to the site and transitions between different parts of the garden. Arches made of wood, covered with plants look particularly effective. Garden arches made of wood can also be located in the border area, for example near the fence. So you can put the bench under the arch."
     },
     "pergola": {
-      "headTitle": "Пергола",
+      "headTitle": "Pavilions",
       "img": "/imports/img/landing/services/garden_houses/gallery/04.jpg",
       "galleryPath": "/imports/img/garden_houses/pergola/",
       "nImgs": 4,
       "pdf": "/imports/files/pergola.pdf",
-      "title": "Пергола.",
-      "text": " Ця конструкція складається з декількох арок, з'єднаних між собою поперечними брусами. Бажано, щоб дерев'яна пергола була дещо більше в ширину, ніж у висоту, це додасть їй стійкості. Форма перголи з дерева залежить тільки від фантазії або умінь власника саду. Увита рослинами, дерев'яна пергола перетворюється в зелений тунель, де можна сховатися від сонця. Дерев'яні перголи можна використовувати як альтернативу банальним садових доріжкам при переході з однієї ділянки саду на іншу, як перехід між двома будівлями або як навіс тераси. Кучеряві рослини для дерев'яної перголи можуть мати навіть досить значну вагу, адже поперечні балки здатні винести велике навантаження. Якщо рослини будуть покривати перголу не повністю, слід подбати про те, щоб відкриті ділянки конструкції виглядали гідно. Безбарвний лак або спеціальні просочення підкреслять структуру дерева. Дерев'яна пергола - класичний елемент садово-паркового будівництва - буде однаково ефектно виглядати і в парку, і в саду, і на невеликому присадибній ділянці."
+      "title": "Pavilions.",
+      "text": " This construction consists of several arches which are connected by a transverse bars. It is desirable that the wooden pavilion was slightly more width than height, it will give it stability. The shape of wood pavilion depends only on the imagination or skills of the garden owner. Twisted with plants, wooden pavilion can be transformed into a green tunnel, where you can hide from the sun. Wooden pavilions can be used as an alternative to the banal garden paths when moving from one to another garden area as a transition between two buildings or as a canopy terrace. Curly plants for wooden pavilions can even have a considerable weight, because the transverse beams are able to bear a greater load. If the plants are not covered the whole pavilion, should take care that the exposed structures look decent."
     },
     "octagonal": {
       "headTitle": "Восьмигранна",
@@ -60,7 +60,7 @@
     },
     "examples": {
       "isEven": true,
-      "headTitle": "Приклади робіт",
+      "headTitle": "Examples",
       "galleries": [{
         "colClass": "no-col",
         "imgWrapClass": null,

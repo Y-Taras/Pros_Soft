@@ -32,7 +32,7 @@
   },
   "services": [
     {
-      "title": "Дерев'яні будинки",
+      "title": "Wooden Houses",
       "img": "/imports/img/landing/services/houses/houses.jpg",
       "galleryPath": "/imports/img/landing/services/houses/gallery/",
       "nImgs": 12,
@@ -42,37 +42,37 @@
         "Не секрет, що правильна, грамотна збірка комплекту будинку - застава успішного будівництва й Вашого комфортного проживання. Збірка «під ключ» нашою компанією оптимальна для тих клієнтів, хто цінує свій час і воліє не шукати нових підрядників. Ми самі виготовляємо й збираємо комплект тим самим, гарантуючи точність і правильність збірки. «Терком» забезпечує Замовнику високу якість виконуваних робіт.",
         "Собівартість будівництва дерев'яного будинку набагато нижче, ніж цегельного або блочного, які, до того ж, не опалювальні в зимовий період, «відволожуються», - всім відоме відчуття вологості в холодному кам'яному приміщенні. Дерев'яні стіни дихають, не перешкоджаючи випаровуванню надмірної вологи."
       ],
-      "ref": "/wooden_houses/about"
+      "ref": "/en/wooden_houses/about"
     },
     {
       "isEven": true,
-      "title": "Євровікна",
+      "title": "Euro Windows",
       "img": "/imports/img/landing/services/eurowindows/window.jpg",
       "galleryPath": "/imports/img/landing/services/eurowindows/gallery/",
       "nImgs": 6,
       "imgWrapClass": "squeezing",
       "paragraphs": [
-        "Звернувшись до нас, Ви можете замовити вікна нестандартних розмірів і форм, доставку і встановлення, комплектацію подвіконниками, решітками на батареї, а також отримати кваліфіковану консультацію та пораду від нашого дизайнера.",
-        "Усі етапи виробництва перебувають під жорстким контролем, котрий гарантує стабільно високу якість. Дерев'яні євровікна виготовлені з тришарового дерев'яного брусу зі склопакетом і контурної фурнітурою. Дерев'яні частини вікна мають високоякісну поверхневу обробку, котра надає евровікнам необхідні властивості – брус не піддається деформації."
+        "You can order: windows custom sizes and shapes, their delivery and installation, completed window sills, bars on the battery, also you can get an expert advice from our designer if you choose our company’s service.",
+        "All production phases are under strict control, which ensures consistent high quality. Wooden Euro windows are made of three-layer wooden timber with glass and contour furniture. Wooden parts of window have high-quality surface treatment which gives euro windows required properties - timber is not exposed to torsion."
       ],
-      "ref": "/euro_windows/"
+      "ref": "/en/euro_windows/"
     },
     {
-      "title": "Альтанки",
+      "title": "Gazebo",
       "img": "/imports/img/landing/services/garden_houses/garden_house.jpg",
       "imgClass": "service-garden-houses-img",
       "galleryPath": "/imports/img/landing/services/garden_houses/gallery/",
       "nImgs": 6,
       "imgWrapClass": "squeezing",
       "paragraphs": [
-        "Садові дерев'яні альтанки - ідеальне місце для відпочинку на ділянці. Витончена альтанка ажурно-рейкової конструкції, увита трояндами, стане улюбленим куточком для всіх, хто любить романтичне або філософське усамітнення. Альтанка з оциліндрованної колоди - прекрасний варіант для любителів барбекю і галасливих веселощів в дружній компанії. Дерев'яна альтанка у вигляді пагоди стане перлиною саду, облаштованою у східному стилі.",
+        "Garden wooden gazebo – ideal place for outdoor recreation area. Delicate gazebo with arbor-rail design, twined with roses, will be a favorite place for anyone who loves romantic or philosophical solitude. Gazebo from cylindrical logs is a great version for fans of barbecue and noisy fun in friendly company. A wooden gazebo like a tower will be the jewel of the garden, equipped in oriental style.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor velit a sem aliquam semper. Proin sed tortor a nulla malesuada tincidunt id nec nisi. Praesent ante justo, gravida sed arcu ut, consectetur hendrerit tellus. Phasellus felis enim, mattis ac scelerisque nec, vestibulum semper lectus."
       ],
-      "ref": "/garden_houses/"
+      "ref": "/en/garden_houses/"
     },
     {
       "isEven": true,
-      "title": "Двері",
+      "title": "Doors",
       "img": "/imports/img/landing/services/doors/doors.jpg",
       "galleryPath": "/imports/img/landing/services/doors/gallery/",
       "nImgs": 12,
@@ -81,7 +81,7 @@
         "Наші двері з дерева характеризуються оптимальним співвідношенням між ціною і якістю. Виготовлення дверей з масиву відбувається із застосуванням найсучасніших технологій. Використовуємо дерев'яні дошки без сучків. Дбайливо зберігаються кращі якості натурального дерева, матеріал проходить спеціальну обробку, завдяки якій продовжується термін експлуатації виробів.",
         "Всі проекти нашої столярки адаптовані до українських умов. Комплексний підхід при проектуванні та виготовленні сучасних дерев'яних дверей забезпечує оптимальне поєднання основних параметрів і вимог. Це надійність, вартість, теплоізоляція і зовнішній вигляд дверей. По справжньому якісні дерев'яні двері з масиву, після установки дуже довго не втратять свого первоначальнго виду."
       ],
-      "ref": "/doors/"
+      "ref": "/en/doors/"
     }
   ],
   "whyUs": {
@@ -107,7 +107,7 @@
   },
   "rewards": {
     "isEven": true,
-    "headTitle": "Наші нагороди",
+    "headTitle": "Our Remunerations",
     "galleries": [
       {
         "colClass": "no-col",
@@ -122,5 +122,6 @@
         "nImgs": 4
       }
     ]
-  }
+  },
+  "detailsBtnLabel": "Details"
 }
