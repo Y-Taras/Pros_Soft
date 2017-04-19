@@ -1,4 +1,4 @@
 ---
 layout: send.html
-data: "/data/contact_us_btn.json"
+data: "/data/footer.json"
 ---

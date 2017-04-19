@@ -202,6 +202,17 @@ hr.head-text-delimiter {
   padding: 5px 12px;
   margin-top: inherit;
 }
+.call-us-btn.common {
+  position: fixed;
+  bottom: 71px;
+  left: -71px;
+  width: 175px;
+  transform: rotate(90deg);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 .pdf-btn {
   display: block;
   text-align: center;
@@ -229,7 +240,7 @@ hr.head-text-delimiter {
 }
 
 #call-container {
-  width: 320px;
+  width: 250px;
 }
 
 #call-container .phones a {
@@ -248,6 +259,10 @@ hr.head-text-delimiter {
   padding: 10px 15px;
   border-radius: 3px;
   margin-bottom: 10px;
+}
+
+#call-container #changes h4.success {
+  color: green;
 }
 
 @media screen and (max-width: 1230px) {

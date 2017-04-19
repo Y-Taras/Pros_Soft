@@ -115,5 +115,23 @@
     ]
   },
   "rights": "All rights reserved",
-  "developedBy": "Developed by "
+  "developedBy": "Developed by ",
+  "contactUsBtn": {
+    "ref": "/en/contacts/send",
+    "label": "Contact us",
+    "modal": {
+      "callUs": "Call us",
+      "phones": [
+        "+38 (067) 364 56 41",
+        "+38 (099) 200 79 78"
+      ],
+      "or": "or",
+      "writeUs": "Send message",
+      "yourName": "Your name",
+      "yourEmail": "Your email",
+      "yourMsg": "Your message",
+      "send": "Send",
+      "tnxForMsg": "Thanks for message!"
+    }
+  }
 }
