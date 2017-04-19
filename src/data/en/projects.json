@@ -3,22 +3,22 @@
     {
       "headTitle": "Our Projects",
       "title": "House",
-      "gallery" : {
+      "galleries" : [{
         "colClass": "no-col",
         "imgWrapClass": null,
         "galleryPath": "/imports/img/projects/house/",
         "nImgs": 10
-      }
+      }]
     },
     {
       "isEven": true,
       "title": "Sauna",
-      "gallery" : {
+      "galleries" : [{
         "colClass": "no-col",
         "imgWrapClass": null,
         "galleryPath": "/imports/img/projects/sauna/",
         "nImgs": 4
-      }
+      }]
     }
   ]
 }
