@@ -75,6 +75,9 @@ a {
 .block-container {
   padding: 25px 0;
 }
+.block-container .row{
+  margin: 0;
+}
 
 .container-dark {
   border-bottom: 1px solid #d5c9c4;
@@ -205,12 +208,13 @@ hr.head-text-delimiter {
 .call-us-btn.common {
   position: fixed;
   bottom: 71px;
-  left: -71px;
+  left: -72px;
   width: 175px;
   transform: rotate(90deg);
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 0;
+  border-bottom: 0;
 }
 
 .pdf-btn {
@@ -248,7 +252,7 @@ hr.head-text-delimiter {
   font-size: 18px;
 }
 
-#call-container form input[type="text"], #call-container form textarea, #call-container form input[type="email"] {
+#call-container form input, #call-container form textarea {
   width: 100%;
   border: 1px solid rgba(85,39,16,0.3);
   box-shadow: none;

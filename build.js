@@ -38,14 +38,14 @@ Metalsmith(__dirname)
     },
     livereload: true,
   }))
-  // .use(cleanCSS({
-  //   files: 'imports/css/**'
-  // }))                            // css minificator
-  // .use(uglify())                 // js minificator
-  // .use(htmlMinifier("*.html", {  // html minificator
-  //   removeComments: true,
-  //   removeEmptyAttributes: true
-  // }))
+  .use(cleanCSS({
+    files: 'imports/css/**'
+  }))                            // css minificator
+  // .use(uglify())                 // js minificator - doesn't work with es2015
+  .use(htmlMinifier("*.html", {  // html minificator
+    removeComments: true,
+    removeEmptyAttributes: true
+  }))
   .build((err) => {
     if (err) console.log(err);
       //throw err;

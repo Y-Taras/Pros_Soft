@@ -18,9 +18,7 @@ header.page-header {
       margin: 0 5px 0 10px;
     }
     .logo-img-container .logo-img {
-      height: 34px;
-      margin-top: 12px;
-      margin-left: 10px;
+      margin: 20px 0 0 10px;
     }
 
   /*menu  */
@@ -40,14 +38,14 @@ header.page-header {
     header ul.sidenav-items {
       text-align: left;
       list-style: none;
-      margin-left: -40px;
+      margin-left: -42px;
     }
       header li.nav-item {
         display: flex;
         align-items: center;
+        cursor: pointer;
       }
       header li .nav-item-label {
-        cursor: pointer;
         color: white;
         padding: 0 12px;
         font-size: 1.15rem;
@@ -58,7 +56,7 @@ header.page-header {
         border-bottom: 1px solid dodgerblue;
       }
       header li.sidenav-item {
-        padding: 0 0 30px 30px;
+        padding: 0 0 30px 20px;
       }
         .separate-word {
           display: inline-block;
@@ -77,7 +75,6 @@ header.page-header {
         }
           .side {
             right: 100%;
-            /*position: fixed;*/
           }
           .nav-item-block h4 {
             font-size: 1.1rem;
@@ -144,12 +141,16 @@ header.page-header {
     transition: 0.5s;
     display: none;
   }
+  .sidenav.opened {
+    width: 40%;
+  }
     .sidenav .closebtn {
       display: inline-block;
       font-size: 36px;
       color: #fff;
       margin: 0 10px 10px 0;
     }
+    .sidenav ul.sidenav-items { display: none}
 
   /*language selector*/
   .language-selector {
@@ -172,7 +173,7 @@ header.page-header {
       margin: 6px 0;
     }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   header .menu {
     display: none;
   }
@@ -198,5 +199,27 @@ header.page-header {
   }
   img.sub-item-img {
     display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sidenav.opened {
+    width: 56%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .sidenav.opened {
+    width: 50%;
+  }
+  header ul.sidenav-items {
+    text-align: left;
+    list-style: none;
+    margin-left: -44px;
+  }
+  header li.sidenav-item {
+    text-align: right;
+    padding-left: 0;
+  }
+  .sub-item-container {
+    text-align: left;
   }
 }

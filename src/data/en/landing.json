@@ -60,10 +60,9 @@
     {
       "title": "Gazebo",
       "img": "/imports/img/landing/services/garden_houses/garden_house.jpg",
-      "imgClass": "service-garden-houses-img",
       "galleryPath": "/imports/img/landing/services/garden_houses/gallery/",
       "nImgs": 6,
-      "imgWrapClass": "squeezing",
+      "galleryColClass": "no-col",
       "paragraphs": [
         "Garden wooden gazebo – ideal place for outdoor recreation area. Delicate gazebo with arbor-rail design, twined with roses, will be a favorite place for anyone who loves romantic or philosophical solitude. Gazebo from cylindrical logs is a great version for fans of barbecue and noisy fun in friendly company. A wooden gazebo like a tower will be the jewel of the garden, equipped in oriental style.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor velit a sem aliquam semper. Proin sed tortor a nulla malesuada tincidunt id nec nisi. Praesent ante justo, gravida sed arcu ut, consectetur hendrerit tellus. Phasellus felis enim, mattis ac scelerisque nec, vestibulum semper lectus."
@@ -111,13 +110,11 @@
     "galleries": [
       {
         "colClass": "no-col",
-        "imgWrapClass": null,
         "galleryPath": "/imports/img/rewards/awards/",
         "nImgs": 6
       },
       {
         "colClass": "no-col",
-        "imgWrapClass": null,
         "galleryPath": "/imports/img/rewards/certificates/",
         "nImgs": 4
       }
