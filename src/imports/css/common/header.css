@@ -1,5 +1,11 @@
+.header-top-buffer {
+  height: 65px;
+}
+
 header.page-header {
   display: flex;
+  position: fixed;
+  z-index: 8000;
   width: 100%;
   height: 65px;
   background-color: #292c2f;

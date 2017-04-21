@@ -4,6 +4,7 @@
     {{> common/global_head_imports}}
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <link href="/imports/css/common/articles.css" rel="stylesheet">
   </head>
   <body>
     {{> common/header/header }}
@@ -11,7 +12,7 @@
     {{#each data.laminatedTimber.sections}}
       {{> common/page_section }}
     {{/each}}
-
+    {{> common/articles data.articles}}
     {{> common/footer/footer }}
     {{> common/global_scripts}}
   </body>
