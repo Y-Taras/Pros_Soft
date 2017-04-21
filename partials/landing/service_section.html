@@ -2,19 +2,17 @@
 	<div class="page-block page-block-middle">
 		<h3 class="text-center no-margin">{{ title }}</h3>
 		<hr class="head-text-delimiter">
-		<a
-			class="fancybox"
-			href="{{ img }}"
-			rel="{{ galleryPath }}"
-		>
-			<img
-				src="{{ img }}"
-				class="service-img rounded-15 {{ imgClass }} {{#if isEven}}service-img-right{{else}}service-img-left{{/if}}"
-			/>
-		</a>
-		{{# each paragraphs }}
-			<p class="text-justify text-default">{{ this }}</p>
-		{{/ each }}
+		<div class="row">
+			<a class="fancybox" href="{{ img }}" rel="{{ galleryPath }}">
+				<img
+					src="{{ img }}"
+					class="service-img rounded-15 {{ imgClass }} {{#if isEven}}service-img-right{{else}}service-img-left{{/if}}"
+				/>
+			</a>
+			{{# each paragraphs }}
+				<p class="text-justify text-default">{{ this }}</p>
+			{{/ each }}
+		</div>
 		{{> common/details_btn }}
 		{{{ gallery galleryColClass imgWrapClass galleryPath nImgs }}}
 	</div>

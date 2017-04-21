@@ -30,8 +30,17 @@
     "title": "Компанія «Терком» спеціалізується на виготовленні дерев'яних будинків та наданні супутніх послуг",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor velit a sem aliquam semper. Proin sed tortor a nulla malesuada tincidunt id nec nisi. Praesent ante justo, gravida sed arcu ut, consectetur hendrerit tellus. Phasellus felis enim, mattis ac scelerisque nec, vestibulum semper lectus. Sed sodales tempus bibendum. Integer vel neque et est viverra sagittis nec eget leo. Mauris id arcu vitae velit tincidunt imperdiet ac nec dui. Donec sed bibendum sem. Aenean lacinia, mi nec egestas luctus, augue lectus sodales ipsum, id tempor felis urna non odio. Sed non posuere eros."
   },
+  "headSection": {
+    "paragraphs": [
+      "<h2 class='slider-header'>Ми збудуємо вашу мрію</h2>",
+      "«Терком» виробляє дерев'яні будинки, використовуючи найсучасніші технологічні рішення та враховуючи найвишуканіші побажання клієнта. Ви отримаєте найкращу якість за приємну ціну."
+    ],
+    "paragraphClass": "slider-text",
+    "img": "/imports/img/landing/slider/01-house.jpg"
+  },
   "services": [
     {
+      "isEven": true,
       "title": "Дерев'яні будинки",
       "img": "/imports/img/landing/services/houses/houses.jpg",
       "galleryPath": "/imports/img/landing/services/houses/gallery/",
@@ -45,7 +54,6 @@
       "ref": "/wooden_houses/about"
     },
     {
-      "isEven": true,
       "title": "Євровікна",
       "img": "/imports/img/landing/services/eurowindows/window.jpg",
       "galleryPath": "/imports/img/landing/services/eurowindows/gallery/",
@@ -58,6 +66,7 @@
       "ref": "/euro_windows/"
     },
     {
+      "isEven": true,
       "title": "Альтанки",
       "img": "/imports/img/landing/services/garden_houses/garden_house.jpg",
       "galleryPath": "/imports/img/landing/services/garden_houses/gallery/",
@@ -65,12 +74,12 @@
       "galleryColClass": "no-col",
       "paragraphs": [
         "Садові дерев'яні альтанки - ідеальне місце для відпочинку на ділянці. Витончена альтанка ажурно-рейкової конструкції, увита трояндами, стане улюбленим куточком для всіх, хто любить романтичне або філософське усамітнення. Альтанка з оциліндрованної колоди - прекрасний варіант для любителів барбекю і галасливих веселощів в дружній компанії. Дерев'яна альтанка у вигляді пагоди стане перлиною саду, облаштованою у східному стилі.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor velit a sem aliquam semper. Proin sed tortor a nulla malesuada tincidunt id nec nisi. Praesent ante justo, gravida sed arcu ut, consectetur hendrerit tellus. Phasellus felis enim, mattis ac scelerisque nec, vestibulum semper lectus."
+        "Незалежно від форми і стилю, альтанки завжди служать місцем відпочинку та укриття від сонця або дощу. Крім того, тут не обійтися без витких рослин що її обплітають, які затінюють і захищають внутрішню частину альтанки від цікавих поглядів.",
+        "Досвідчені дизайнери і конструктори виїжджають на місце для рекогносціювання, складають план, враховуючи, зрозуміло, побажання господаря. Це дозволяє створювати на ділянці комплекс, який гармонійно вписується в навколишній ландшафт."
       ],
       "ref": "/garden_houses/"
     },
     {
-      "isEven": true,
       "title": "Двері",
       "img": "/imports/img/landing/services/doors/doors.jpg",
       "galleryPath": "/imports/img/landing/services/doors/gallery/",
@@ -105,7 +114,6 @@
     ]
   },
   "rewards": {
-    "isEven": true,
     "headTitle": "Наші нагороди",
     "galleries": [
       {

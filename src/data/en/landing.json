@@ -30,8 +30,17 @@
     "title": "Компанія «Терком» спеціалізується на виготовленні дерев'яних будинків та наданні супутніх послуг",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor velit a sem aliquam semper. Proin sed tortor a nulla malesuada tincidunt id nec nisi. Praesent ante justo, gravida sed arcu ut, consectetur hendrerit tellus. Phasellus felis enim, mattis ac scelerisque nec, vestibulum semper lectus. Sed sodales tempus bibendum. Integer vel neque et est viverra sagittis nec eget leo. Mauris id arcu vitae velit tincidunt imperdiet ac nec dui. Donec sed bibendum sem. Aenean lacinia, mi nec egestas luctus, augue lectus sodales ipsum, id tempor felis urna non odio. Sed non posuere eros."
   },
+  "headSection": {
+    "paragraphs": [
+      "<h2 class='slider-header'>We will build your dream!</h2>",
+      "TERCOM produces wooden houses, using the latest technological solutions and considering the most sophisticated customer requirements. You will get the best quality for a nice price."
+    ],
+    "paragraphClass": "slider-text",
+    "img": "/imports/img/landing/slider/01-house.jpg"
+  },
   "services": [
     {
+      "isEven": true,
       "title": "Wooden Houses",
       "img": "/imports/img/landing/services/houses/houses.jpg",
       "galleryPath": "/imports/img/landing/services/houses/gallery/",
@@ -45,7 +54,6 @@
       "ref": "/en/wooden_houses/about"
     },
     {
-      "isEven": true,
       "title": "Euro Windows",
       "img": "/imports/img/landing/services/eurowindows/window.jpg",
       "galleryPath": "/imports/img/landing/services/eurowindows/gallery/",
@@ -58,6 +66,7 @@
       "ref": "/en/euro_windows/"
     },
     {
+      "isEven": true,
       "title": "Gazebo",
       "img": "/imports/img/landing/services/garden_houses/garden_house.jpg",
       "galleryPath": "/imports/img/landing/services/garden_houses/gallery/",
@@ -65,12 +74,12 @@
       "galleryColClass": "no-col",
       "paragraphs": [
         "Garden wooden gazebo – ideal place for outdoor recreation area. Delicate gazebo with arbor-rail design, twined with roses, will be a favorite place for anyone who loves romantic or philosophical solitude. Gazebo from cylindrical logs is a great version for fans of barbecue and noisy fun in friendly company. A wooden gazebo like a tower will be the jewel of the garden, equipped in oriental style.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor velit a sem aliquam semper. Proin sed tortor a nulla malesuada tincidunt id nec nisi. Praesent ante justo, gravida sed arcu ut, consectetur hendrerit tellus. Phasellus felis enim, mattis ac scelerisque nec, vestibulum semper lectus."
+        "Regardless of the form style gazebos are always a resting place and a shelter from sun and rain.",
+        "Experienced designers and engineers go to place for initial review, taking into account the wishes of the owner they make a plan. This allows to create on a lot a complex which harmoniously blends into the surrounding landscape."
       ],
       "ref": "/en/garden_houses/"
     },
     {
-      "isEven": true,
       "title": "Doors",
       "img": "/imports/img/landing/services/doors/doors.jpg",
       "galleryPath": "/imports/img/landing/services/doors/gallery/",
@@ -84,28 +93,27 @@
     }
   ],
   "whyUs": {
-    "title": "Чому саме ми?",
+    "title": "We",
     "benefits": [
       {
-        "benefit": "Більше 15 років на ринку",
+        "benefit": "More than 15 years on the market",
         "iconClass": "fa fa-clock-o"
       },
       {
-        "benefit": "Використання сучасних технологій",
+        "benefit": "Latest technologies",
         "iconClass": "fa fa-cogs"
       },
       {
-        "benefit": "Орієнтація на клієнта",
+        "benefit": "Customer orientation",
         "iconClass": "fa fa-address-card-o"
       },
       {
-        "benefit": "Висока якість за помірну ціну",
+        "benefit": "High quality for a reasonable price",
         "iconClass": "fa fa-usd"
       }
     ]
   },
   "rewards": {
-    "isEven": true,
     "headTitle": "Our Remunerations",
     "galleries": [
       {
