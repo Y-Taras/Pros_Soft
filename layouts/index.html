@@ -14,12 +14,12 @@
 
   <body>
     {{> common/header/header }}
+    <div class="header-top-buffer"></div>
 
     {{!-- if Client give a content for these parts --}}
       {{!> landing/slider }}
       {{!> landing/company_info }}
     {{!----------------------------------------------}}
-    <div class="header-top-buffer"></div>
     {{> common/page_section data.landing.headSection}}
 
     {{#each data.landing.services }}

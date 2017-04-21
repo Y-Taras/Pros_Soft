@@ -5,9 +5,12 @@
   </head>
   <body>
     {{>common/header/header }}
+    <div class="header-top-buffer"></div>
+
     {{#each data.lumber.sections}}
       {{> common/page_section }}
     {{/each}}
+
     {{> common/footer/footer }}
     {{> common/global_scripts }}
   </body>
