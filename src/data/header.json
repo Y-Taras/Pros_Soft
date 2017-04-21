@@ -1,7 +1,8 @@
 {
   "logoFirstText": "Група компаній",
-  "logoSecondText": "Терком",
+  "company": "Терком",
   "logo": "/imports/img/logo-small.jpg",
+  "home": "/",
   "menuItems": [
     {
       "name": "Головна",

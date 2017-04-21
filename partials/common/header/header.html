@@ -2,15 +2,17 @@
   <div class="spinner"></div>
 </div>
 <header class="page-header">
-  <div class="company-logo">
+  <a href="{{home}}">
+    <div class="company-logo">
     <div class="logo-text">
       <p>{{data.header.logoFirstText}}</p>
-      <h1>{{data.header.logoSecondText}}</h1>
+      <h1>{{data.header.company}}</h1>
     </div>
     <div class="logo-img-container">
       <img class="logo-img" src="{{data.header.logo}}" alt="Logo of Company">
     </div>
   </div>
+  </a>
   <div class="menu">
     {{> common/header/menu }}
   </div>
