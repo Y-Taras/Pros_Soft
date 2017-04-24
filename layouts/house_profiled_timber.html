@@ -2,6 +2,8 @@
 <html>
 <head>
   {{> common/global_head_imports}}
+  <link href="/imports/css/common/articles.css" rel="stylesheet">
+
   <meta name="description" content="">
   <meta name="keywords" content="">
 </head>
@@ -12,6 +14,7 @@
   {{#each data.profiledTimber.sections}}
     {{> common/page_section }}
   {{/each}}
+  {{> common/articles isEven=true data=data.articles }}
 
   {{> common/footer/footer }}
   {{> common/global_scripts}}

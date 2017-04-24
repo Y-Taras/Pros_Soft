@@ -1,8 +1,7 @@
 ---
-layout: house_wild_timber.html
+layout: "article_laminated_timber.html"
 data:
     header: "/data/header.json"
-    wildTimber: "/data/wild_timber.json"
     articles: "/data/articles.json"
     footer: "/data/footer.json"
 ---
