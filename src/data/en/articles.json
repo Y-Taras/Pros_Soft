@@ -18,7 +18,7 @@
         "Everything has changed when the own production and construction from laminated veneer lumber has adjusted in our country. In Ukraine for a long time laminated veneer lumber has perceived as building material. Later, adopting the experience of finnish companies Vuokatti and Honka, the factory kits began to hold in our country. So the manufacturability of construction has increased in many times.",
         "Nowadays laminated veneer lumber is the most reliable, strong, durable, beautiful and also the most common material for the construction of country wooden houses."
       ],
-      "ref": "/en/articles/laminated_timber"
+      "ref": "/en/blog/laminated_timber"
     },
   "framework": {
     "thumb": "/imports/img/lumber/wild_timber.jpg",
@@ -32,7 +32,7 @@
       "In processing of wood with an ax timbers are 'pressed' so because of that planed logs are particularly resistant to the environment and are durable, therefore remains a protective layer of wood which makes it possible to preserve the natural strength, heat resistance and wood structure. The same thing cannot be said about machine rounded timber where the protective layer removes almost completely allowing the moisture to penetrate the wood. This can cause cracks. Especially good to build bathhouses with sliced logs because logs are exposed to high temperatures and constant humidity fluctuations.",
       "For the construction from sliced select choiced and calibrated timber, then the  bark from logs is removing, allows to dry, and after that it is planing manually. When the logs are ready, from them cut framework putting carefully to each other, after felling cut down, it dismantle, complete by timber and transport to the area where it is gathered. Blockhouse from sliced logs have special superficies because logs have different diameter and alternate in drafting. The known fact is that in ancient times straight line logs were considered as from 'the devil', but the wood - live material, and it was completely useless to convert it into a soulless and dead material. Sliced timber is good itself so there is no need in any further treatment both outside and inside. But some time after timber stacking you usually have to wait: sliced logs have one natural problem - shrinkage of wood. So houses or bathhouses from sliced logs are more durable, having its distinctive attractive appearance."
     ],
-    "ref": "/en/articles/framework"
+    "ref": "/en/blog/framework"
   },
   "doors": {
     "thumb": "/imports/img/doors/examples/16.jpg",
@@ -51,7 +51,7 @@
       "Solid wood we call such elements of door leaf which are made of a whole filling of natural wood. Often massive door elements are made of laminated array. This technology is the most modern and besides is cheaper than classic technology. Circuit connection of bars in glued array can be different – each manufacturer chooses the best option for him. Doors with solid wooden parts are responsive to humidity changes in rooms. So manufacturer has to leave special  slots for compensation of temperature and humidity expansion, they are not fasten tightly and leave an opportunity for backlash. Such forced drafting scheme cannot be without contributing its features in exterior appearance of doors. Different parts of the door surface can differ from each other in color depending on the angle of light incidence. The final color a tree gets only after varnishing. This uneven surface color emphasizes that such doors are from natural solid wood.",
       "Quality of doors from array determins by the preparation of raw materials – sometimes by drying technology. Usually doors from natural solid wood are cover by varnish. For manufacturing doors of solid wood use the following breeds of trees: oak, various species of mahogany, pine, beech, nut tree, cherry tree and others. Solid of pine tree is the most common. Also you can meet original, exclusive handmade doors. Sometimes the design of such doors are well complemented by stained glass. These doors can be both domestic and imported."
     ],
-    "ref": "/en/articles/doors"
+    "ref": "/en/blog/doors"
   },
   "roundedTimber": {
     "thumb": "/imports/img/houses/rounded/05.jpg",
@@ -68,7 +68,7 @@
       "Another question – roof system. It must “track” draft and shrinkage. But roofing has not suffer. For this there is provided installation method “moving” rafters, allowing the roof not to deform.",
       "Collection of future building begins at the manufacturing site. Every machine rounded log is numbered and has a definite place in the overall design. Installation is performed under isometric drawings walls and timber specifications, logs stack from the bottom to the top of the crown. The insulted material concludes between crowns."
     ],
-    "ref": "/en/articles/machine_rounded_timber"
+    "ref": "/en/blog/machine_rounded_timber"
   },
   "gazebos": {
     "thumb": "/imports/img/garden_houses/examples/13.jpg",
@@ -98,7 +98,7 @@
       "Firms often do non-standard orders.",
       "Experienced designers and engineers go to place for initial review, taking into account the wishes of the owner they make a plan. This allows to create on a lot a complex which harmoniously blends  into the surrounding landscape."
     ],
-    "ref": "/en/articles/gazebos_and_rotundas"
+    "ref": "/en/blog/gazebos_and_rotundas"
   },
   "shapedTimber": {
     "thumb": "/imports/img/houses/profiled/03.jpg",
@@ -114,11 +114,11 @@
       "The rain doesn’t reach into the seam between timbers and it helps to avoid formation of decay.",
       "Shaped timber – its 100% massif wood which owns all the advantages of solid wood: environmental friendliness, naturalness, ability to properly filter the air."
     ],
-    "ref": "/en/articles/shaped_timber"
+    "ref": "/en/blog/shaped_timber"
   },
   "saunas": {
     "thumb": "/imports/img/sauna/thumb.jpg",
-    "thumb": "/imports/img/sauna/sauna.jpg",
+    "img": "/imports/img/sauna/sauna.jpg",
     "headTitle": "Bathhouses and Saunas",
     "shortText": "Bathhouse has always been one of the main objects on a peasant farmstead. In recent years has particularly increased the interest on baths. In addition to sanitation function implementation it serves as a prevention of various diseases, round up the weight, removes the pain, improves the mood.",
     "paragraphs": [
@@ -143,7 +143,7 @@
       "The distance between the axes of the beams of 60-100 cm. Beams that lay around the chimney protect against fire by processing of bricks.",
       "Asbestos cement sheets, steel roofing sheet can be as a material for bathhouse roofing."
     ],
-    "ref": "/en/articles/bathhouses_and_saunas"
+    "ref": "/en/blog/bathhouses_and_saunas"
   }
 },
   "readMoreLabel": "Read more..."
