@@ -1,6 +1,30 @@
 {
   "headTitle": "Популярні статті",
   "list": {
+    "exhibition2017": {
+      "thumb": "/imports/img/blog/exhibition_2017/01.jpg",
+      "headTitle": "Виставка «Буд-Експо 2017»",
+      "shortText": "Галерея фотографій з виставки",
+      "galleries": [{
+        "colClass": "no-col",
+        "galleryPath": "/imports/img/blog/exhibition_2017/",
+        "nImgs": 10
+      }],
+      "ref": "/blog/exhibition_2017",
+      "fullHeight": true
+    },
+    "exhibition2016": {
+      "thumb": "/imports/img/blog/exhibition_2016/01.jpg",
+      "headTitle": "Виставка «Агро 2016»",
+      "shortText": "Галерея фотографій з виставки",
+      "galleries": [{
+        "colClass": "no-col",
+        "galleryPath": "/imports/img/blog/exhibition_2016/",
+        "nImgs": 10
+      }],
+      "ref": "/blog/exhibition_2016",
+      "fullHeight": true
+    },
     "laminatedTimber": {
       "thumb": "/imports/img/landing/slider/01-house.jpg",
       "img": "/imports/img/landing/slider/01-house.jpg",

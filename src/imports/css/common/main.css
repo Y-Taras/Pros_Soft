@@ -75,6 +75,10 @@ a {
 .block-container {
   padding: 25px 0;
 }
+
+.block-container.full-height {
+  min-height: 62vh;
+}
 .block-container .row{
   margin: 0;
 }

@@ -1,6 +1,30 @@
 {
   "headTitle": "Popular Articles",
   "list": {
+    "exhibition2017": {
+      "thumb": "/imports/img/blog/exhibition_2017/01.jpg",
+      "headTitle": "Exhibition «Bud-Ecspo 2017»",
+      "shortText": "Gallery of photos from the exhibition",
+      "galleries": [{
+        "colClass": "no-col",
+        "galleryPath": "/imports/img/blog/exhibition_2017/",
+        "nImgs": 10
+      }],
+      "ref": "/en/blog/exhibition_2017",
+      "fullHeight": true
+    },
+    "exhibition2016": {
+      "thumb": "/imports/img/blog/exhibition_2016/01.jpg",
+      "headTitle": "Exhibition «Agro 2016»",
+      "shortText": "Gallery of photos from the exhibition",
+      "galleries": [{
+        "colClass": "no-col",
+        "galleryPath": "/imports/img/blog/exhibition_2016/",
+        "nImgs": 10
+      }],
+      "ref": "/en/blog/exhibition_2016",
+      "fullHeight": true
+    },
     "laminatedTimber": {
       "thumb": "/imports/img/landing/slider/01-house.jpg",
       "img": "/imports/img/landing/slider/01-house.jpg",
