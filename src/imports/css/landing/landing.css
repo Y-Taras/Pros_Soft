@@ -1,14 +1,28 @@
-.about-header h3 {
-  font-weight: 400;
-  font-size: 1.7rem;
-  margin: 0;
+/*new styles*---------------------------------------------------------------*/
+.head-section {
+  background:  rgba(102, 102, 102, .1) url('/imports/img/landing/top_section_background.png');
+  background-size: 100% 100%;
   text-align: center;
+  /*background-position: center bottom;*/
 }
 
-.about-header p {
-  font-size: 1.25rem;
+.head-section .text {
+  display: inline-block;
+  margin: 30vh 0;
+  color: #fff;
 }
 
+.head-section .text .slogan {
+  font-family: projExtraBold;
+  font-size: 61px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.head-section .text .description {
+  padding: 17px 28vw;
+}
+
+/*old styles---------------------------------------------------------------*/
 .service-container {
   display: flex;
   flex-direction: column;

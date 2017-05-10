@@ -10,7 +10,7 @@
     },
     {
       "name": "Дерев'яні будинки",
-      "ref": "/wooden_houses/about",
+      "ref": "/wooden_houses/about/",
       "subItems": [
         {
           "0": {
@@ -77,19 +77,19 @@
     },
     {
       "name": "Проекти",
-      "ref": "/projects"
+      "ref": "/projects/"
     },
     {
       "name": "Винагороди",
-      "ref": "/awards"
+      "ref": "/awards/"
     },
     {
       "name": "Блог",
-      "ref": "/blog"
+      "ref": "/blog/"
     },
     {
       "name": "Контакти",
-      "ref": "/contacts"
+      "ref": "/contacts/"
     }
   ]
 }

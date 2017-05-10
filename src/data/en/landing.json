@@ -1,42 +1,7 @@
 {
-  "slides": [
-    {
-      "src": "/imports/img/landing/slider/01-house.jpg",
-      "title": "Ми збудуємо вашу мрію",
-      "text": "«Терком» виробляє дерев'яні будинки, використовуючи найсучасніші технологічні рішення та враховуючи найвишуканіші побажання клієнта. Ви отримаєте найкращу якість, при цьому ціна залишатиметься цілком адекватною."
-    },
-    {
-      "src": "/imports/img/landing/slider/02-window.jpg",
-      "title": "Заголовок 2",
-      "text": "Morbi vulputate augue metus, a imperdiet lacus interdum eu. Sed eleifend orci nibh, varius scelerisque turpis euismod sed. Proin a nulla eget turpis euismod dignissim vitae at risus. Praesent malesuada augue purus. Sed id nisl tellus. Vivamus a mauris velit. Maecenas eget sem faucibus, pulvinar velit vitae, gravida quam."
-    },
-    {
-      "src": "/imports/img/landing/slider/03-inside.jpg",
-      "title": "Внутрішнє оздоблення інтерєру",
-      "text": "Morbi vulputate augue metus, a imperdiet lacus interdum eu. Sed eleifend orci nibh, varius scelerisque turpis euismod sed. Proin a nulla eget turpis euismod dignissim vitae at risus. Praesent malesuada augue purus. Sed id nisl tellus. Vivamus a mauris velit. Maecenas eget sem faucibus, pulvinar velit vitae, gravida quam."
-    },
-    {
-      "src": "/imports/img/landing/slider/03-altanka.jpg",
-      "title": "Оздоблення території Альтанками",
-      "text": "Morbi vulputate augue metus, a imperdiet lacus interdum eu. Sed eleifend orci nibh, varius scelerisque turpis euismod sed. Proin a nulla eget turpis euismod dignissim vitae at risus. Praesent malesuada augue purus. Sed id nisl tellus. Vivamus a mauris velit. Maecenas eget sem faucibus, pulvinar velit vitae, gravida quam."
-    },
-    {
-      "src": "/imports/img/landing/slider/04-doors.jpg",
-      "title": "Заголовок про двері",
-      "text": "Morbi vulputate augue metus, a imperdiet lacus interdum eu. Sed eleifend orci nibh, varius scelerisque turpis euismod sed. Proin a nulla eget turpis euismod dignissim vitae at risus. Praesent malesuada augue purus. Sed id nisl tellus. Vivamus a mauris velit. Maecenas eget sem faucibus, pulvinar velit vitae, gravida quam."
-    }
-  ],
-  "companyInfo": {
-    "title": "Компанія «Терком» спеціалізується на виготовленні дерев'яних будинків та наданні супутніх послуг",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor velit a sem aliquam semper. Proin sed tortor a nulla malesuada tincidunt id nec nisi. Praesent ante justo, gravida sed arcu ut, consectetur hendrerit tellus. Phasellus felis enim, mattis ac scelerisque nec, vestibulum semper lectus. Sed sodales tempus bibendum. Integer vel neque et est viverra sagittis nec eget leo. Mauris id arcu vitae velit tincidunt imperdiet ac nec dui. Donec sed bibendum sem. Aenean lacinia, mi nec egestas luctus, augue lectus sodales ipsum, id tempor felis urna non odio. Sed non posuere eros."
-  },
   "headSection": {
-    "paragraphs": [
-      "<h2 class='slider-header'>We will build your dream!</h2>",
-      "TERCOM produces wooden houses, using the latest technological solutions and considering the most sophisticated customer requirements. You will get the best quality for a nice price."
-    ],
-    "paragraphClass": "slider-text",
-    "img": "/imports/img/landing/slider/01-house.jpg"
+    "slogan": "We'll build your dream",
+    "text": "«Терком» виробляє дерев'яні будинки, використовуючи найсучасніші технологічні рішення та враховуючи найвишуканіші побажання клієнта. Ви отримаєте найкращу якість за приємну ціну."
   },
   "services": [
     {

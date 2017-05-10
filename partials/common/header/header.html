@@ -1,17 +1,12 @@
 <div id="page-preloader">
   <div class="spinner"></div>
 </div>
-<header class="page-header">
+<header class="page-header {{class}}">
   <a href="{{data.header.home}}">
     <div class="company-logo">
-    <div class="logo-text">
-      <p>{{data.header.logoFirstText}}</p>
-      <h1>{{data.header.company}}</h1>
-    </div>
-    <div class="logo-img-container">
       <img class="logo-img" src="{{data.header.logo}}" alt="Logo of Company">
+      <div class="logo-text">{{data.header.company}}</div>
     </div>
-  </div>
   </a>
   <div class="menu">
     {{> common/header/menu }}
@@ -22,7 +17,7 @@
     {{> common/header/menu isSideMenu="side" }}
   </div>
   <div class="language-selector">
-    <a><p>UK</p></a>
+    <a><p>UA</p></a>
     <hr>
     <a><p>EN</p></a>
   </div>
@@ -30,4 +25,6 @@
 
 <script src="/imports/js/sidenav.js"></script>
 <script src="/imports/lib/jquery-3.1.1/jquery-3.1.1.min.js"></script>
+<script src="/imports/js/set_menu_item_selected.js"></script>
 <script src="/imports/js/set_lang.js"></script>
+<script src="/imports/js/set_header_dark.js"></script>

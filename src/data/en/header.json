@@ -2,15 +2,15 @@
   "logoFirstText": "Group of companies",
   "company": "Tercom",
   "logo": "/imports/img/logo-small.jpg",
-  "home": "/en",
+  "home": "/en/",
   "menuItems": [
     {
       "name": "Home",
-      "ref": "/en"
+      "ref": "/en/"
     },
     {
       "name": "Wooden Houses",
-      "ref": "/en/wooden_houses/about",
+      "ref": "/en/wooden_houses/about/",
       "subItems": [
         {
           "0": {
@@ -77,19 +77,19 @@
     },
     {
       "name": "Projects",
-      "ref": "/en/projects"
+      "ref": "/en/projects/"
     },
     {
       "name": "Remunerations",
-      "ref": "/en/awards"
+      "ref": "/en/awards/"
     },
     {
       "name": "Blog",
-      "ref": "/en/blog"
+      "ref": "/en/blog/"
     },
     {
       "name": "Contacts",
-      "ref": "/en/contacts"
+      "ref": "/en/contacts/"
     }
   ]
 }

@@ -1,48 +1,25 @@
 @font-face {
   font-family: projDefault;
-  src: url(/imports/fonts/Caprum/Cuprum-Regular.ttf);
+  src: url(/imports/fonts/OpenSans-Regular.ttf);
 }
-
-@font-face {
-  font-family: projItalic;
-  src: url(/imports/fonts/Caprum/Cuprum-Italic.ttf);
-}
-
 @font-face {
   font-family: projBold;
-  src: url(/imports/fonts/Caprum/Cuprum-Bold.ttf);
+  src: url(/imports/fonts/OpenSans-Bold.ttf);
 }
-
 @font-face {
-  font-family: projBoldItalic;
-  src: url(/imports/fonts/Caprum/Cuprum-BoldItalic.ttf);
+  font-family: projExtraBold;
+  src: url(/imports/fonts/OpenSans-ExtraBold.ttf);
 }
-
-/*==============================*/
 @font-face {
-  font-family: textjDefault;
-  src: url(/imports/fonts/Philosopher/Philosopher-Regular.ttf);
+  font-family: special;
+  src: url(/imports/fonts/Roboto-Regular.ttf);
 }
-
-@font-face {
-  font-family: textItalic;
-  src: url(/imports/fonts/Philosopher/Philosopher-Italic.ttf);
-}
-
-@font-face {
-  font-family: textBold;
-  src: url(/imports/fonts/Philosopher/Philosopher-Bold.ttf);
-}
-
-@font-face {
-  font-family: textBoldItalic;
-  src: url(/imports/fonts/Philosopher/Philosopher-BoldItalic.ttf);
-}
-/*==============================*/
 
 body {
   margin: 0;
   font-family: projDefault;
+  font-size: 22.5px;
+  background: url('/imports/img/background_light.png');
 }
 
 .text-default {
@@ -84,9 +61,7 @@ a {
 }
 
 .container-dark {
-  border-bottom: 1px solid #d5c9c4;
-  border-top: 1px solid #d5c9c4;
-  background-color: #eee9e7;
+  background-color:  rgba(102, 102, 102, .1);
 }
 
 
@@ -289,5 +264,7 @@ hr.head-text-delimiter {
   }
 }
 
-
-
+/*new design-----------------------------------------------------------------------*/
+.full-height {
+  min-height: 100vh;
+}
