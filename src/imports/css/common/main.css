@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: special;
-  src: url(/imports/fonts/Roboto-Regular.ttf);
+  src: url(/imports/fonts/Roboto-Medium.ttf);
 }
 
 body {
@@ -20,6 +20,12 @@ body {
   font-family: projDefault;
   font-size: 22.5px;
   background: url('/imports/img/background_light.png');
+}
+
+@media screen and (max-width: 736px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 .text-default {
@@ -63,7 +69,6 @@ a {
 .container-dark {
   background-color:  rgba(102, 102, 102, .1);
 }
-
 
 /*====page styles====*/
 .page-block {
@@ -133,8 +138,6 @@ hr.head-text-delimiter {
   margin: 15px 25px 15px 0
 }
 
-/*====page styles====*/
-
 /*======price label========*/
 .price-row {
   display: flex;
@@ -163,19 +166,20 @@ hr.head-text-delimiter {
 
 .btn-details {
   display: inline-block;
-  margin-top: -7px;
-  padding: 5px 24px;
+  padding: 0 60px;
   text-decoration: none;
-  border: 2px solid #EE180E;
-  border-radius: 20px;
-  color: #fff;
-  background-color: #EE180E;
-  text-transform: uppercase;
-  font-family: projDefault;
+  border: 2px solid #c40505;
+  border-radius: 15px;
+  color: #c40505;
+  background-color: transparent;
+  font-family: special;
+  font-size: 17.1px;
+  font-weight: 500;
+  line-height: 2;
 }
-.btn-details:hover, .btn-details:active {
-  color: #EE180E;
-  background-color: #fff;
+.btn-details:hover {
+  background-color: #c40505;
+  color: #fff;
   cursor: pointer;
 }
 .call-us-btn {
@@ -264,7 +268,6 @@ hr.head-text-delimiter {
   }
 }
 
-/*new design-----------------------------------------------------------------------*/
 .full-height {
   min-height: 100vh;
 }

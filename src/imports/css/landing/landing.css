@@ -4,11 +4,12 @@
   background-size: 100% 100%;
   text-align: center;
   /*background-position: center bottom;*/
+  height: 100vh;
 }
 
 .head-section .text {
   display: inline-block;
-  margin: 30vh 0;
+  margin-top: 30vh;
   color: #fff;
 }
 
@@ -19,8 +20,80 @@
   text-transform: uppercase;
 }
 .head-section .text .description {
-  padding: 17px 28vw;
+  width: 785px;
+  margin: 17px auto 61px;
 }
+
+.head-section .btn-details {
+  font-size: 27.5px;
+  border-radius: 22.5px;
+  background: #b90908;
+  border: 2px solid #b90908;
+  color: #fff;
+}
+.head-section .btn-details:hover {
+  background: #990000;
+  border-color: #990000;
+}
+
+.head-section .scroll-down {
+  position: absolute;
+  width: 46px;
+  left: calc(50% - 23px);
+  bottom: 3vh;
+}
+.head-section .scroll-down:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .head-section .text {
+    margin-top: 18vh;
+  }
+  .head-section .text .slogan {
+    font-size: 50px;
+  }
+  .head-section .text .description {
+    width: 81%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .head-section .text .slogan {
+    font-size: 40px;
+  }
+  .head-section .text .description {
+    margin: 16px 0;
+    width: 90%;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 667px) {
+  .head-section .scroll-down {
+    width: 31px;
+    height: 67px;
+    left: calc(50% - 15.5px);
+  }
+}
+@media screen and (max-width: 568px) {
+  .head-section .text .slogan {
+    font-size: 33px;
+    margin-top: 10px;
+  }
+  .head-section .text .description {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .head-section .scroll-down {
+    bottom: 0px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .head-section .btn-details {
+    padding: 0 30px;
+  }
+}
+
 
 /*old styles---------------------------------------------------------------*/
 .service-container {

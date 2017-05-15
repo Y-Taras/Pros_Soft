@@ -118,7 +118,7 @@
   "developedBy": "Розроблено ",
   "contactUsBtn": {
     "ref": "/contacts/send",
-    "label": "Зв'язатися з нами",
+    "label": "Зв'язатись з нами",
     "modal": {
       "callUs": "Зателефонуйте",
       "phones": [

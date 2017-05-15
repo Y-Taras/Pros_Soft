@@ -1,6 +1,11 @@
-<div class="full-height head-section">
+<div class="head-section">
 	<div class="text">
-		<div class="slogan">{{slogan}}</div>
-		<div class="description">{{text}}</div>
+		<div class="slogan">{{data.landing.headSection.slogan}}</div>
+		<div class="description">{{data.landing.headSection.text}}</div>
+		<a href="{{data.footer.contactUsBtn.ref}}" class="fancybox fancybox.ajax" data-fancybox-type="ajax">
+			<div class="btn-details">{{data.footer.contactUsBtn.label}}</div>
+		</a>
+		<img class="scroll-down" src="/imports/img/landing/scroll_down.gif"/>
 	</div>
 </div>
+<script src="/imports/js/animated_scroll.js"></script>
