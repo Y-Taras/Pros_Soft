@@ -45,7 +45,23 @@
 .head-section .scroll-down:hover {
   cursor: pointer;
 }
-
+.landing-services .left-text-column, .landing-services .right-text-column {
+  display: inline-block;
+  width: 50%;
+}
+.landing-services .left-text-column {
+  float: left;
+  text-align: right;
+  padding: 0 10px 0 15vw;
+}
+.landing-services .right-text-column {
+  float: right;
+  text-align: left;
+  padding: 0 15vw 0 10px;
+}
+.landing-services .gallery-item {
+  padding: 0 23px 29px 0;
+}
 @media screen and (max-width: 950px) {
   .head-section .text {
     margin-top: 18vh;
@@ -73,6 +89,7 @@
     width: 31px;
     height: 67px;
     left: calc(50% - 15.5px);
+    bottom: 0;
   }
 }
 @media screen and (max-width: 568px) {
@@ -84,13 +101,16 @@
     font-size: 14px;
     margin: 10px 0;
   }
-  .head-section .scroll-down {
-    bottom: 0px;
+
+}
+@media screen and (max-width: 375px) {
+  .head-section .btn-details {
+    padding: 0 25px;
   }
 }
-@media screen and (max-width: 374px) {
-  .head-section .btn-details {
-    padding: 0 30px;
+@media screen and (max-width: 375px) {
+  .head-section {
+    height: 97.4vh;
   }
 }
 

@@ -3,18 +3,18 @@
   <head>
     {{> common/global_head_imports }}
 
-    <link href="/imports/css/landing/slider.css" rel="stylesheet">
-    <link href="/imports/css/landing/landing.css" rel="stylesheet">
+    <link href="/imports/css/landing.css" rel="stylesheet">
   </head>
 
   <body>
     {{> common/header/header class='transparent'}}
 
     {{> landing/head_section }}
-
-    {{#each data.landing.services }}
-      {{> landing/service_section detailsBtnLabel=../data.landing.detailsBtnLabel }}
-    {{/each}}
+    <div class="landing-services">
+      {{#each data.landing.services }}
+        {{> landing/service_section detailsBtnLabel=../data.landing.detailsBtnLabel }}
+      {{/each}}
+    </div>
 
     {{> landing/why_us }}
     {{> common/page_section data.landing.rewards }}

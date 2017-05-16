@@ -1,19 +1,12 @@
 <div class="block-container {{#if isEven}}container-dark{{/if}}">
-	<div class="page-block page-block-middle">
-		<h3 class="text-center no-margin">{{ title }}</h3>
-		<hr class="head-text-delimiter">
-		<div class="row">
-			<a class="fancybox" href="{{ img }}" rel="{{ galleryPath }}">
-				<img
-					src="{{ img }}"
-					class="service-img rounded-15 {{ imgClass }} {{#if isEven}}service-img-right{{else}}service-img-left{{/if}}"
-				/>
-			</a>
-			{{# each paragraphs }}
-				<p class="text-justify text-default">{{ this }}</p>
-			{{/ each }}
-		</div>
+	<div class="{{#if isEven}}left{{else}}right{{/if}}-text-column">
+		<div class="section-title">{{ title }}</div>
+		{{#each paragraphs }}
+			<p>{{ this }}</p>
+		{{/each }}
 		{{> common/details_btn }}
-		{{{ gallery galleryColClass imgWrapClass galleryPath nImgs }}}
+	</div>
+	<div class="{{#if isEven}}left{{else}}right{{/if}}-gallery-column">
+		{{{ noColGallery thumbnailsPath originsPath nImgs }}}
 	</div>
 </div>

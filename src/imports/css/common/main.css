@@ -7,6 +7,10 @@
   src: url(/imports/fonts/OpenSans-Bold.ttf);
 }
 @font-face {
+  font-family: projSemibold;
+  src: url(/imports/fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
   font-family: projExtraBold;
   src: url(/imports/fonts/OpenSans-ExtraBold.ttf);
 }
@@ -28,12 +32,11 @@ body {
   }
 }
 
-.text-default {
-  font-family: textDefault;
-}
-
-p.text-default {
-  text-indent: 2rem;
+.section-title {
+  font-family: projSemibold;
+  font-size: 40.3px;
+  font-weight: 600;
+  color: #333333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,54 +59,20 @@ a {
 }
 
 .block-container {
-  padding: 25px 0;
+  padding: 12vh 0;
+  float: left;
+  width: 100%;
 }
 
 .block-container.full-height {
   min-height: 60vh;
 }
-.block-container .row{
-  margin: 0;
-}
 
 .container-dark {
-  background-color:  rgba(102, 102, 102, .1);
+  background-color: rgba(102, 102, 102, .1);
 }
 
 /*====page styles====*/
-.page-block {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.page-block p {
-  font-size: 1.25rem;
-  font-family: textDefault;
-}
-
-.page-block li {
-  font-size: 1.25rem;
-  font-family: textDefault;
-  padding-bottom: 10px;
-}
-
-.page-block-small {
-  max-width: 800px;
-}
-
-.page-block-middle {
-  max-width: 1200px;
-}
-
-hr.head-text-delimiter {
-  margin: 10px auto;
-  width: 80%;
-  border-top: 1px solid #292c2f;
-}
-
-.row.galary-row {
-  margin-bottom: 2%;
-}
 
 .link-decorated {
   color: #008ACE;

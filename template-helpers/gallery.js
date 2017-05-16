@@ -12,4 +12,26 @@ const gallery = (colClass, wrapClass, path, nImg) => {
   return `${content}${end}`;
 };
 
-module.exports = { gallery };
+const getPicRefs = (n, path) => new _.fill(new Array(n), path).map((e, i) => `${e}${i < 9 ? '0' : ''}${i + 1}.png`);
+
+const landingGallery = (thumbnailsPath, originsPath, nImg) => {
+  const thumbsSrcs = getPicRefs(nImg, thumbnailsPath);
+  const originsRefs = getPicRefs(nImg, originsPath);
+  const rows = _.chunk(thumbsSrcs, 2);
+  return rows.map((row, i) => {
+    const cols = row.map((col, j) => {
+      return `<div class="col-xs-6"><a class="fancybox" href="${originsRefs[2 * i + j]}"><img class="gallery-item" src="${col}"/></a></div>`;
+    }).join('');
+    return `<div class="row" style="margin-bottom: 10px">${cols}</div>`;
+  }).join('');
+};
+
+const noColGallery = (thumbnailsPath, originsPath, nImg) => {
+  const thumbsSrcs = getPicRefs(nImg, thumbnailsPath);
+  const originsRefs = getPicRefs(nImg, originsPath);
+  return thumbsSrcs.map((src, i) => {
+    return `<a class="fancybox" href="${originsRefs[i]}"><img class="gallery-item" src="${src}"/></a>`;
+  }).join('');
+};
+
+module.exports = { gallery, landingGallery, noColGallery };
