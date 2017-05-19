@@ -56,27 +56,24 @@
       "ref": "/en/doors/"
     }
   ],
-  "whyUs": {
-    "title": "We",
-    "benefits": [
-      {
-        "benefit": "More than 15 years on the market",
-        "iconClass": "fa fa-clock-o"
-      },
-      {
-        "benefit": "Latest technologies",
-        "iconClass": "fa fa-cogs"
-      },
-      {
-        "benefit": "Customer orientation",
-        "iconClass": "fa fa-address-card-o"
-      },
-      {
-        "benefit": "High quality for a reasonable price",
-        "iconClass": "fa fa-usd"
-      }
-    ]
-  },
+  "benefits": [
+    {
+      "benefit": "High quality for a reasonable price",
+      "icon": "/imports/img/landing/benefits_icons/getmoney.svg"
+    },
+    {
+      "benefit": "Customer orientation",
+      "icon": "/imports/img/landing/benefits_icons/idcard.svg"
+    },
+    {
+      "benefit": "More than 15 years on the market",
+      "icon": "/imports/img/landing/benefits_icons/stopwatch.svg"
+    },
+    {
+      "benefit": "Latest technologies",
+      "icon": "/imports/img/landing/benefits_icons/settings.svg"
+    }
+  ],
   "rewards": {
     "headTitle": "Our Remunerations",
     "galleries": [

@@ -1,16 +1,12 @@
-<div class="block-container container-dark">
-  <div class="page-block page-block-middle">
-    <div class="landing-why-us">
-      <div class="row why-us">
-        {{#each data.landing.benefits}}
-          <div class="col-sm-3">
-            <div class="why-us-item">
-              <span class="{{this.iconClass}}"></span>
-              <h4 class="text-center">{{this.benefit}}</h4>
-            </div>
-          </div>
-        {{/each}}
+<div class="benefits-section">
+  <div class="row no-margin">
+    {{#each data.landing.benefits}}
+      <div class="col-sm-3">
+        <div class="benefit">
+          <img src="{{this.icon}}"/>
+          <p>{{this.benefit}}</p>
+        </div>
       </div>
-    </div>
+    {{/each}}
   </div>
 </div>
