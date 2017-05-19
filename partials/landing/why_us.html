@@ -1,13 +1,11 @@
 <div class="block-container container-dark">
   <div class="page-block page-block-middle">
     <div class="landing-why-us">
-      <h3>{{data.landing.whyUs.title}}</h3>
       <div class="row why-us">
-        {{#each data.landing.whyUs.benefits}}
+        {{#each data.landing.benefits}}
           <div class="col-sm-3">
             <div class="why-us-item">
               <span class="{{this.iconClass}}"></span>
-              <hr class="benefit-delimiter">
               <h4 class="text-center">{{this.benefit}}</h4>
             </div>
           </div>

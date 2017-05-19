@@ -30,7 +30,7 @@ const noColGallery = (thumbnailsPath, originsPath, nImg) => {
   const thumbsSrcs = getPicRefs(nImg, thumbnailsPath);
   const originsRefs = getPicRefs(nImg, originsPath);
   return thumbsSrcs.map((src, i) => {
-    return `<a class="fancybox" href="${originsRefs[i]}"><img class="gallery-item" src="${src}"/></a>`;
+    return `<a class="fancybox" href="${originsRefs[i]}" rel="${originsPath}"><img class="gallery-item" src="${src}"/></a>`;
   }).join('');
 };
 

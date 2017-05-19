@@ -1,12 +1,12 @@
 <div class="block-container {{#if isEven}}container-dark{{/if}}">
-	<div class="{{#if isEven}}left{{else}}right{{/if}}-text-column">
+	<div class="column {{#if isEven}}left{{else}}right{{/if}}-text-column">
 		<div class="section-title">{{ title }}</div>
 		{{#each paragraphs }}
 			<p>{{ this }}</p>
 		{{/each }}
 		{{> common/details_btn }}
 	</div>
-	<div class="{{#if isEven}}left{{else}}right{{/if}}-gallery-column">
-		{{{ noColGallery thumbnailsPath originsPath nImgs }}}
+	<div class="column {{#if isEven}}right{{else}}left{{/if}}-gallery-column">
+		<div class="gallery">{{{ noColGallery thumbnailsPath originsPath nImgs }}}</div>
 	</div>
 </div>
