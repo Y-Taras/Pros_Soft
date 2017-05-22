@@ -98,7 +98,9 @@ li.contact-group-item-delimiter {
   margin: 8px auto;
   padding: 0 15px;
 }
-
+.footer-bottom p {
+  font-size: 1rem;
+}
 .jss-label {
   text-align: center;
   margin-bottom: 20px;

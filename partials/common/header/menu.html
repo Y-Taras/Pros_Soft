@@ -1,7 +1,7 @@
 <ul class="{{isSideMenu}}nav-items">
 	{{#each data.header.menuItems as |menuItem|}}
 		<li class="{{../isSideMenu}}nav-item">
-			<a	class="nav-item-label"
+			<a class="nav-item-label"
 				{{#if menuItem.ref}} href="{{menuItem.ref}}" {{/if}}
 			>
 				{{menuItem.name}}
@@ -9,6 +9,7 @@
 			{{> common/header/nav_item_sub_items
 				subItems=menuItem.subItems
 				isSideMenu=../isSideMenu
+			  class=../class
 			}}
 		</li>
 	{{/each}}

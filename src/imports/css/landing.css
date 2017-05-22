@@ -100,6 +100,14 @@
 .benefits-section .benefit img {
   width: 100px;
 }
+
+.rewards-section {
+  float: left;
+  padding: 40px 0;
+  width: 100%;
+  text-align: center;
+}
+
 @media screen and (max-width: 1388px) and (min-width: 1237px) {
   .landing-services .gallery-item {
     width: 300px;
@@ -121,10 +129,11 @@
     padding: 0 0 10vh;
   }
 }
-
-/*.landing-services .gallery {*/
-/*padding-top: 22vh;*/
-/*}*/
+@media screen and (max-width: 1079px) {
+  .rewards-section .gallery-img {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 950px) {
   .head-section .text {
     margin-top: 18vh;
@@ -163,14 +172,13 @@
     font-size: 14px;
     margin: 10px 0;
   }
-
 }
 @media screen and (max-width: 375px) {
   .head-section .btn-details {
     padding: 0 25px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   .head-section {
     height: 97.4vh;
   }

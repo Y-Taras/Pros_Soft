@@ -72,19 +72,11 @@
     }
   ],
   "rewards": {
-    "headTitle": "Наші нагороди",
-    "galleries": [
-      {
-        "colClass": "no-col",
-        "galleryPath": "/imports/img/rewards/awards/",
-        "nImgs": 6
-      },
-      {
-        "colClass": "no-col",
-        "galleryPath": "/imports/img/rewards/certificates/",
-        "nImgs": 4
-      }
-    ]
+    "gallery": {
+      "mainImg": "/imports/img/landing/rewards/gallery_img.png",
+      "path": "/imports/img/landing/rewards/",
+      "nImgs": 10
+    }
   },
   "detailsBtnLabel": "Детальніше"
 }
