@@ -73,7 +73,7 @@
   ],
   "rewards": {
     "gallery": {
-      "mainImg": "/imports/img/landing/rewards/gallery_img.png",
+      "mainImg": "/imports/img/landing/rewards/1.png",
       "path": "/imports/img/landing/rewards/",
       "nImgs": 10
     }

@@ -24,10 +24,10 @@ const noColGallery = (thumbnailsPath, originsPath, nImg) => {
 
 const hiddenGallery = (path, nImg) => {
   const refs = getPicRefs(nImg, path);
-  const mainImg = `<a class="fancybox" href="${refs[0]}" rel="${path}"><img class="gallery-img" src="${path}gallery_img1.png"/></a>`;
+  const mainImg = `<a class="fancybox swiper-slide" href="${refs[0]}" rel="${path}"><img class="gallery-img" src="${refs[0]}"/></a>`;
   refs.shift();
   const imgs = refs.map(ref => {
-    return `<a class="fancybox" href="${ref}" rel="${path}"></a>`
+    return `<a class="fancybox swiper-slide" href="${ref}" rel="${path}"><img class="gallery-img" src="${ref}"/></a>`
   }).join('');
   return `${mainImg}${imgs}`;
 };

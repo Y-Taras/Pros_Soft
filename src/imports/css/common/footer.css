@@ -127,3 +127,27 @@ li.contact-group-item-delimiter {
   .sm-hide { display: none }
   .sm-show { display: block }
 }
+
+@media screen and (max-width: 768px) {
+  .footer-bottom,
+  .footer-top{
+    font-size: 16px;
+  }
+  li.contact-group-item,
+  li.nav-group-item{
+    font-size: 16px;
+  }
+  p.nav-head{
+    font-size: 18px;
+  }
+  .jss-label{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer-nav-container{
+    display: block;
+    text-align: center;
+  }
+}

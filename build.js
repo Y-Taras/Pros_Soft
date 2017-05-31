@@ -1,5 +1,5 @@
 
-var Metalsmith      = require('./node_modules/metalsmith'),
+const Metalsmith      = require('./node_modules/metalsmith'),
     drafts          = require('./node_modules/metalsmith-drafts'),
     helpers         = require('metalsmith-register-helpers'),
     markdown        = require('./node_modules/metalsmith-markdown'),
@@ -35,7 +35,7 @@ Metalsmith(__dirname)
       "layouts/**/*": "**/*.md",
       "partials/**/*": "**/*.md",
     },
-    livereload: true,
+    // livereload: true
   }))
   .use(cleanCSS({
     files: 'imports/css/**'

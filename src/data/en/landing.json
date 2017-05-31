@@ -7,10 +7,9 @@
     {
       "isEven": true,
       "title": "Wooden Houses",
-      "img": "/imports/img/landing/services/houses/houses.jpg",
-      "galleryPath": "/imports/img/landing/services/houses/gallery/",
-      "nImgs": 12,
-      "imgWrapClass": "squeezing",
+      "originsPath": "/imports/img/landing/services/houses/origins/",
+      "thumbnailsPath": "/imports/img/landing/services/houses/thumbnails/",
+      "nImgs": 6,
       "paragraphs": [
         "TERCOM produces from glued, shaped and machine rounded timber, also wild log house, bath-houses, alcove restaurants, summer kitchens, boat hangars, outbuildings and other small architectural forms. Production is designed both by the projects online and by individually created projects, considering the most exquisite customer requirements. It is no secret that the pledge of successful construction and Your comfortable living - correct, competent assembly of house suite. Collection of 'turnkey' by our company is optimal for customers who value their time and prefer not to look for new contractors. We guarantee the precision and correct assembly, because we making and preparing outfit ourselves. TERCOM provides high quality of work for customers.",
         "Construction costs of wooden house is much more lower than construction costs of brick or block house, which are unheated in winter time, are “dampen” – everybody knows the feeling of humidity in a cold stone building. Wooden walls breathe without impeding evaporation of excess moisture."
@@ -19,10 +18,9 @@
     },
     {
       "title": "Euro Windows",
-      "img": "/imports/img/landing/services/eurowindows/window.jpg",
-      "galleryPath": "/imports/img/landing/services/eurowindows/gallery/",
-      "nImgs": 6,
-      "imgWrapClass": "squeezing",
+      "originsPath": "/imports/img/landing/services/eurowindows/origins/",
+      "thumbnailsPath": "/imports/img/landing/services/eurowindows/thumbnails/",
+      "nImgs": 4,
       "paragraphs": [
         "You can order: windows custom sizes and shapes, their delivery and installation, completed window sills, bars on the battery, also you can get an expert advice from our designer if you choose our company’s service.",
         "All production phases are under strict control, which ensures consistent high quality. Wooden Euro windows are made of three-layer wooden timber with glass and contour furniture. Wooden parts of window have high-quality surface treatment which gives euro windows required properties - timber is not exposed to torsion."
@@ -32,10 +30,9 @@
     {
       "isEven": true,
       "title": "Gazebo",
-      "img": "/imports/img/landing/services/garden_houses/garden_house.jpg",
-      "galleryPath": "/imports/img/landing/services/garden_houses/gallery/",
+      "originsPath": "/imports/img/landing/services/garden_houses/origins/",
+      "thumbnailsPath": "/imports/img/landing/services/garden_houses/thumbnails/",
       "nImgs": 6,
-      "galleryColClass": "no-col",
       "paragraphs": [
         "Garden wooden gazebo – ideal place for outdoor recreation area. Delicate gazebo with arbor-rail design, twined with roses, will be a favorite place for anyone who loves romantic or philosophical solitude. Gazebo from cylindrical logs is a great version for fans of barbecue and noisy fun in friendly company. A wooden gazebo like a tower will be the jewel of the garden, equipped in oriental style.",
         "Regardless of the form style gazebos are always a resting place and a shelter from sun and rain.",
@@ -45,10 +42,9 @@
     },
     {
       "title": "Doors",
-      "img": "/imports/img/landing/services/doors/doors.jpg",
-      "galleryPath": "/imports/img/landing/services/doors/gallery/",
-      "nImgs": 12,
-      "galleryColClass": "col-lg-1 col-md-2 col-sm-2 col-xs-4",
+      "originsPath": "/imports/img/landing/services/doors/origins/",
+      "thumbnailsPath": "/imports/img/landing/services/doors/thumbnails/",
+      "nImgs": 6,
       "paragraphs": [
         "All our woodwork projects adapted to Ukrainian conditions. An integrated approach in the design and manufacturing of modern wooden door provides an optimal combination of basic parameters and requirements. It is a reliability, cost, insulation and exterior doors. After installing wooden doors of solid for a long time, for truly high-quality, they will not lose their originally species.",
         "Our doors are made of wood characterized by an optimal ratio between price and quality. Manufacturing doors from the array uses the most modern technologies. We use wooden boards without knots. The material undergoes the special treatment, carefully preserved the best qualities of wood, which continues the life of products."
@@ -75,19 +71,11 @@
     }
   ],
   "rewards": {
-    "headTitle": "Our Remunerations",
-    "galleries": [
-      {
-        "colClass": "no-col",
-        "galleryPath": "/imports/img/rewards/awards/",
-        "nImgs": 6
-      },
-      {
-        "colClass": "no-col",
-        "galleryPath": "/imports/img/rewards/certificates/",
-        "nImgs": 4
-      }
-    ]
+    "gallery": {
+      "mainImg": "/imports/img/landing/rewards/gallery_img.png",
+      "path": "/imports/img/landing/rewards/",
+      "nImgs": 10
+    }
   },
   "detailsBtnLabel": "Details"
 }
