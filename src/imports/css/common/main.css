@@ -60,8 +60,7 @@ a {
 
 .block-container {
   padding: 12vh 0;
-  float: left;
-  width: 100%;
+  display: flex;
 }
 
 .block-container.full-height {

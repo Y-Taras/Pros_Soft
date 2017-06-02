@@ -19,8 +19,9 @@ header.transparent, header .nav-item-block.transparent {
   .company-logo {
     color: #fff;
     display: flex;
+    align-items: center;
     font-family: projBold;
-    padding-top: 1.7vh;
+    padding-top: 14.5px;
   }
     .company-logo .logo-text {
       font-size: 22px;
@@ -49,7 +50,7 @@ header.transparent, header .nav-item-block.transparent {
     header ul.sidenav-items {
       text-align: left;
       list-style: none;
-      margin-left: -42px;
+      padding-left: 0;
     }
       header li.nav-item {
         display: flex;
@@ -63,6 +64,7 @@ header.transparent, header .nav-item-block.transparent {
         font-size: 1.15rem;
         border: 2px solid transparent;
         border-radius: 11.5px;
+        text-align: center;
       }
       header li .nav-item-label.selected {
         background: #b90908;
@@ -99,7 +101,7 @@ header.transparent, header .nav-item-block.transparent {
             margin: 20px;
           }
           .nav-item-block a:first-child h4 {
-            margin-top: 10px;
+            margin-top: 15px;
           }
           .nav-item-block.side {
             right: 100%;
@@ -117,42 +119,46 @@ header.transparent, header .nav-item-block.transparent {
   /*burger*/
   .burger-btn {
     font-size: 30px;
+    line-height: 1;
     cursor: pointer;
     position: absolute;
     color: #fff;
     right: 60px;
-    top: 15px;
+    top: 16px;
     display: none;
   }
 
   /*sidenav*/
   .sidenav {
     height: 100%;
-    width: 0;
+    width: 40%;
+    min-width: 300px;
     position: fixed;
     z-index: 10000;
+    top: 0;
     right: 0;
     background-color: rgba(17, 17, 17, .88);
     text-align: right;
     transition: 0.5s;
-    display: none;
+    transform: translate(100%, 0);
   }
   .sidenav.opened {
-    width: 40%;
+    transform: translate(0, 0);
   }
     .sidenav .closebtn {
       display: inline-block;
       font-size: 36px;
       color: #fff;
-      margin: 0 10px 10px 0;
+      margin: 0 20px 10px 0;
+      align-self: flex-end;
     }
-    .sidenav ul.sidenav-items { display: none}
+    /*.sidenav ul.sidenav-items { display: none}*/
 
   /*language selector*/
   .language-selector {
     position: absolute;
     right: 15px;
-    top: 10px;
+    top: 8px;
   }
   .language-selector .selected {
     background: #b90908;
@@ -178,12 +184,11 @@ header.transparent, header .nav-item-block.transparent {
     display: inline;
   }
   header .sidenav {
-    display: block;
+    display: flex;
+    flex-direction: column;;
   }
-}
-@media screen and (max-width: 560px) {
-  .sidenav.opened {
-    width: 220px;
+  header .nav-item-block.transparent {
+    background: rgba(17,17,17,.88);
   }
 }
 @media screen and (max-width: 540px) {
@@ -194,13 +199,17 @@ header.transparent, header .nav-item-block.transparent {
     position: static;
     display: block;
     opacity: 1;
-    margin-left: calc(88% - 266px);
+    margin-left: 10px;
     background: inherit;
   }
 }
 @media screen and (max-height: 736px) {
   .sidenav ul.sidenav-items {
-    margin-top: -48px;
+    margin-top: 0;
+    flex: 1;
+    overflow: auto;
+    margin-bottom: 0;
+    padding-bottom: 20px;
   }
   .sidenav ul.sidenav-items li {
     padding-bottom: 2.1vh;
