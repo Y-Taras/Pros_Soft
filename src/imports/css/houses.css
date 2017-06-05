@@ -8,9 +8,8 @@ p.manager-name {
 }
 
 a.phone {
-  display: block;
+  display: table;
   border-bottom: 1px dashed rgba(20,47,57,0.5);
-  width: 135px;
   margin-bottom: 5px;
   font-size: 18px;
 }
@@ -23,6 +22,11 @@ a.phone:hover {
   font-size: 20px;
 }
 
+@media screen and (max-width: 991px) {
+  .btn-details.price{
+    padding: 0 30px;
+  }
+}
 @media screen and (max-width: 669px) {
   ul.houses {
     padding-left: 40px;

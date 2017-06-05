@@ -1,11 +1,13 @@
 .row.article {
     margin-bottom: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #292c2f;
     font-size: 16px;
     padding-left: 190px;
     position: relative;
     min-height: 135px;
+}
+.row.article:not(:last-child) {
+    border-bottom: 1px solid #292c2f;
 }
 
 .article img {
@@ -28,10 +30,6 @@
     margin: 0 0 5px;
     /*color: #1e90ff;*/
     /*text-decoration: underline;*/
-}
-
-.article a:visited {
-    color: #ccc;
 }
 
 

@@ -26,7 +26,7 @@
     },
     {
       "isEven": true,
-      "galleries" : [{
+      "galleries2" : [{
         "colClass": "no-col",
         "imgWrapClass": null,
         "galleryPath": "/imports/img/houses/rounded/",

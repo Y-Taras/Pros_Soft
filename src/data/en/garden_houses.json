@@ -12,6 +12,7 @@
       "text": " Garden wooden gazebo – ideal place for outdoor recreation area. Delicate gazebo with arbor-rail design, twined with roses, will be a favorite place for anyone who loves romantic or philosophical solitude. Gazebo from cylindrical logs is a great version for fans of barbecue and noisy fun in friendly company. A wooden gazebo like a tower will be the jewel of the garden, equipped in oriental style. Garden gazebo from the wood can be made without foundation, if you put it on cement blocks, which means that it can be installed anywhere without fear of damaging the root system of plants in the garden."
     },
     "arches": {
+      "isEven": true,
       "headTitle": "Arches",
       "img": "/imports/img/landing/services/garden_houses/origins/01.png",
       "galleryPath": "/imports/img/garden_houses/arches/",
@@ -30,6 +31,7 @@
       "text": " This construction consists of several arches which are connected by a transverse bars. It is desirable that the wooden pavilion was slightly more width than height, it will give it stability. The shape of wood pavilion depends only on the imagination or skills of the garden owner. Twisted with plants, wooden pavilion can be transformed into a green tunnel, where you can hide from the sun. Wooden pavilions can be used as an alternative to the banal garden paths when moving from one to another garden area as a transition between two buildings or as a canopy terrace. Curly plants for wooden pavilions can even have a considerable weight, because the transverse beams are able to bear a greater load. If the plants are not covered the whole pavilion, should take care that the exposed structures look decent."
     },
     "octagonal": {
+      "isEven": true,
       "headTitle": "Octahedral",
       "img": "/imports/img/garden_houses/octagonal/octagonal.jpg",
       "galleryPath": "/imports/img/garden_houses/octagonal/gallery/",
@@ -48,6 +50,7 @@
       "text": " in the courtyard of his house or cottage - the perfect place to enjoy nature and socializing with friends. It will protect from the scorching summer sun, rain, pesky insects will add comfort and appeal of your site. If gazebo with a fireplace equip even barbecue or barbecue, you can please even close delicious food outdoors. With the use of modern materials and technologies it is possible to design and build a gazebo with a fireplace for every taste and budget.."
     },
     "park": {
+      "isEven": true,
       "headTitle": "Park gazebo",
       "img": "/imports/img/landing/services/garden_houses/origins/05.png",
       "galleryPath": "/imports/img/garden_houses/park/gallery/",
@@ -59,7 +62,6 @@
       "pdf": "/imports/files/park.pdf"
     },
     "examples": {
-      "isEven": true,
       "headTitle": "Examples",
       "galleries2": [{
         "colClass": "no-col",

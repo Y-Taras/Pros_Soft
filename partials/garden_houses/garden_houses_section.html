@@ -1,6 +1,6 @@
-<div class="block-container">
-	<div class="page-block page-block-middle">
-		<h3 class="text-center no-margin">{{section.headTitle}}</h3>
+<div class="block-container {{#if section.isEven }}container-dark{{/if}} 2 ">
+	<div class="container page-block page-block-middle">
+		<h3 class="text-center section-title no-margin">{{section.headTitle}}</h3>
 		<hr class="head-text-delimiter">
 		{{#if section.headDescription}}
 			<p class="text-center">{{section.headDescription}}</p>

@@ -1,16 +1,16 @@
 <div class="block-container container-dark">
-	<div class="page-block page-block-middle">
+	<div class="container page-block page-block-middle">
 		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-4 no-padding">
+			<div class="col-lg-3 col-md-3 col-sm-4">
 				<img src="/imports/img/houses/manager.jpg" class="rounded-15">
 			</div>
-			<div class="col-lg-4 col-md-5 col-sm-5 no-padding">
+			<div class="col-lg-5 col-md-5 col-sm-5">
 				<p class="manager-name">{{managerName}}</p>
 				{{#each phones}}
 					<a class="phone" href="tel: {{this}}">{{this}}</a>
 				{{/each}}
 			</div>
-			<div class="col-lg-5 col-md-4 col-sm-3 text-center">
+			<div class="col-lg-4 col-md-4 col-sm-3 text-center no-padding">
 				<a href="/imports/files/price_woodenhouses.pdf" class="btn-details price" target="_blank">{{priceList}}</a>
 			</div>
 		</div>

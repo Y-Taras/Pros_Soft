@@ -2,7 +2,7 @@
   "sections": [
     {
       "headTitle": "Wooden Houses",
-      "img": "/imports/img/landing/services/houses/houses.jpg",
+      "img": "/imports/img/landing/services/houses/origins/01.png",
       "paragraphs": [
         "'TERCOM' produces from glued, shaped and machine rounded timber, also wild log house, bath-houses, alcove restaurants, summer kitchens, boat hangars, outbuildings and other small architectural forms. Production is designed both by the projects online and by individually created projects, considering the most exquisite customer requirements. It is no secret that the pledge of successful construction and Your comfortable living -  correct, competent assembly of house suite. Collection of 'turnkey' by our company is optimal for customers who value their time and prefer not to look for new contractors. We guarantee the precision and correct assembly, because we making and preparing outfit ourselves. 'TERCOM' provides high  quality of work for customers.",
         "Construction costs of wooden house is much more lower than construction costs of brick or block house, which are unheated in winter time, are “dampen” – everybody knows the feeling of humidity in a cold stone building. Wooden walls breathe without impeding evaporation of excess moisture."
@@ -10,7 +10,7 @@
     },
     {
       "isEven": true,
-      "img": "/imports/img/landing/services/houses/gallery/07.jpg",
+      "img": "/imports/img/landing/services/houses/origins/07.jpg",
       "paragraphs": [
         "The price of the house 'turnkey' includes:"
       ],
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "img": "/imports/img/landing/services/houses/gallery/08.jpg",
+      "img": "/imports/img/landing/services/houses/origins/06.jpg",
       "paragraphs": [
         "The price of the house 'turnkey' doesn’t include:"
       ],

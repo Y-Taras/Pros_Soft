@@ -31,14 +31,21 @@ body {
     font-size: 18px;
   }
 }
-
+.container {
+  max-width: 100%;
+}
 .section-title {
   font-family: projSemibold;
   font-size: 40.3px;
   font-weight: 600;
   color: #333333;
 }
-
+.section-desc{
+  font-family: projSemibold;
+  font-size: 26px;
+  font-weight: 600;
+  color: #333333;
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
@@ -49,6 +56,7 @@ h3 {
 }
 
 h4 {
+  font-family: projSemibold;
   font-size: 1.5rem;
   margin: 10px 0;
 }
@@ -56,6 +64,14 @@ h4 {
 a {
   text-decoration: none;
   color: black;
+}
+
+.garden-gallery .app-gallery .img-wrapper{
+  padding: 0 0 20px;
+
+}
+.garden-gallery .app-gallery .img-wrapper img{
+  max-width: 100%;
 }
 
 .block-container {
@@ -279,6 +295,13 @@ a {
 @media screen and (max-width: 669px) {
   .service-big-img, .service-img {
     width: 100%
+  }
+  .gallery-top{
+    height: 250px;
+    margin-bottom: 15px;
+  }
+  .gallery-thumbs{
+    height: 60px;
   }
 }
 
