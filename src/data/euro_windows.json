@@ -2,7 +2,7 @@
   "sections": [
     {
       "headTitle": "Євровікна",
-      "img": "/imports/img/landing/services/eurowindows/window.jpg",
+      "img": "/imports/img/landing/services/eurowindows/origins/02.png",
       "paragraphs": [
         "ТзОВ„Терком” виготовляє сучасні євровікна з клеєного бруса на новітньому деревообробному обладнанні і пропонує своїм замовникам широкий вибір екологічно чистих виробів з натурального дерева. Продукція нашої компанії відповідає найвищим вимогам.",
         "Звернувшись до нас, Ви можете замовити вікна нестандартних розмірів і форм, доставку і встановлення, комплектацію подвіконниками, решітками на батареї, а також отримати кваліфіковану консультацію та пораду від нашого дизайнера.",
@@ -17,11 +17,11 @@
         "<i>Можливе виготовлення вікон за індивідуальним проектом клієнта</i>"
       ],
       "paragraphClass": "no-margin",
-      "galleries" : [{
+      "galleries3" : [{
         "colClass": "no-col",
         "imgWrapClass": null,
-        "galleryPath": "/imports/img/landing/services/eurowindows/gallery/",
-        "nImgs": 6
+        "galleryPath": "/imports/img/landing/services/eurowindows/origins/",
+        "nImgs": 4
       }]
     }
   ]

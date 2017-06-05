@@ -5,7 +5,7 @@
       "thumb": "/imports/img/blog/exhibition_2017/01.jpg",
       "headTitle": "Виставка «Буд-Експо 2017»",
       "shortText": "Галерея фотографій з виставки",
-      "galleries": [{
+      "galleries2": [{
         "colClass": "no-col",
         "galleryPath": "/imports/img/blog/exhibition_2017/",
         "nImgs": 17
@@ -17,7 +17,7 @@
       "thumb": "/imports/img/blog/exhibition_2016/01.jpg",
       "headTitle": "Виставка «Агро 2016»",
       "shortText": "Галерея фотографій з виставки",
-      "galleries": [{
+      "galleries2": [{
         "colClass": "no-col",
         "galleryPath": "/imports/img/blog/exhibition_2016/",
         "nImgs": 10

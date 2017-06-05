@@ -5,7 +5,7 @@
       "thumb": "/imports/img/blog/exhibition_2017/01.jpg",
       "headTitle": "Exhibition «Bud-Ecspo 2017»",
       "shortText": "Gallery of photos from the exhibition",
-      "galleries": [{
+      "galleries2": [{
         "colClass": "no-col",
         "galleryPath": "/imports/img/blog/exhibition_2017/",
         "nImgs": 17
@@ -17,7 +17,7 @@
       "thumb": "/imports/img/blog/exhibition_2016/01.jpg",
       "headTitle": "Exhibition «Agro 2016»",
       "shortText": "Gallery of photos from the exhibition",
-      "galleries": [{
+      "galleries2": [{
         "colClass": "no-col",
         "galleryPath": "/imports/img/blog/exhibition_2016/",
         "nImgs": 10

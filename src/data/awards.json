@@ -2,7 +2,7 @@
   "sections": [
     {
       "headTitle": "Нагороди",
-      "galleries" : [{
+      "galleries2" : [{
         "colClass": "no-col",
         "imgWrapClass": "awards",
         "galleryPath": "/imports/img/rewards/awards/",
@@ -12,7 +12,7 @@
     {
       "isEven": true,
       "headTitle": "Сертифікати",
-      "galleries" : [{
+      "galleries2" : [{
         "colClass": "no-col",
         "imgWrapClass": "awards",
         "galleryPath": "/imports/img/rewards/certificates/",

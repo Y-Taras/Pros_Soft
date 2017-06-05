@@ -59,10 +59,18 @@ a {
 }
 
 .block-container {
-  padding: 12vh 0;
+  /*padding: 12vh 0;*/
+  padding-top: 12vh;
+  padding-bottom: 12vh;
   display: flex;
 }
-
+.contacts{
+  display: block;
+  padding-bottom: 0;
+}
+.contacts iframe{
+  vertical-align: top;
+}
 .block-container.full-height {
   min-height: 60vh;
 }
@@ -219,6 +227,44 @@ a {
 #call-container #changes h4.success {
   color: green;
 }
+.gallery {
+  text-align: center;
+  padding: 30px 0;
+}
+.gallery-top{
+  height: 450px;
+  margin-bottom: 30px;
+}
+.gallery-top .swiper-slide{
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*height: 100%;*/
+}
+.gallery-thumbs{
+  height: 100px;
+}
+.gallery-thumbs .swiper-slide{
+  width: auto;
+  opacity: 0.4;
+}
+.gallery-thumbs .swiper-slide-active {
+  opacity: 1;
+}
+.gallery .fancybox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.gallery .swiper-slide img{
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+  height: auto;
+}
+
+
 
 @media screen and (max-width: 1230px) {
   .app-gallery .img-wrapper.squeezing {

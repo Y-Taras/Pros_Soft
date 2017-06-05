@@ -19,7 +19,7 @@
     },
     {
       "headTitle": "Приклади робіт",
-      "galleries" : [{
+      "galleries2" : [{
         "colClass": "no-col",
         "imgWrapClass": null,
         "galleryPath": "/imports/img/doors/examples/",

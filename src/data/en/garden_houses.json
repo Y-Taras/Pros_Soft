@@ -3,7 +3,7 @@
     "main": {
       "headTitle": "Gazebos and small architectural forms",
       "headDescription": "Small architectural forms – it is a great decoration for your garden that pleases the eye and promotes a good rest. What small architectural forms can be created from wood?",
-      "img": "/imports/img/landing/services/garden_houses/gallery/02.jpg",
+      "img": "/imports/img/landing/services/garden_houses/origins/02.png",
       "galleryPath": "/imports/img/garden_houses/main/",
       "nImgs": 3,
       "draft": "/imports/img/garden_houses/main/draft.jpg",
@@ -13,7 +13,7 @@
     },
     "arches": {
       "headTitle": "Arches",
-      "img": "/imports/img/landing/services/garden_houses/gallery/01.jpg",
+      "img": "/imports/img/landing/services/garden_houses/origins/01.png",
       "galleryPath": "/imports/img/garden_houses/arches/",
       "nImgs": 4,
       "pdf": "/imports/files/arches.pdf",
@@ -22,7 +22,7 @@
     },
     "pergola": {
       "headTitle": "Pavilions",
-      "img": "/imports/img/landing/services/garden_houses/gallery/04.jpg",
+      "img": "/imports/img/landing/services/garden_houses/origins/04.png",
       "galleryPath": "/imports/img/garden_houses/pergola/",
       "nImgs": 4,
       "pdf": "/imports/files/pergola.pdf",
@@ -39,7 +39,7 @@
     },
     "withFireplace": {
       "headTitle": "Gazebo with fireplace",
-      "img": "/imports/img/landing/services/garden_houses/gallery/06.jpg",
+      "img": "/imports/img/landing/services/garden_houses/origins/06.png",
       "galleryPath": "/imports/img/garden_houses/with_fireplace/",
       "nImgs": 3,
       "draft": "/imports/img/garden_houses/with_fireplace/draft.jpg",
@@ -49,7 +49,7 @@
     },
     "park": {
       "headTitle": "Park gazebo",
-      "img": "/imports/img/landing/services/garden_houses/gallery/05.jpg",
+      "img": "/imports/img/landing/services/garden_houses/origins/05.png",
       "galleryPath": "/imports/img/garden_houses/park/gallery/",
       "nImgs": 3,
       "imgs": [
@@ -61,7 +61,7 @@
     "examples": {
       "isEven": true,
       "headTitle": "Examples",
-      "galleries": [{
+      "galleries2": [{
         "colClass": "no-col",
         "imgWrapClass": null,
         "galleryPath": "/imports/img/garden_houses/examples/",

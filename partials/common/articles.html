@@ -1,5 +1,5 @@
-<div class="block-container {{#if isEven}}container-dark{{/if}}">
-	<div class="page-block page-block-middle">
+<div class="container block-container {{#if isEven}}container-dark{{/if}}">
+	<div class="page-block page-block-middle 11">
 		<h3 class="text-center no-margin">{{data.headTitle}}</h3>
 		<hr class="head-text-delimiter"/>
 		{{#each data.list}}
@@ -7,8 +7,9 @@
 				<img src="{{this.thumb}}"/>
 				<h4>{{this.headTitle}}</h4>
 				{{{this.shortText}}}<br/>
-				<a href="{{this.ref}}">{{../data.readMoreLabel}}</a>
+				<a href="{{this.ref}}" class="btn-details">{{../data.readMoreLabel}}</a>
 			</div>
 		{{/each}}
+
 	</div>
 </div>

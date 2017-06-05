@@ -23,4 +23,22 @@ $(document).ready(function(){
         }
     });
 
+    $('.gallery').each(function () {
+        var galleryTop = new Swiper($(this).find('.gallery-top'), {
+            nextButton: $(this).find('.swiper-button-next'),
+            prevButton: $(this).find('.swiper-button-prev'),
+            spaceBetween: 10,
+        });
+        var galleryThumbs = new Swiper($(this).find('.gallery-thumbs'), {
+            spaceBetween: 30,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            touchRatio: 0.2,
+            slideToClickedSlide: true
+        });
+        galleryTop.params.control = galleryThumbs;
+        galleryThumbs.params.control = galleryTop;
+
+    });
+
 });

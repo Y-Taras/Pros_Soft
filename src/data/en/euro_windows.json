@@ -2,7 +2,7 @@
   "sections": [
     {
       "headTitle": "Euro windows",
-      "img": "/imports/img/landing/services/eurowindows/window.jpg",
+      "img": "/imports/img/landing/services/eurowindows/origins/02.png",
       "paragraphs": [
         "Ltd. 'TERCOM' produces modern Euro windows of laminated veneer lumber on the latest woodworking machinery and offers its customers a wide range of environmental products made of wood. The products of our company meets the highest requirements.",
         "You can order: windows custom sizes and shapes, their delivery and installation, completed window sills, bars on the battery, also you can get an expert advice from our designer if you choose our company’s service.",
@@ -18,11 +18,11 @@
         "<i> It is possible to manufacture windows for individual subscribers</i>"
       ],
       "paragraphClass": "no-margin",
-      "galleries" : [{
+      "galleries3" : [{
         "colClass": "no-col",
         "imgWrapClass": null,
-        "galleryPath": "/imports/img/landing/services/eurowindows/gallery/",
-        "nImgs": 6
+        "galleryPath": "/imports/img/landing/services/eurowindows/origins/",
+        "nImgs": 4
       }]
     }
   ]

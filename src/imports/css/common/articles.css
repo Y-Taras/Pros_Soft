@@ -1,5 +1,11 @@
 .row.article {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #292c2f;
+    font-size: 16px;
+    padding-left: 190px;
+    position: relative;
+    min-height: 135px;
 }
 
 .article img {
@@ -7,14 +13,39 @@
     height: 120px;
     width: 180px;
     border-radius: 10px;
-    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .article a {
-    color: #1e90ff;
-    text-decoration: underline;
+    margin-top: 5px;
+    font-size: 14px;
+    /*color: #1e90ff;*/
+    /*text-decoration: underline;*/
+}
+.article h4 {
+    margin: 0 0 5px;
+    /*color: #1e90ff;*/
+    /*text-decoration: underline;*/
 }
 
 .article a:visited {
-    color: #673AB7;
+    color: #ccc;
+}
+
+
+@media screen and (max-width: 568px) {
+    .row.article{
+        padding: 0 15px 15px;
+    }
+    .article img {
+        position: static;
+        float: none;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+
+
 }
