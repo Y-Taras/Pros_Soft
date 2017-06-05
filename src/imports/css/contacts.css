@@ -1,5 +1,7 @@
 .row.contacts-text {
   display: flex;
+  justify-content: center;
+  text-align: left;
 }
 
 .contact-column p {

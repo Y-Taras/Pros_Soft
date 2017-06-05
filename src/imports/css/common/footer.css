@@ -56,7 +56,7 @@ li.nav-group-item {
 }
 
 li.nav-group-item:hover a  {
-  color: dodgerblue;
+  color: #b90908;
 }
 
 .nav-group .nav-head {
@@ -68,8 +68,8 @@ li.nav-group-item:hover a  {
 }
 
 .nav-group:hover .nav-head {
-  color: dodgerblue;
-  border-bottom: 1px solid dodgerblue;
+  color: #b90908;
+  border-bottom: 1px solid #b90908;
 }
 
 .footer-top-container {
