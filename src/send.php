@@ -3,7 +3,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $text = $_POST['text'];
 
-$to  = 'misha1991s@mail.ru, tercom-7@mail.ru, tercom7@ukr.net, mykola@jssolutionsdev.com, rolik76@bk.ru, hennaden@rambler.ru, svdudyak@gmail.com';
+$to  = 'misha1991s@mail.ru, tercom-7@mail.ru, tercom7@ukr.net, info@tercom.org.ua, mykola@jssolutionsdev.com, rolik76@bk.ru, hennaden@rambler.ru, svdudyak@gmail.com';
 $subject = 'У Вас нове звернення із Tercom';
 
 // текст письма
