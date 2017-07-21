@@ -125,9 +125,12 @@
   width: 100%;
   text-align: center;
 }
+
 .rewards-swiper {
   padding: 30px;
+  width: 70vw;
 }
+
 .rewards-swiper .swiper-wrapper{
   align-items: center;
 }
