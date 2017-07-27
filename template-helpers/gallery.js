@@ -10,7 +10,7 @@ const gallery = (colClass, wrapClass, path, nImg) => {
   const end = '</div></div>';
   const srcs = getPicRefs(nImg, path);
   const content = srcs.reduce((prev, curr) => (
-    `${prev}${col}${wrap}<a class="fancybox" href="${curr}" rel="${path}"><img class="app-gallery-item" src="${curr}"></a>${end}`
+    `${prev}${col}${wrap}<a class="fancybox" href="${curr}" rel="${path}"><img class="app-gallery-item" src="${curr}"/></a>${end}`
   ), start);
   return `${content}${end}`;
 };
@@ -22,7 +22,7 @@ const gallery_2 = (colClass, wrapClass, path, nImg) => {
   const end = '</div></div>';
   const srcs = getPicRefsJpg(nImg, path);
   const content = srcs.reduce((prev, curr) => (
-    `${prev}${col}${wrap}<a class="fancybox" href="${curr}" rel="${path}"><img class="app-gallery-item" src="${curr}"></a>${end}`
+    `${prev}${col}${wrap}<a class="fancybox" href="${curr}" rel="${path}"><img class="app-gallery-item" src="${curr}"/></a>${end}`
   ), start);
   return `${content}${end}`;
 };
@@ -35,14 +35,17 @@ const galleryJpg = (colClass, path, nImg) => {
   const arrow = '<div class="swiper-button-next"></div><div class="swiper-button-prev"></div>';
   const end = '</div>';
   const srcs = getPicRefsJpg(nImg, path);
+  // const srcsThumbs = getPicRefsJpg(nImg, path + 'thmb/');
   const content = srcs.reduce((prev, curr) => (
-    `${prev}${wrap}<a class="fancybox" href="${curr}" rel="${path}"><img src="${curr}"></a>${end}`
+    `${prev}${wrap}<a class="fancybox" href="${curr}" rel="${path}"><img src="${curr}"/></a>${end}`
   ), start);
+  // const thumbs = srcsThumbs.reduce((prev, curr) => (
   const thumbs = srcs.reduce((prev, curr) => (
-      `${prev}${wrap}<img src="${curr}">${end}`
+      `${prev}${wrap}<img src="${curr}"/>${end}`
   ), startThumbs);
   return `${wrapper}${content}${end}${arrow}${end}${thumbs}${end}${end}${end}${end}`;
 };
+
 
 const galleryPng = (colClass, path, nImg) => {
   const wrapper = '<div class="gallery col-xs-12">';
@@ -53,10 +56,10 @@ const galleryPng = (colClass, path, nImg) => {
   const end = '</div>';
   const srcs = getPicRefs(nImg, path);
   const content = srcs.reduce((prev, curr) => (
-    `${prev}${wrap}<a class="fancybox" href="${curr}" rel="${path}"><img src="${curr}"></a>${end}`
+    `${prev}${wrap}<a class="fancybox" href="${curr}" rel="${path}"><img src="${curr}"/></a>${end}`
   ), start);
   const thumbs = srcs.reduce((prev, curr) => (
-      `${prev}${wrap}<img src="${curr}">${end}`
+      `${prev}${wrap}<img src="${curr}"/>${end}`
   ), startThumbs);
   return `${wrapper}${content}${end}${arrow}${end}${thumbs}${end}${end}${end}${end}`;
 };

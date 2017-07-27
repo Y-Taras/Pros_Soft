@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $('.fancybox').fancybox();
 
-
     var swiper = new Swiper('.rewards-swiper', {
         effect: 'coverflow',
         grabCursor: true,
@@ -38,7 +37,6 @@ $(document).ready(function(){
         });
         galleryTop.params.control = galleryThumbs;
         galleryThumbs.params.control = galleryTop;
-
     });
-
 });
+
