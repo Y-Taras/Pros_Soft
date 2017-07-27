@@ -11,7 +11,7 @@
     {
       "isEven": true,
       "paragraphs": [
-        "<a href='/imports/files/price_rounded_timber.pdf' class='btn-details price' target='_blank'>Price-list</a>"
+        "<a href='/imports/files/price_wild_timber.doc' class='btn-details price' target='_blank'>Price-list</a>"
       ],
       "paragraphClass": "text-center no-margin"
     },
